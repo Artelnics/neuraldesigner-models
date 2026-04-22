@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="3bkrIv"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/qsarbiodegradation/biodegradation.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>42</VariablesNumber>
+         <Variable Item="1">
+            <Name>SpMax_L</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>J_Dz(e)</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>nHM</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>F01[N-N]</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>F04[C-N]</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>NssssC</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>nCb</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>C%</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="9">
+            <Name>nCp</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>nO</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>F03[C-N]</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="12">
+            <Name>SdssC</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="13">
+            <Name>HyWi_B(m)</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="14">
+            <Name>LOC</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="15">
+            <Name>SM6_L</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="16">
+            <Name>F03[C-O]</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="17">
+            <Name>Me</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="18">
+            <Name>Mi</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="19">
+            <Name>nN-N</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="20">
+            <Name>nArNO2</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="21">
+            <Name>nCRX3</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="22">
+            <Name>SpPosA_B(p)</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="23">
+            <Name>nCIR</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="24">
+            <Name>B01[C-Br]</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="25">
+            <Name>B03[C-CI]</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="26">
+            <Name>N-073</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="27">
+            <Name>SpMax_A</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="28">
+            <Name>Psi_i_1d</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="29">
+            <Name>B04[C-Br]</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="30">
+            <Name>SdO</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="31">
+            <Name>TI2_L</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="32">
+            <Name>nCrt</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="33">
+            <Name>C-026</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="34">
+            <Name>F02[C-N]</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="35">
+            <Name>nHDon</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="36">
+            <Name>SpMax_B(m)</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="37">
+            <Name>Psi_i_A</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="38">
+            <Name>nN</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="39">
+            <Name>SM6_B(m)</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="40">
+            <Name>nArCOOR</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="41">
+            <Name>nX</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="42">
+            <Name>RB_NRB</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>1055</SamplesNumber>
+         <SampleRoles>2 0 1 2 1 2 2 0 0 0 0 0 0 0 0 2 0 0 1 1 0 1 1 2 0 0 2 2 2 1 0 0 0 0 2 0 2 1 0 2 2 0 0 0 2 1 0 2 2 1 0 0 0 1 0 0 0 0 0 2 0 2 0 0 0 1 1 1 0 0 1 2 1 2 1 2 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 2 0 0 1 0 2 0 2 2 0 0 2 2 0 0 1 0 0 0 1 2 0 0 2 2 0 1 1 0 0 1 0 0 0 0 2 0 0 0 0 2 1 0 0 1 1 1 1 2 1 1 2 0 1 0 0 2 0 2 0 1 0 0 1 2 1 2 0 1 0 0 2 0 0 0 1 0 0 2 0 2 0 0 0 2 1 1 0 2 2 0 1 0 1 0 2 0 0 1 0 0 2 0 0 2 1 2 0 0 0 0 1 0 1 0 2 0 1 1 0 0 1 1 0 1 1 0 0 0 0 2 0 0 1 0 1 1 0 0 0 2 2 1 2 0 0 1 0 0 2 2 0 0 0 0 0 2 1 0 1 2 1 0 0 1 1 0 2 2 0 1 2 1 1 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 2 0 0 1 0 2 0 0 1 0 0 0 0 1 2 0 1 0 0 1 1 1 0 0 2 1 0 0 0 2 2 0 1 0 0 2 1 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 2 2 0 0 0 2 0 0 2 2 0 0 0 1 2 2 2 2 2 0 1 2 0 1 0 1 0 0 0 1 1 0 1 2 0 0 0 0 0 2 0 0 2 0 0 0 0 0 1 2 2 2 0 0 0 2 0 1 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 1 0 0 0 0 2 0 0 2 2 1 0 0 0 0 0 1 0 1 1 1 2 0 0 0 2 0 0 2 0 2 0 2 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 1 2 2 0 0 2 0 0 1 0 1 2 0 0 0 2 0 1 2 2 0 0 0 0 2 1 1 1 0 0 0 1 2 0 1 1 0 0 1 2 2 0 0 0 1 0 0 0 1 0 2 0 1 1 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 2 2 1 0 2 2 1 2 0 1 0 1 0 0 0 2 2 0 0 0 0 0 0 0 0 0 0 2 1 2 1 2 1 0 0 0 1 1 0 0 1 0 0 0 0 1 0 2 0 0 0 1 0 2 1 1 0 2 0 1 0 0 0 0 1 1 0 0 0 2 0 0 0 1 0 0 0 0 0 1 2 2 0 0 2 2 0 0 0 2 2 1 0 0 0 2 1 0 0 0 0 0 0 0 0 1 0 1 0 0 1 2 2 0 0 1 0 0 0 0 0 2 1 1 0 2 0 0 0 0 0 1 1 0 2 0 0 0 0 2 0 2 0 0 0 1 0 0 1 1 0 0 0 0 2 0 1 0 0 1 0 0 0 2 2 0 0 0 0 0 0 1 0 2 0 1 1 0 0 2 2 0 1 0 0 2 2 2 2 1 0 2 2 0 2 0 0 2 0 0 0 1 1 0 1 0 0 0 0 0 2 0 0 1 2 0 1 0 2 0 2 1 0 0 1 2 0 1 0 0 2 1 0 2 2 2 1 0 2 0 2 1 0 1 0 0 0 1 2 0 2 1 0 0 0 0 0 0 0 0 0 1 0 0 1 2 0 0 1 0 0 2 0 2 0 2 1 0 2 0 2 0 0 2 2 1 2 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 2 2 0 1 1 2 0 0 0 2 0 2 1 0 0 0 2 1 0 0 0 0 0 1 0 2 0 2 0 0 0 0 0 0 0 0 0 2 2 2 0 2 2 0 1 0 2 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 1 0 0 2 1 0 0 0 0 0 0 2 1 0 0 1 2 0 0 1 2 0 2 0 0 0 1 2 0 1 1 0 1 0 1 1 0 2 0 2 0 0 2 1 0 2 0 0 0 0 0 1 0 2 1 0 0 2 0 0 0 0 1 0 1 0 0 2 0 2 0 0 0 0 0 0 0 1 1 2 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 2 0 0 2 0 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">SpMax_L,J_Dz(e),nHM,F01[N-N],F04[C-N],NssssC,nCb,C%,nCp,nO,F03[C-N],SdssC,HyWi_B(m),LOC,SM6_L,F03[C-O],Me,Mi,nN-N,nArNO2,nCRX3,SpPosA_B(p),nCIR,B01[C-Br],B03[C-CI],N-073,SpMax_A,Psi_i_1d,B04[C-Br],SdO,TI2_L,nCrt,C-026,F02[C-N],nHDon,SpMax_B(m),Psi_i_A,nN,SM6_B(m),nArCOOR,nX,RB_NRB</Row>
+         <Row Item="2">3.919,26.909,0,0,0,0,0,31.4,2,0,0,0,3.106,2.55,9.002,0,0.96,1.142,0,0,0,1.201,0,0,0,0,1.932,0.011,0,0,4.489,0,0,0,0,2.949,1.591,0,7.253,0,0,1</Row>
+         <Row Item="3">4.17,21.144,0,0,0,0,0,30.8,1,1,0,0,2.461,1.393,8.723,1,0.989,1.144,0,0,0,1.104,1,0,0,0,2.214,-0.204,0,0,1.542,0,0,0,0,3.315,1.967,0,7.257,0,0,1</Row>
+         <Row Item="4">5.076,26.588,2,0,0,0,4,54.5,0,0,0,0,3.792,0.673,10.327,0,1.003,1.089,0,0,0,1.364,2,0,1,0,2.363,-0.001,0,0,2.106,0,2,0,0,4.009,2.206,0,9.13,0,2,0</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>41</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+         <Input Index="11">input_11</Input>
+         <Input Index="12">input_12</Input>
+         <Input Index="13">input_13</Input>
+         <Input Index="14">input_14</Input>
+         <Input Index="15">input_15</Input>
+         <Input Index="16">input_16</Input>
+         <Input Index="17">input_17</Input>
+         <Input Index="18">input_18</Input>
+         <Input Index="19">input_19</Input>
+         <Input Index="20">input_20</Input>
+         <Input Index="21">input_21</Input>
+         <Input Index="22">input_22</Input>
+         <Input Index="23">input_23</Input>
+         <Input Index="24">input_24</Input>
+         <Input Index="25">input_25</Input>
+         <Input Index="26">input_26</Input>
+         <Input Index="27">input_27</Input>
+         <Input Index="28">input_28</Input>
+         <Input Index="29">input_29</Input>
+         <Input Index="30">input_30</Input>
+         <Input Index="31">input_31</Input>
+         <Input Index="32">input_32</Input>
+         <Input Index="33">input_33</Input>
+         <Input Index="34">input_34</Input>
+         <Input Index="35">input_35</Input>
+         <Input Index="36">input_36</Input>
+         <Input Index="37">input_37</Input>
+         <Input Index="38">input_38</Input>
+         <Input Index="39">input_39</Input>
+         <Input Index="40">input_40</Input>
+         <Input Index="41">input_41</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>41</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="8">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="9">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="10">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="11">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="12">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="13">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="14">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="15">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="16">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="17">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="18">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="19">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="20">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="21">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="22">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="23">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="24">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="25">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="26">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="27">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="28">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="29">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="30">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="31">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="32">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="33">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="34">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="35">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="36">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="37">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="38">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="39">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="40">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="41">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>41</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Sigmoid</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>130</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>WeightedSquaredError</LossMethod>
+         <WeightedSquaredError>
+            <PositivesWeight>-1.000000</PositivesWeight>
+            <NegativesWeight>-1.000000</NegativesWeight>
+         </WeightedSquaredError>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>84</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

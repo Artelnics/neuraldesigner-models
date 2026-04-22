@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="AX5W8T"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/palmerpenguins/raw_penguin_dataset.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>11</VariablesNumber>
+         <Variable Item="1">
+            <Name>individual_id</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Categorical</Type>
+            <Categories>N100A1;N100A2;N10A1;N10A2;N11A1;N11A2;N12A1;N12A2;N13A1;N13A2;N14A1;N14A2;N15A1;N15A2;N16A1;N16A2;N17A1;N17A2;N18A1;N18A2;N19A1;N19A2;N1A1;N1A2;N20A1;N20A2;N21A1;N21A2;N22A1;N22A2;N23A1;N23A2;N24A1;N24A2;N25A1;N25A2;N26A1;N26A2;N27A1;N27A2;N28A1;N28A2;N29A1;N29A2;N2A1;N2A2;N30A1;N30A2;N31A1;N31A2;N32A1;N32A2;N33A1;N33A2;N34A1;N34A2;N35A1;N35A2;N36A1;N36A2;N37A1;N37A2;N38A1;N38A2;N39A1;N39A2;N3A1;N3A2;N40A1;N40A2;N41A1;N41A2;N42A1;N42A2;N43A1;N43A2;N44A1;N44A2;N45A1;N45A2;N46A1;N46A2;N47A1;N47A2;N48A1;N48A2;N49A1;N49A2;N4A1;N4A2;N50A1;N50A2;N51A1;N51A2;N53A1;N53A2;N54A1;N54A2;N55A1;N55A2;N56A1;N56A2;N58A1;N58A2;N5A1;N5A2;N60A1;N60A2;N61A1;N61A2;N62A1;N62A2;N63A1;N63A2;N64A1;N64A2;N65A1;N65A2;N66A1;N66A2;N67A1;N67A2;N68A1;N68A2;N69A1;N69A2;N6A1;N6A2;N70A1;N70A2;N71A1;N71A2;N72A1;N72A2;N73A1;N73A2;N74A1;N74A2;N75A1;N75A2;N76A1;N76A2;N77A1;N77A2;N78A1;N78A2;N79A1;N79A2;N7A1;N7A2;N80A1;N80A2;N81A1;N81A2;N82A1;N82A2;N83A1;N83A2;N84A1;N84A2;N85A1;N85A2;N86A1;N86A2;N87A1;N87A2;N88A1;N88A2;N89A1;N89A2;N8A1;N8A2;N90A1;N90A2;N92A1;N92A2;N93A1;N93A2;N94A1;N94A2;N95A1;N95A2;N96A1;N96A2;N98A1;N98A2;N99A1;N99A2;N9A1;N9A2</Categories>
+         </Variable>
+         <Variable Item="2">
+            <Name>clutch_completion</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>No;Yes</Categories>
+         </Variable>
+         <Variable Item="3">
+            <Name>date_egg</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>None</Role>
+            <Type>DateTime</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>culmen_length_mm</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>culmen_depth_mm</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>flipper_length_mm</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>body_mass_g</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>sex</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>FEMALE;MALE</Categories>
+         </Variable>
+         <Variable Item="9">
+            <Name>delta_15_N</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>delta_13_C</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>species</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Categorical</Type>
+            <Categories>Adelie;Chinstrap;Gentoo</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>344</SamplesNumber>
+         <SampleRoles>0 0 0 2 2 0 0 1 2 2 2 0 0 1 1 2 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 2 2 1 0 2 0 0 2 0 0 0 2 1 1 0 2 0 0 0 0 2 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 2 1 0 0 2 0 0 0 0 2 1 0 1 0 0 1 0 1 0 0 2 0 0 0 1 2 0 0 0 0 0 0 0 0 1 2 2 0 0 0 0 0 2 0 0 0 0 2 0 2 0 1 0 0 0 2 0 0 0 1 1 0 0 0 0 0 2 2 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 1 0 1 1 0 2 0 2 1 2 1 0 1 2 1 0 2 2 2 1 2 2 0 0 0 0 0 1 0 1 0 1 1 0 0 2 0 0 0 1 1 2 0 0 2 1 2 1 0 0 2 0 0 1 0 0 0 0 0 0 1 0 2 0 0 0 2 0 2 1 2 0 1 2 2 1 1 2 0 0 2 1 1 1 0 1 0 2 1 0 1 0 0 1 0 1 2 2 0 0 0 2 2 0 0 1 0 0 0 2 1 0 0 1 1 0 1 0 0 0 0 0 2 1 0 0 0 1 0 2 0 0 0 0 2 0 0 2 0 0 0 2 0 1 0 1 1 2 2 0 0 0 2 2 0 1 0 0 1 0 2 0 0 0 0 0 1 0 0 2 0 0 2 0 1 0 0 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>46</MissingValuesNumber>
+         <MissingValuesMethod>Unuse</MissingValuesMethod>
+         <VariablesMissingValuesNumber>0 0 0 2 2 2 2 11 14 13 0 </VariablesMissingValuesNumber>
+         <SamplesMissingValuesNumber>20</SamplesMissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">individual_id,clutch_completion,date_egg,culmen_length_mm,culmen_depth_mm,flipper_length_mm,body_mass_g,sex,delta_15_N,delta_13_C,species</Row>
+         <Row Item="2">N1A1,Yes,2007-11-11,39.1,18.7,181,3750,MALE,NA,NA,Adelie</Row>
+         <Row Item="3">N1A2,Yes,2007-11-11,39.5,17.4,186,3800,FEMALE,8.94956,-24.69454,Adelie</Row>
+         <Row Item="4">N100A2,Yes,2009-11-21,50.2,18.7,198,3775,FEMALE,9.39305,-24.25255,Chinstrap</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>198</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+         <Input Index="11">input_11</Input>
+         <Input Index="12">input_12</Input>
+         <Input Index="13">input_13</Input>
+         <Input Index="14">input_14</Input>
+         <Input Index="15">input_15</Input>
+         <Input Index="16">input_16</Input>
+         <Input Index="17">input_17</Input>
+         <Input Index="18">input_18</Input>
+         <Input Index="19">input_19</Input>
+         <Input Index="20">input_20</Input>
+         <Input Index="21">input_21</Input>
+         <Input Index="22">input_22</Input>
+         <Input Index="23">input_23</Input>
+         <Input Index="24">input_24</Input>
+         <Input Index="25">input_25</Input>
+         <Input Index="26">input_26</Input>
+         <Input Index="27">input_27</Input>
+         <Input Index="28">input_28</Input>
+         <Input Index="29">input_29</Input>
+         <Input Index="30">input_30</Input>
+         <Input Index="31">input_31</Input>
+         <Input Index="32">input_32</Input>
+         <Input Index="33">input_33</Input>
+         <Input Index="34">input_34</Input>
+         <Input Index="35">input_35</Input>
+         <Input Index="36">input_36</Input>
+         <Input Index="37">input_37</Input>
+         <Input Index="38">input_38</Input>
+         <Input Index="39">input_39</Input>
+         <Input Index="40">input_40</Input>
+         <Input Index="41">input_41</Input>
+         <Input Index="42">input_42</Input>
+         <Input Index="43">input_43</Input>
+         <Input Index="44">input_44</Input>
+         <Input Index="45">input_45</Input>
+         <Input Index="46">input_46</Input>
+         <Input Index="47">input_47</Input>
+         <Input Index="48">input_48</Input>
+         <Input Index="49">input_49</Input>
+         <Input Index="50">input_50</Input>
+         <Input Index="51">input_51</Input>
+         <Input Index="52">input_52</Input>
+         <Input Index="53">input_53</Input>
+         <Input Index="54">input_54</Input>
+         <Input Index="55">input_55</Input>
+         <Input Index="56">input_56</Input>
+         <Input Index="57">input_57</Input>
+         <Input Index="58">input_58</Input>
+         <Input Index="59">input_59</Input>
+         <Input Index="60">input_60</Input>
+         <Input Index="61">input_61</Input>
+         <Input Index="62">input_62</Input>
+         <Input Index="63">input_63</Input>
+         <Input Index="64">input_64</Input>
+         <Input Index="65">input_65</Input>
+         <Input Index="66">input_66</Input>
+         <Input Index="67">input_67</Input>
+         <Input Index="68">input_68</Input>
+         <Input Index="69">input_69</Input>
+         <Input Index="70">input_70</Input>
+         <Input Index="71">input_71</Input>
+         <Input Index="72">input_72</Input>
+         <Input Index="73">input_73</Input>
+         <Input Index="74">input_74</Input>
+         <Input Index="75">input_75</Input>
+         <Input Index="76">input_76</Input>
+         <Input Index="77">input_77</Input>
+         <Input Index="78">input_78</Input>
+         <Input Index="79">input_79</Input>
+         <Input Index="80">input_80</Input>
+         <Input Index="81">input_81</Input>
+         <Input Index="82">input_82</Input>
+         <Input Index="83">input_83</Input>
+         <Input Index="84">input_84</Input>
+         <Input Index="85">input_85</Input>
+         <Input Index="86">input_86</Input>
+         <Input Index="87">input_87</Input>
+         <Input Index="88">input_88</Input>
+         <Input Index="89">input_89</Input>
+         <Input Index="90">input_90</Input>
+         <Input Index="91">input_91</Input>
+         <Input Index="92">input_92</Input>
+         <Input Index="93">input_93</Input>
+         <Input Index="94">input_94</Input>
+         <Input Index="95">input_95</Input>
+         <Input Index="96">input_96</Input>
+         <Input Index="97">input_97</Input>
+         <Input Index="98">input_98</Input>
+         <Input Index="99">input_99</Input>
+         <Input Index="100">input_100</Input>
+         <Input Index="101">input_101</Input>
+         <Input Index="102">input_102</Input>
+         <Input Index="103">input_103</Input>
+         <Input Index="104">input_104</Input>
+         <Input Index="105">input_105</Input>
+         <Input Index="106">input_106</Input>
+         <Input Index="107">input_107</Input>
+         <Input Index="108">input_108</Input>
+         <Input Index="109">input_109</Input>
+         <Input Index="110">input_110</Input>
+         <Input Index="111">input_111</Input>
+         <Input Index="112">input_112</Input>
+         <Input Index="113">input_113</Input>
+         <Input Index="114">input_114</Input>
+         <Input Index="115">input_115</Input>
+         <Input Index="116">input_116</Input>
+         <Input Index="117">input_117</Input>
+         <Input Index="118">input_118</Input>
+         <Input Index="119">input_119</Input>
+         <Input Index="120">input_120</Input>
+         <Input Index="121">input_121</Input>
+         <Input Index="122">input_122</Input>
+         <Input Index="123">input_123</Input>
+         <Input Index="124">input_124</Input>
+         <Input Index="125">input_125</Input>
+         <Input Index="126">input_126</Input>
+         <Input Index="127">input_127</Input>
+         <Input Index="128">input_128</Input>
+         <Input Index="129">input_129</Input>
+         <Input Index="130">input_130</Input>
+         <Input Index="131">input_131</Input>
+         <Input Index="132">input_132</Input>
+         <Input Index="133">input_133</Input>
+         <Input Index="134">input_134</Input>
+         <Input Index="135">input_135</Input>
+         <Input Index="136">input_136</Input>
+         <Input Index="137">input_137</Input>
+         <Input Index="138">input_138</Input>
+         <Input Index="139">input_139</Input>
+         <Input Index="140">input_140</Input>
+         <Input Index="141">input_141</Input>
+         <Input Index="142">input_142</Input>
+         <Input Index="143">input_143</Input>
+         <Input Index="144">input_144</Input>
+         <Input Index="145">input_145</Input>
+         <Input Index="146">input_146</Input>
+         <Input Index="147">input_147</Input>
+         <Input Index="148">input_148</Input>
+         <Input Index="149">input_149</Input>
+         <Input Index="150">input_150</Input>
+         <Input Index="151">input_151</Input>
+         <Input Index="152">input_152</Input>
+         <Input Index="153">input_153</Input>
+         <Input Index="154">input_154</Input>
+         <Input Index="155">input_155</Input>
+         <Input Index="156">input_156</Input>
+         <Input Index="157">input_157</Input>
+         <Input Index="158">input_158</Input>
+         <Input Index="159">input_159</Input>
+         <Input Index="160">input_160</Input>
+         <Input Index="161">input_161</Input>
+         <Input Index="162">input_162</Input>
+         <Input Index="163">input_163</Input>
+         <Input Index="164">input_164</Input>
+         <Input Index="165">input_165</Input>
+         <Input Index="166">input_166</Input>
+         <Input Index="167">input_167</Input>
+         <Input Index="168">input_168</Input>
+         <Input Index="169">input_169</Input>
+         <Input Index="170">input_170</Input>
+         <Input Index="171">input_171</Input>
+         <Input Index="172">input_172</Input>
+         <Input Index="173">input_173</Input>
+         <Input Index="174">input_174</Input>
+         <Input Index="175">input_175</Input>
+         <Input Index="176">input_176</Input>
+         <Input Index="177">input_177</Input>
+         <Input Index="178">input_178</Input>
+         <Input Index="179">input_179</Input>
+         <Input Index="180">input_180</Input>
+         <Input Index="181">input_181</Input>
+         <Input Index="182">input_182</Input>
+         <Input Index="183">input_183</Input>
+         <Input Index="184">input_184</Input>
+         <Input Index="185">input_185</Input>
+         <Input Index="186">input_186</Input>
+         <Input Index="187">input_187</Input>
+         <Input Index="188">input_188</Input>
+         <Input Index="189">input_189</Input>
+         <Input Index="190">input_190</Input>
+         <Input Index="191">input_191</Input>
+         <Input Index="192">input_192</Input>
+         <Input Index="193">input_193</Input>
+         <Input Index="194">input_194</Input>
+         <Input Index="195">input_195</Input>
+         <Input Index="196">input_196</Input>
+         <Input Index="197">input_197</Input>
+         <Input Index="198">input_198</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>198</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="8">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="9">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="10">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="11">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="12">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="13">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="14">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="15">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="16">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="17">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="18">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="19">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="20">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="21">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="22">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="23">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="24">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="25">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="26">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="27">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="28">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="29">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="30">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="31">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="32">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="33">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="34">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="35">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="36">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="37">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="38">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="39">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="40">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="41">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="42">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="43">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="44">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="45">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="46">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="47">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="48">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="49">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="50">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="51">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="52">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="53">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="54">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="55">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="56">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="57">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="58">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="59">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="60">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="61">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="62">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="63">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="64">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="65">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="66">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="67">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="68">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="69">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="70">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="71">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="72">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="73">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="74">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="75">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="76">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="77">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="78">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="79">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="80">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="81">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="82">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="83">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="84">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="85">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="86">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="87">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="88">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="89">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="90">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="91">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="92">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="93">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="94">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="95">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="96">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="97">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="98">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="99">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="100">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="101">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="102">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="103">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="104">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="105">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="106">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="107">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="108">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="109">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="110">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="111">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="112">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="113">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="114">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="115">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="116">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="117">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="118">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="119">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="120">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="121">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="122">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="123">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="124">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="125">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="126">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="127">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="128">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="129">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="130">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="131">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="132">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="133">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="134">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="135">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="136">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="137">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="138">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="139">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="140">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="141">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="142">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="143">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="144">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="145">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="146">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="147">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="148">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="149">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="150">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="151">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="152">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="153">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="154">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="155">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="156">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="157">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="158">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="159">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="160">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="161">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="162">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="163">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="164">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="165">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="166">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="167">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="168">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="169">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="170">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="171">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="172">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="173">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="174">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="175">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="176">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="177">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="178">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="179">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="180">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="181">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="182">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="183">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="184">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="185">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="186">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="187">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="188">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="189">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="190">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="191">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="192">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="193">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="194">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="195">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="196">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="197">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="198">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>198</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>Softmax</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>3</OutputsNumber>
+         <Output Index="1">output_1</Output>
+         <Output Index="2">output_2</Output>
+         <Output Index="3">output_3</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>609</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>CrossEntropyError2d</LossMethod>
+         <CrossEntropyError2d/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>402</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

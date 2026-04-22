@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="uFySYq"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/qcmalcoholsensor/qcmalcoholsensor.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>6</VariablesNumber>
+         <Variable Item="1">
+            <Name>freq_1</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>freq_2</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>freq_3</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>freq_4</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>freq_5</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>Class</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Categorical</Type>
+            <Categories>1-Isobutanol;1-Octanol;1-Propanol;2-Butanol;2-Propanol</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>25</SamplesNumber>
+         <SampleRoles>0 0 0 0 0 0 0 0 0 2 2 2 0 2 1 1 1 0 0 1 1 2 0 0 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">freq_1,freq_2,freq_3,freq_4,freq_5,Class</Row>
+         <Row Item="2">-9.4,-21.44,-34.39,-48.61,-63.62,1-Octanol</Row>
+         <Row Item="3">-13.18,-26.46,-41.48,-56.74,-73.45,1-Octanol</Row>
+         <Row Item="4">-59.00,-94.97,-137.28,-186.98,-248.98,1-Isobutanol</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>5</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>5</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>5</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>5</NeuronsNumber>
+            <Activation>Softmax</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>5</OutputsNumber>
+         <Output Index="1">output_1</Output>
+         <Output Index="2">output_2</Output>
+         <Output Index="3">output_3</Output>
+         <Output Index="4">output_4</Output>
+         <Output Index="5">output_5</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>38</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>CrossEntropyError2d</LossMethod>
+         <CrossEntropyError2d/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>20</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

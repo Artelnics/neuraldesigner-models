@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Approximation">
+   <Description Id="nSWxIp"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/airfoilselfnoise/airfoilselfnoise.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>6</VariablesNumber>
+         <Variable Item="1">
+            <Name>frequency</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>angle_of_attack</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>chord_length</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>free_stream_velocity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>suction_side_displacement_thickness</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>scaled_sound_pressure_level</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Target</Role>
+            <Type>Numeric</Type>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>1503</SamplesNumber>
+         <SampleRoles>0 0 0 0 2 0 0 1 0 0 0 0 0 2 2 2 0 2 0 2 0 0 0 2 0 1 2 2 0 0 0 2 2 0 2 1 1 1 2 0 2 0 2 1 1 0 0 1 0 0 0 0 2 0 1 0 0 1 0 1 1 1 0 0 2 0 0 0 1 2 1 0 1 1 0 1 0 0 2 0 0 1 0 0 1 2 1 1 2 2 1 0 0 2 1 0 0 1 0 0 0 0 0 1 0 0 2 1 0 0 0 0 2 0 2 2 2 1 2 2 0 0 0 0 0 0 0 0 1 1 1 0 2 0 1 0 0 2 0 2 1 0 0 0 0 0 2 2 2 0 0 2 0 0 0 0 1 2 0 1 0 0 0 0 1 0 0 1 1 1 1 0 0 1 0 2 1 0 0 2 0 2 2 0 1 1 2 1 0 0 2 0 1 0 1 0 1 0 0 0 0 2 2 0 0 0 0 1 0 0 0 0 2 2 2 2 1 2 0 2 0 2 0 0 0 0 2 0 0 1 1 2 0 0 0 2 0 0 0 1 0 2 0 0 0 1 2 0 2 2 2 0 0 1 0 1 1 1 2 0 0 0 1 2 0 0 0 0 2 1 0 0 0 0 0 0 1 0 2 0 0 0 1 0 0 0 0 2 1 1 2 0 1 0 0 0 0 0 2 1 0 0 0 2 1 1 0 1 2 0 0 0 0 1 1 2 1 2 0 0 0 0 1 0 1 0 0 0 2 0 0 0 0 0 0 0 2 2 0 2 2 1 0 0 2 0 1 0 0 2 1 2 1 0 1 2 1 0 0 1 0 0 0 2 0 1 1 1 1 0 0 2 0 0 0 2 0 1 2 0 0 2 1 0 0 0 0 0 0 1 1 0 0 1 0 0 2 0 0 2 0 0 2 2 0 1 2 1 0 0 0 0 0 2 0 0 2 0 0 0 0 0 1 2 1 1 0 0 0 2 0 1 0 1 0 0 2 1 0 0 0 0 0 0 2 0 0 1 0 1 2 0 1 2 0 0 0 2 2 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 1 2 0 0 0 0 0 0 1 0 2 2 0 0 0 0 2 2 0 1 0 0 0 0 0 1 2 0 0 2 2 0 1 0 0 0 0 2 2 0 0 1 1 0 0 0 0 0 0 0 0 1 0 1 0 0 1 2 0 0 0 2 0 2 0 1 0 0 0 0 0 0 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 2 2 0 0 1 0 2 0 2 2 0 0 2 2 1 1 1 1 0 0 0 1 0 0 2 1 0 1 0 2 1 1 0 2 1 0 0 0 0 0 2 0 1 0 0 2 2 0 0 0 1 0 0 0 1 0 0 0 0 1 1 2 1 0 0 2 0 1 0 0 0 1 0 0 0 0 0 2 0 0 0 2 2 2 2 0 1 0 2 2 1 2 1 0 1 0 0 0 0 0 2 1 0 2 2 2 0 0 0 0 2 0 0 2 0 0 0 1 0 1 0 0 0 2 2 0 1 0 0 2 2 2 0 2 2 1 0 0 2 0 0 0 0 0 0 0 0 0 0 1 0 2 0 1 2 2 0 0 1 2 0 0 0 0 2 1 1 0 0 0 0 2 0 2 0 0 0 1 0 1 0 0 0 2 0 0 2 1 2 0 0 2 0 0 2 0 0 0 2 0 0 0 2 1 0 0 0 0 0 0 0 0 1 0 1 2 1 1 0 0 2 1 0 0 0 0 1 0 0 0 1 0 0 0 2 2 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 2 2 0 0 0 0 0 0 2 2 0 1 1 2 2 0 2 0 0 0 2 1 0 2 1 2 0 1 0 1 0 2 2 0 1 0 2 0 1 2 0 1 0 0 2 0 0 0 0 0 1 0 0 0 1 0 0 0 0 2 2 0 2 2 1 0 0 0 0 1 1 0 0 1 0 1 1 0 2 0 2 1 0 2 2 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 1 1 0 1 0 0 2 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 2 0 2 0 0 0 0 0 1 0 1 2 0 2 2 1 0 0 0 2 0 0 0 0 0 1 2 0 0 1 2 2 0 2 1 0 0 0 0 0 2 1 0 0 1 0 2 2 0 2 1 0 0 0 0 1 0 1 1 2 0 1 2 2 0 2 1 1 1 0 2 0 0 0 1 0 0 1 2 2 1 2 2 0 0 0 0 2 2 1 2 2 1 0 1 0 0 2 1 0 1 1 2 1 1 2 0 0 0 0 1 1 2 0 0 0 2 0 1 2 0 2 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 2 1 0 0 0 0 0 1 0 0 0 2 0 0 0 0 2 1 0 2 0 1 0 0 0 1 0 0 1 0 2 0 0 0 0 0 0 0 0 2 0 0 2 0 0 1 0 0 0 1 1 1 1 1 1 0 1 0 0 0 1 1 1 0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 1 0 2 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 0 2 0 1 1 0 0 2 0 0 0 0 0 1 0 0 0 2 0 0 0 0 0 1 0 0 2 2 0 0 0 0 2 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 2 2 0 0 1 0 1 0 0 0 2 2 0 2 0 0 1 0 1 0 0 0 0 0 1 0 1 2 1 0 0 0 0 2 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 1 2 1 0 1 2 0 0 0 1 0 0 2 0 2 0 0 0 0 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 2 0 0 0 1 0 0 2 0 1 2 0 2 0 2 0 1 0 1 2 1 0 2 0 0 0 0 2 0 0 0 2 0 0 0 1 0 0 2 1 2 1 0 0 0 1 2 0 1 1 1 2 1 2 1 0 0 0 2 0 0 1 0 2 0 1 1 0 0 0 0 0 0 0 2 2 1 1 1 2 0 0 2 0 0 0 2 0 0 0 0 0 2 0 0 1 0 0 2 2 1 1 0 1 1 0 2 2 0 0 0 1 0 0 2 0 0 0 0 0 0 0 2 0 1 1 1 0 0 2 0 0 0 0 1 2 0 0 2 2 0 2 2 0 1 0 2 2 0 0 0 0 0 1 0 1 0 1 0 2 0 0 1 0 0 0 0 0 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">frequency,angle_of_attack,chord_length,free_stream_velocity,suction_side_displacement_thickness,scaled_sound_pressure_level</Row>
+         <Row Item="2">800,0,0.3048,71.3,0.00266337,126.201</Row>
+         <Row Item="3">1000,0,0.3048,71.3,0.00266337,125.201</Row>
+         <Row Item="4">6300,15.6,0.1016,39.6,0.0528487,104.204</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>5</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>5</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>5</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>5</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>approximation_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Linear</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Unscaling>
+            <NeuronsNumber>1</NeuronsNumber>
+            <UnscalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MinimumMaximum</Scaler>
+            </UnscalingNeuron>
+         </Unscaling>
+         <Bounding>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Item Index="1">
+               <LowerBound>-340282346638528859811704183484516925440.000000</LowerBound>
+               <UpperBound>340282346638528859811704183484516925440.000000</UpperBound>
+            </Item>
+            <BoundingMethod>Bounding</BoundingMethod>
+         </Bounding>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="3">2</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="4">3</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>22</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>MeanSquaredError</LossMethod>
+         <MeanSquaredError/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>12</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Approximation">
+   <Description Id="0nQvbR"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/concreteproperties/concreteproperties.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>8</VariablesNumber>
+         <Variable Item="1">
+            <Name>cement</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>blast_furnace_slag</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>fly_ash</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>water</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>superplasticizer</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>coarse_aggregate</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>fine_aggregate</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>compressive_strength</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Target</Role>
+            <Type>Numeric</Type>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>425</SamplesNumber>
+         <SampleRoles>0 0 0 2 0 0 0 0 0 0 2 2 2 0 0 2 0 0 0 0 1 2 1 0 0 0 0 2 0 0 0 1 0 0 2 2 1 0 2 2 1 1 1 0 0 2 0 2 0 0 0 0 0 1 1 0 0 2 2 1 1 1 0 0 0 0 0 2 0 2 0 0 1 1 0 2 1 0 2 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 2 0 0 1 0 0 0 0 2 0 1 0 1 1 0 0 0 2 0 0 1 0 0 0 0 0 1 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 1 2 0 0 0 2 0 0 0 2 1 0 0 2 1 0 0 0 0 1 2 1 2 0 2 2 0 2 1 2 2 0 0 0 2 2 1 0 2 0 0 0 2 2 0 0 0 0 2 0 0 1 0 0 2 2 2 1 1 1 0 1 0 2 0 2 2 0 0 0 0 2 1 1 0 0 1 1 1 1 0 0 0 0 0 0 1 0 2 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 2 0 1 0 0 0 0 0 0 0 2 2 0 0 1 0 0 0 0 0 2 0 0 0 2 2 1 0 2 0 1 0 2 0 0 1 2 0 0 0 0 0 1 1 0 0 0 0 0 0 0 2 1 0 1 0 0 1 0 1 0 0 1 0 2 0 1 1 0 0 0 2 0 1 0 0 0 2 1 2 2 0 1 1 2 0 2 0 0 0 2 1 0 0 1 0 0 2 0 1 0 2 0 0 2 1 2 1 2 0 2 1 1 1 1 1 2 1 1 0 0 0 0 0 2 0 0 0 2 0 2 0 0 1 0 0 0 2 2 0 1 0 2 0 0 0 0 0 1 1 2 1 0 0 2 2 0 0 2 0 0 0 0 0 0 1 2</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">cement,blast_furnace_slag,fly_ash,water,superplasticizer,coarse_aggregate,fine_aggregate,compressive_strength</Row>
+         <Row Item="2">540.0,0.0,0.0,162.0,2.5,1040.0,676.0,79.99</Row>
+         <Row Item="3">540.0,0.0,0.0,162.0,2.5,1055.0,676.0,61.89</Row>
+         <Row Item="4">260.9,100.5,78.3,200.6,8.6,864.5,761.5,32.40</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>7</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>5</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>7</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>7</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>approximation_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Linear</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Unscaling>
+            <NeuronsNumber>1</NeuronsNumber>
+            <UnscalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MinimumMaximum</Scaler>
+            </UnscalingNeuron>
+         </Unscaling>
+         <Bounding>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Item Index="1">
+               <LowerBound>-340282346638528859811704183484516925440.000000</LowerBound>
+               <UpperBound>340282346638528859811704183484516925440.000000</UpperBound>
+            </Item>
+            <BoundingMethod>Bounding</BoundingMethod>
+         </Bounding>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="3">2</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="4">3</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>28</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>MeanSquaredError</LossMethod>
+         <MeanSquaredError/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>16</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

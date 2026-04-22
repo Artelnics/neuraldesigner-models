@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="7jlCPM"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/aircompressor/aircompressor.csv</Path>
+         <Separator>Comma</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>25</VariablesNumber>
+         <Variable Item="1">
+            <Name>ID</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>Motor speed</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>Motor power</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>Torque</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>Outlet pressure</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>Air flow</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>Noise</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>Outlet temperature</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="9">
+            <Name>Water pump outlet pressure</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>Water inlet temperature</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>Water outlet temperature</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="12">
+            <Name>Water pump power</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="13">
+            <Name>Water flow</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="14">
+            <Name>Oil pump power</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="15">
+            <Name>Oil tank temperature</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="16">
+            <Name>Ground vibration X</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="17">
+            <Name>Ground vibration Y</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="18">
+            <Name>Ground vibration Z</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="19">
+            <Name>Head vibration X</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="20">
+            <Name>Head vibration Y</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="21">
+            <Name>Head vibration Z</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="22">
+            <Name>Bearing failure</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="23">
+            <Name>Water pump failure</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="24">
+            <Name>Radiator failure</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="25">
+            <Name>Exhaust valve failure</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>1000</SamplesNumber>
+         <SampleRoles>0 0 0 2 1 0 1 0 0 2 0 0 0 0 0 1 0 2 0 0 0 2 0 1 0 2 0 0 0 1 0 1 0 1 0 0 0 0 0 0 1 0 0 0 2 2 0 2 0 0 2 0 1 0 1 1 0 0 2 2 0 2 0 0 0 0 0 0 0 2 2 0 2 2 1 0 2 0 0 1 0 1 0 0 0 1 0 1 0 0 0 1 2 2 0 0 0 1 0 0 1 0 0 0 0 2 2 0 0 0 1 0 0 0 0 2 0 1 0 0 0 2 0 1 2 0 0 2 1 1 0 1 0 0 0 0 2 2 0 0 1 2 0 1 0 2 0 0 2 2 1 0 0 2 0 2 2 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 1 1 1 2 1 0 1 1 2 0 0 2 0 0 0 0 0 0 1 0 2 0 1 0 0 1 1 0 0 0 0 0 0 0 2 0 1 0 2 0 0 0 0 0 1 0 1 2 2 1 0 1 0 0 0 2 2 0 2 0 2 1 0 0 0 0 1 2 1 0 2 0 1 0 0 2 0 1 0 2 1 1 0 0 1 2 0 0 0 0 0 1 1 0 1 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 1 2 1 0 2 2 0 0 1 0 2 2 0 0 0 2 0 0 0 0 0 1 0 0 0 1 0 1 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 1 0 1 2 1 1 0 1 0 2 0 0 0 0 0 2 1 0 0 2 2 2 0 2 1 1 0 0 0 2 2 0 2 0 1 0 1 0 0 1 0 0 0 2 0 0 1 0 0 0 0 2 1 1 0 0 2 0 0 2 1 0 0 0 2 0 0 0 2 1 1 0 2 1 0 1 2 2 0 0 0 0 2 0 2 0 0 0 1 0 0 2 2 0 1 1 0 0 0 0 1 1 0 0 1 0 1 2 0 2 2 1 0 2 0 2 1 1 1 0 0 2 0 1 1 0 0 0 1 1 0 1 2 0 2 2 0 0 0 0 0 1 1 0 2 2 0 2 2 1 2 0 0 1 2 0 0 0 0 0 0 2 0 1 2 1 0 0 0 0 1 2 2 2 0 0 0 0 1 0 0 0 2 0 2 2 2 0 0 1 1 0 0 1 2 0 2 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 1 0 2 1 1 0 0 2 0 0 1 1 1 0 0 2 1 0 0 0 0 2 1 1 1 0 2 0 0 1 0 0 2 2 0 0 2 0 2 0 0 0 1 0 0 0 1 0 1 0 0 0 0 1 0 0 1 2 1 0 1 1 1 2 0 0 1 0 0 0 0 0 1 1 2 0 2 0 1 0 1 0 0 1 0 0 0 0 1 2 0 0 1 0 2 0 0 0 0 1 1 1 2 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 1 2 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 0 0 2 1 0 2 0 0 0 0 2 1 0 0 2 0 0 2 0 0 1 0 0 0 0 0 0 2 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 2 0 1 0 0 2 0 1 0 0 2 0 1 0 0 0 2 2 2 0 0 2 0 0 2 0 1 0 1 0 0 0 0 0 0 1 1 2 0 0 0 1 0 0 0 0 0 2 0 0 0 2 1 0 0 0 2 0 1 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 2 2 0 2 2 1 2 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 2 0 2 2 0 2 0 2 0 2 0 0 0 0 2 1 0 0 1 0 0 2 0 1 1 0 2 2 0 2 1 0 0 0 0 0 2 0 0 0 0 0 0 2 0 0 2 2 0 0 0 2 2 0 0 2 0 0 0 2 1 2 1 0 0 0 0 1 0 2 0 0 0 0 1 2 0 0 0 0 0 0 0 2 0 0 0 2 0 0 0 0 1 0 0 2 2 0 0 0 0 2 1 0 0 2 1 1 2 0 0 2 2 0 0 2 2 0 0 0 0 1 1 1 2 0 2 1 1 2 0 0 0 0 0 0 0 0 1 2 0 0 2 1 0 0 1 0 2 2 0 1 1 0 1 2 1 0 2 0 1 2 2 0 0 1 1 2 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">ID,Motor speed,Motor power,Torque,Outlet pressure,Air flow,Noise,Outlet temperature,Water pump outlet pressure,Water inlet temperature,Water outlet temperature,Water pump power,Water flow,Oil pump power,Oil tank temperature,Ground vibration X,Ground vibration Y,Ground vibration Z,Head vibration X,Head vibration Y,Head vibration Z,Bearing failure,Water pump failure,Radiator failure,Exhaust valve failure</Row>
+         <Row Item="2">1,499,1405.842858,27.51170834,1,308.2898788,40.84051681,78.55471462,2.960632487,43.16639156,47.25923766,216.6105061,59.0850591,300.3729213,45.80617755,0.711820164,0.383772955,2.649800567,1.213344407,1.409218131,2.962483674,0,0,0,0</Row>
+         <Row Item="3">2,513,1457.370092,31.03011475,1081,307.833736,40.48422638,76.90282202,2.53671098,47.34214343,55.02565326,215.3975261,59.16193851,301.3916047,45.82538442,0.704667093,0.450953581,2.669423257,1.210673873,1.37905049,2.938134528,0,0,0,0</Row>
+         <Row Item="4">1000,2499,19454.55908,78.92875979,7425,469.8212666,61.90352013,151.6449575,3.013953277,115.9769608,132.9747929,229.0339771,57.83391215,300.8975967,46.52611643,0.547070893,0.368466473,7.170283283,1.049238669,1.35591283,5.078841053,0,0,0,1</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>24</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+         <Input Index="11">input_11</Input>
+         <Input Index="12">input_12</Input>
+         <Input Index="13">input_13</Input>
+         <Input Index="14">input_14</Input>
+         <Input Index="15">input_15</Input>
+         <Input Index="16">input_16</Input>
+         <Input Index="17">input_17</Input>
+         <Input Index="18">input_18</Input>
+         <Input Index="19">input_19</Input>
+         <Input Index="20">input_20</Input>
+         <Input Index="21">input_21</Input>
+         <Input Index="22">input_22</Input>
+         <Input Index="23">input_23</Input>
+         <Input Index="24">input_24</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>24</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="8">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="9">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="10">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="11">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="12">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="13">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="14">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="15">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="16">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="17">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="18">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="19">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="20">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="21">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="22">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="23">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="24">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>24</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Sigmoid</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>79</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>WeightedSquaredError</LossMethod>
+         <WeightedSquaredError>
+            <PositivesWeight>-1.000000</PositivesWeight>
+            <NegativesWeight>-1.000000</NegativesWeight>
+         </WeightedSquaredError>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>50</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

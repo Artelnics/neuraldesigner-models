@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="IzAs0D"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/banknote/banknote.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>5</VariablesNumber>
+         <Variable Item="1">
+            <Name>wavelet_transformed_variance</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>wavelet_transformed_skewness</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>wavelet_transformed_curtosis</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>image_entropy</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>counterfeit</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>1372</SamplesNumber>
+         <SampleRoles>0 0 0 1 0 1 1 0 1 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0 2 0 1 1 0 0 1 0 0 0 1 1 0 0 0 1 1 2 0 1 2 0 0 0 0 0 0 0 1 2 0 0 1 1 0 0 0 1 0 0 0 0 0 0 2 1 2 0 0 1 2 0 0 0 2 0 1 0 0 0 0 0 0 0 0 2 0 0 2 2 0 0 1 0 0 2 0 1 2 2 0 0 1 2 0 2 2 1 0 2 0 1 0 0 2 0 2 0 2 0 2 0 0 0 1 0 1 0 0 0 2 1 0 1 1 1 2 2 2 2 2 0 1 0 2 0 0 0 2 0 0 1 0 1 0 0 0 2 0 0 0 0 0 1 2 0 0 1 2 2 1 1 2 0 2 0 0 1 0 0 2 0 0 2 1 0 0 0 1 0 0 0 2 1 0 2 0 2 0 2 2 0 1 0 1 0 0 0 2 0 0 1 0 0 0 0 1 0 2 0 1 2 0 1 1 1 2 1 0 0 0 0 0 0 0 2 0 1 2 0 0 0 0 0 0 1 0 2 1 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 2 0 0 0 0 2 0 2 0 2 0 0 0 1 1 2 0 1 2 0 0 1 1 1 0 2 0 0 0 0 0 0 2 1 0 0 1 0 2 2 0 0 0 0 2 1 0 2 1 2 0 1 1 1 0 1 0 0 0 0 0 0 0 1 0 1 1 0 0 1 1 0 2 0 1 1 0 2 1 0 0 1 0 0 0 2 2 0 0 1 1 1 0 0 0 1 0 0 0 0 1 1 0 1 0 2 1 1 0 0 0 0 0 0 0 0 0 2 1 2 0 0 0 1 0 0 0 0 2 1 0 0 0 0 0 0 1 1 0 0 0 1 0 0 2 0 1 1 0 2 2 0 2 0 0 0 0 2 1 1 0 1 0 1 0 0 0 0 1 1 1 1 0 0 2 0 1 0 2 0 0 0 0 1 2 0 1 2 0 2 1 0 0 2 0 0 0 0 1 1 0 0 0 2 2 0 0 0 0 2 0 0 0 0 2 0 0 0 2 2 0 0 0 1 0 0 0 0 0 0 2 0 1 1 0 0 0 2 0 2 1 1 0 1 0 0 0 1 0 0 0 1 1 0 2 1 2 2 1 0 1 0 0 0 0 1 1 0 1 0 0 2 0 0 1 0 2 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 2 2 0 0 0 0 0 1 0 2 2 1 1 0 0 2 1 1 0 0 0 0 2 0 1 0 2 1 0 1 0 2 2 0 2 1 2 0 1 0 0 0 0 2 0 1 0 1 0 0 2 1 0 0 1 0 1 0 2 0 0 1 0 0 1 0 0 1 0 2 1 0 0 0 0 0 1 2 2 1 2 0 0 2 1 2 0 0 2 0 0 2 0 2 2 0 2 0 2 1 0 0 0 2 2 2 1 0 0 0 0 1 0 2 1 0 0 0 0 1 0 0 0 2 0 1 0 2 2 1 0 0 0 0 2 0 0 0 0 2 0 0 2 2 0 0 0 2 2 2 2 1 0 0 2 1 0 0 2 0 0 2 2 1 2 2 2 0 0 0 1 0 2 2 0 2 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 2 0 1 1 2 0 2 0 0 1 0 2 1 2 0 0 0 0 0 0 0 1 0 0 0 2 0 0 2 0 0 2 2 1 0 2 0 1 2 0 2 2 0 0 0 0 1 1 0 2 0 0 0 0 0 1 0 1 2 0 1 2 0 0 0 0 0 1 0 0 2 0 0 2 0 0 1 0 1 0 0 0 1 0 1 2 1 0 0 0 0 0 0 0 0 2 0 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 2 0 2 0 0 0 2 2 2 0 0 0 0 0 0 0 1 0 1 0 2 0 0 0 0 2 2 0 2 1 0 2 0 0 2 0 0 2 1 0 0 0 0 0 0 0 1 0 0 1 1 1 2 1 0 1 2 0 0 0 2 0 0 0 0 2 1 0 0 0 2 0 2 0 2 1 0 0 0 0 1 0 0 2 0 1 0 0 2 0 0 0 0 0 0 0 0 1 2 1 1 0 0 1 2 2 2 0 2 1 1 1 0 0 2 0 0 2 0 0 2 2 1 2 2 0 0 2 0 0 0 0 0 2 0 0 2 2 0 1 2 1 0 2 0 1 1 0 1 2 0 2 1 0 1 0 0 0 1 0 1 0 1 0 0 1 1 1 0 0 0 0 0 0 0 2 0 0 0 1 2 1 1 0 2 1 0 0 0 0 0 0 0 0 2 2 0 0 0 1 0 0 0 0 0 0 0 0 2 0 1 0 1 0 2 2 1 1 2 0 1 0 0 0 0 1 0 0 0 1 0 2 2 0 0 1 0 1 1 2 0 0 1 1 1 0 0 2 0 1 1 0 1 0 0 0 0 0 2 0 2 2 0 0 2 0 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 2 2 1 0 0 0 0 0 2 0 0 0 2 0 1 2 0 0 0 0 0 2 2 0 2 2 2 0 2 0 0 0 0 0 0 1 2 0 0 0 0 0 0 1 1 2 0 2 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 2 0 2 0 0 0 0 1 0 2 0 0 0 0 2 0 2 0 0 0 0 2 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 2 0 2 0 2 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 2 2 0 2 2 2 0 0 1 0 1 0 2 0 2 0 2 0 0 1 0 0 0 2 1 2 0 2 0 0 0 1 2 1 0 1 0 0 2 0 0 0 2 2 0 0 0 0 2 0 0 2 1 0 2 0 2 0 0 0 0 0 0 0 0 0 1 1 2 0 0 0 0 0 2 0 0 2 1 2 2</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">wavelet_transformed_variance,wavelet_transformed_skewness,wavelet_transformed_curtosis,image_entropy,counterfeit</Row>
+         <Row Item="2">3.6216,8.6661,-2.8073,-0.44699,0</Row>
+         <Row Item="3">4.5459,8.1674,-2.4586,-1.4621,0</Row>
+         <Row Item="4">-2.5419,-0.65804,2.6842,1.1952,1</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>4</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>4</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>4</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Sigmoid</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>19</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>WeightedSquaredError</LossMethod>
+         <WeightedSquaredError>
+            <PositivesWeight>-1.000000</PositivesWeight>
+            <NegativesWeight>-1.000000</NegativesWeight>
+         </WeightedSquaredError>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>10</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

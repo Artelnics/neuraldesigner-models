@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="DgnoBd"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/liverdisease/liverdisease.csv</Path>
+         <Separator>Comma</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>13</VariablesNumber>
+         <Variable Item="1">
+            <Name>age</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>sex</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>f;m</Categories>
+         </Variable>
+         <Variable Item="3">
+            <Name>albumin</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>alkaline_phosphatase</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>alanine_aminotransferase</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>aspartate_aminotransferase</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>bilirubin</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>cholinesterase</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="9">
+            <Name>cholesterol</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>creatinina</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>gamma_glutamyl_transferase</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="12">
+            <Name>protein</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="13">
+            <Name>liver_disease</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>615</SamplesNumber>
+         <SampleRoles>1 1 0 0 1 1 2 0 2 1 0 0 0 0 0 0 1 0 2 2 0 0 0 0 0 1 2 0 0 0 0 0 1 0 0 1 0 0 0 0 1 2 0 0 0 0 0 1 0 1 0 0 2 2 0 0 1 2 0 0 2 2 2 0 0 0 1 0 0 2 0 2 2 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 2 0 1 2 0 2 0 0 2 2 0 0 2 2 0 0 0 0 2 2 0 0 2 0 1 1 1 2 0 0 1 1 1 0 1 2 0 0 2 2 0 0 0 2 0 2 2 0 0 0 0 0 2 0 1 0 0 0 0 2 2 0 0 2 0 0 2 0 0 2 0 2 0 1 2 0 1 0 0 1 1 0 1 1 0 0 0 1 0 2 0 0 0 0 1 0 0 0 1 1 0 2 0 0 0 1 0 2 0 0 2 1 0 1 0 2 1 0 0 1 0 2 2 0 0 0 2 1 1 0 0 0 0 2 0 1 0 0 2 0 0 0 0 0 1 1 0 0 2 2 0 0 2 1 0 2 1 1 0 0 0 0 0 0 0 1 2 0 1 0 2 0 0 2 0 0 0 0 1 0 1 0 0 1 0 2 0 0 1 2 0 0 0 0 2 2 0 1 0 0 0 0 0 1 1 0 1 2 1 0 1 0 2 0 2 2 0 0 0 0 2 2 2 0 2 2 0 0 2 1 0 0 0 0 1 2 0 1 0 1 0 0 0 0 0 2 2 1 0 1 2 0 2 1 2 0 0 1 2 0 0 0 0 2 0 0 1 2 1 0 0 0 2 1 2 2 1 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 2 0 1 0 0 0 0 0 0 2 2 0 0 0 1 0 0 0 0 2 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 1 2 1 1 0 0 0 0 0 0 0 0 2 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 0 0 1 2 1 2 2 0 0 2 1 0 2 0 0 0 2 0 1 1 0 1 1 2 0 0 1 0 0 0 2 0 1 0 1 0 1 0 0 0 0 1 2 0 0 0 0 1 1 0 0 1 0 0 0 2 2 2 1 2 0 0 0 2 2 2 0 0 0 0 2 2 1 2 0 1 0 0 0 0 0 0 0 2 0 1 1 0 0 1 0 0 0 1 2 0 0 0 0 1 2 0 0 0 1 1 0 1 2 2 0 1 0 0 0 0 1 1 2 0 1 0 0 0 0 1 0 1 0 0 0 2 0 0 0 0 1 1 1 0 0 2 1 2 0 0 0 1 1 2 0 0 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>31</MissingValuesNumber>
+         <MissingValuesMethod>Unuse</MissingValuesMethod>
+         <VariablesMissingValuesNumber>0 0 1 18 1 0 0 0 10 0 0 1 0 </VariablesMissingValuesNumber>
+         <SamplesMissingValuesNumber>26</SamplesMissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">age,sex,albumin,alkaline_phosphatase,alanine_aminotransferase,aspartate_aminotransferase,bilirubin,cholinesterase,cholesterol,creatinina,gamma_glutamyl_transferase,protein,liver_disease</Row>
+         <Row Item="2">32,m,38.5,52.5,7.7,22.1,7.5,6.93,3.23,106,12.1,69,0</Row>
+         <Row Item="3">32,m,38.5,70.3,18,24.7,3.9,11.17,4.8,74,15.6,76.5,0</Row>
+         <Row Item="4">59,f,36,NA,100,80,12,09.07,5.3,67,34,68,1</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>12</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+         <Input Index="11">input_11</Input>
+         <Input Index="12">input_12</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>12</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="8">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="9">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="10">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="11">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="12">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>12</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Sigmoid</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>43</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>WeightedSquaredError</LossMethod>
+         <WeightedSquaredError>
+            <PositivesWeight>-1.000000</PositivesWeight>
+            <NegativesWeight>-1.000000</NegativesWeight>
+         </WeightedSquaredError>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>26</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

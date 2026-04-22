@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="cZPCKY"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/employeeattrition/employeeattrition.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>35</VariablesNumber>
+         <Variable Item="1">
+            <Name>age</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>business_travel</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>daily_rate</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>department</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Categorical</Type>
+            <Categories>Human Resources;Research &amp; Development;Sales</Categories>
+         </Variable>
+         <Variable Item="5">
+            <Name>distance_from_home</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>education</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>education_field</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Categorical</Type>
+            <Categories>Human Resources;Life Sciences;Marketing;Medical;Other;Technical Degree</Categories>
+         </Variable>
+         <Variable Item="8">
+            <Name>employee_count</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>None</Role>
+            <Type>Constant</Type>
+         </Variable>
+         <Variable Item="9">
+            <Name>employee_number</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>environment_satisfaction</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>gender</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>Female;Male</Categories>
+         </Variable>
+         <Variable Item="12">
+            <Name>hourly_rate</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="13">
+            <Name>job_involvement</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="14">
+            <Name>job_level</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="15">
+            <Name>job_role</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Categorical</Type>
+            <Categories>Healthcare Representative;Human Resources;Laboratory Technician;Manager;Manufacturing Director;Research Director;Research Scientist;Sales Executive;Sales Representative</Categories>
+         </Variable>
+         <Variable Item="16">
+            <Name>job_satisfaction</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="17">
+            <Name>marital_status</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Categorical</Type>
+            <Categories>Divorced;Married;Single</Categories>
+         </Variable>
+         <Variable Item="18">
+            <Name>monthly_income</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="19">
+            <Name>monthly_rate</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="20">
+            <Name>num_companies_worked</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="21">
+            <Name>over_18</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>None</Role>
+            <Type>Constant</Type>
+         </Variable>
+         <Variable Item="22">
+            <Name>over_time</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>No;Yes</Categories>
+         </Variable>
+         <Variable Item="23">
+            <Name>percent_salary_hike</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="24">
+            <Name>performance_rating</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="25">
+            <Name>relationship_satisfaction</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="26">
+            <Name>standard_hours</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="27">
+            <Name>stock_option_level</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>None</Role>
+            <Type>Constant</Type>
+         </Variable>
+         <Variable Item="28">
+            <Name>total_working_years</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="29">
+            <Name>training_times_last_year</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="30">
+            <Name>work_life_balance</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="31">
+            <Name>years_at_company</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="32">
+            <Name>years_in_current_role</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="33">
+            <Name>years_since_last_promotion</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="34">
+            <Name>years_with_curr_manager</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="35">
+            <Name>attrition</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Binary</Type>
+            <Categories>No;Yes</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>1470</SamplesNumber>
+         <SampleRoles>0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 0 0 2 1 1 2 1 0 1 0 0 2 2 2 0 0 2 1 1 0 2 0 0 0 0 1 1 0 0 1 0 1 2 0 1 1 0 0 1 0 1 1 0 0 2 1 0 2 2 0 2 0 0 0 2 0 1 0 0 0 1 0 0 0 0 0 2 1 1 1 2 0 0 0 0 2 2 0 0 0 2 2 0 0 2 0 1 1 0 0 0 1 0 0 2 0 1 0 0 1 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 2 0 0 0 2 1 2 0 0 2 0 0 1 0 0 2 0 0 1 1 1 0 0 2 0 1 1 2 1 0 0 0 0 0 1 2 0 0 0 2 0 1 2 2 0 0 0 2 0 1 1 1 1 0 1 2 1 0 1 0 2 0 0 0 2 0 0 1 2 0 1 0 0 0 0 0 0 0 1 0 2 0 1 1 0 0 1 2 0 2 0 0 0 1 2 1 2 2 0 0 0 0 2 0 1 0 0 2 2 2 2 0 2 0 2 2 1 0 2 0 0 0 1 0 0 0 0 0 1 0 0 2 1 0 0 1 0 1 1 0 0 0 2 1 0 1 2 1 0 1 0 2 0 2 0 0 0 0 1 0 2 1 0 0 1 0 0 2 0 0 2 0 1 2 0 2 0 0 0 1 0 0 0 0 0 1 0 2 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 2 1 0 0 0 0 1 1 0 2 2 1 0 0 0 2 2 2 1 2 1 0 0 0 0 0 0 1 1 0 0 1 0 2 0 2 2 1 0 0 2 0 0 0 0 0 0 1 0 2 0 0 0 2 0 0 0 0 2 2 0 1 0 2 0 0 0 0 1 0 1 0 0 0 0 0 0 1 0 0 0 2 0 1 0 0 1 0 0 0 0 0 2 0 0 2 0 0 0 0 2 2 0 1 2 1 0 0 2 0 2 1 0 2 1 0 0 0 1 0 0 2 0 0 2 0 0 0 2 0 2 0 0 0 2 0 1 0 0 0 0 2 0 1 0 0 0 1 2 0 2 0 0 1 1 0 0 0 1 0 1 0 0 0 1 1 2 1 0 0 1 0 0 0 1 2 0 2 2 0 0 0 0 0 0 1 0 0 2 1 0 0 0 0 2 0 1 0 0 2 0 2 0 0 1 0 2 0 2 0 0 1 2 1 0 0 2 2 0 1 1 0 1 0 0 2 0 0 2 1 1 0 1 0 2 1 2 0 0 0 2 0 0 0 1 0 1 2 0 1 1 1 1 1 2 1 1 2 2 2 0 2 2 0 0 0 1 0 0 0 1 0 0 0 2 0 0 2 1 0 0 0 0 0 0 0 0 0 2 2 1 0 0 1 0 0 0 1 2 0 0 0 0 0 1 0 1 0 0 1 0 0 2 0 0 0 0 1 0 2 0 0 1 0 2 2 0 1 2 2 0 2 1 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 2 0 2 1 0 2 0 2 0 0 0 2 0 0 1 1 2 2 0 0 0 0 1 2 1 1 1 2 0 0 2 2 2 2 0 0 0 0 0 0 1 2 0 1 0 1 2 1 2 0 0 1 2 0 0 0 0 2 0 0 2 0 2 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 1 0 0 1 2 0 0 0 0 1 0 0 2 0 0 1 2 1 0 2 1 1 0 2 1 0 0 2 0 2 2 1 1 0 2 1 0 0 0 0 0 0 0 0 1 2 0 1 0 0 2 0 2 0 1 2 0 0 2 2 0 2 0 0 1 0 1 0 0 2 2 1 0 1 2 1 0 0 2 0 0 2 0 2 2 1 0 0 2 1 0 1 2 0 0 0 0 0 0 1 0 0 0 0 0 2 2 2 1 0 0 2 1 0 2 1 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 2 0 0 0 1 0 2 0 2 0 0 0 0 2 1 1 2 0 0 2 1 0 2 2 0 1 0 0 1 0 0 0 2 0 0 2 0 1 0 1 0 0 2 0 0 0 0 0 0 2 0 0 1 0 0 0 1 2 1 1 1 2 0 1 1 1 1 0 0 0 2 0 2 0 0 1 1 0 0 2 1 0 0 1 2 0 0 1 1 0 1 0 0 1 0 0 0 0 0 0 1 2 2 2 1 2 0 0 0 1 0 0 2 2 0 2 0 0 1 0 1 0 1 1 0 2 2 2 2 0 0 2 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 2 2 0 0 0 0 1 2 0 2 0 0 0 0 2 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 1 1 0 1 0 1 0 0 2 1 1 1 1 0 0 0 0 0 1 0 1 0 1 0 2 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 2 0 0 0 0 2 0 2 2 1 0 2 0 0 0 0 2 1 0 0 0 1 1 1 1 0 0 0 0 0 2 2 0 0 1 0 2 0 2 0 0 1 0 1 0 0 0 0 1 0 0 1 0 2 0 0 1 1 0 0 1 0 0 2 2 1 0 0 0 2 0 0 2 0 1 0 1 1 0 0 0 2 0 2 1 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 0 2 0 0 1 0 1 0 0 2 0 2 0 2 1 0 0 1 0 0 2 1 0 0 0 0 0 0 2 2 0 0 0 0 0 1 2 2 0 0 0 0 2 0 0 0 0 0 2 2 2 0 0 0 2 1 2 0 0 0 1 0 0 2 1 0 1 0 0 0 0 1 0 1 0 1 1 0 0 0 0 0 0 0 2 0 0 2 2 0 0 2 0 1 2 0 1 0 1 0 0 1 0 1 0 0 1 2 0 0 2 0 1 0 0 1 2 0 0 2 0 2 0 0 0 0 0 1 2 0 2 2 1 2 2 2 0 2 0 0 0 0 0 0 0 1 1 0 0 0 1 1 1 2 2 2 1 1 0 0 0 0 0 0 2 0 0 0 0 0 2 2 0 0 0 0 2 2 0 2 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">age,business_travel,daily_rate,department,distance_from_home,education,education_field,employee_count,employee_number,environment_satisfaction,gender,hourly_rate,job_involvement,job_level,job_role,job_satisfaction,marital_status,monthly_income,monthly_rate,num_companies_worked,over_18,over_time,percent_salary_hike,performance_rating,relationship_satisfaction,standard_hours,stock_option_level,total_working_years,training_times_last_year,work_life_balance,years_at_company,years_in_current_role,years_since_last_promotion,years_with_curr_manager,attrition</Row>
+         <Row Item="2">41,1,1102,Sales,1,2,Life Sciences,1,1,2,Female,94,3,2,Sales Executive,4,Single,5993,19479,8,Y,Yes,11,3,1,80,0,8,0,1,6,4,0,5,Yes</Row>
+         <Row Item="3">49,2,279,Research &amp; Development,8,1,Life Sciences,1,2,3,Male,61,2,2,Research Scientist,2,Married,5130,24907,1,Y,No,23,4,4,80,1,10,3,3,10,7,1,7,No</Row>
+         <Row Item="4">34,1,628,Research &amp; Development,8,3,Medical,1,2068,2,Male,82,4,2,Laboratory Technician,3,Married,4404,10228,2,Y,No,12,3,1,80,0,6,3,4,4,3,1,2,No</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>48</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+         <Input Index="11">input_11</Input>
+         <Input Index="12">input_12</Input>
+         <Input Index="13">input_13</Input>
+         <Input Index="14">input_14</Input>
+         <Input Index="15">input_15</Input>
+         <Input Index="16">input_16</Input>
+         <Input Index="17">input_17</Input>
+         <Input Index="18">input_18</Input>
+         <Input Index="19">input_19</Input>
+         <Input Index="20">input_20</Input>
+         <Input Index="21">input_21</Input>
+         <Input Index="22">input_22</Input>
+         <Input Index="23">input_23</Input>
+         <Input Index="24">input_24</Input>
+         <Input Index="25">input_25</Input>
+         <Input Index="26">input_26</Input>
+         <Input Index="27">input_27</Input>
+         <Input Index="28">input_28</Input>
+         <Input Index="29">input_29</Input>
+         <Input Index="30">input_30</Input>
+         <Input Index="31">input_31</Input>
+         <Input Index="32">input_32</Input>
+         <Input Index="33">input_33</Input>
+         <Input Index="34">input_34</Input>
+         <Input Index="35">input_35</Input>
+         <Input Index="36">input_36</Input>
+         <Input Index="37">input_37</Input>
+         <Input Index="38">input_38</Input>
+         <Input Index="39">input_39</Input>
+         <Input Index="40">input_40</Input>
+         <Input Index="41">input_41</Input>
+         <Input Index="42">input_42</Input>
+         <Input Index="43">input_43</Input>
+         <Input Index="44">input_44</Input>
+         <Input Index="45">input_45</Input>
+         <Input Index="46">input_46</Input>
+         <Input Index="47">input_47</Input>
+         <Input Index="48">input_48</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>48</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="8">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="9">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="10">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="11">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="12">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="13">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="14">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="15">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="16">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="17">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="18">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="19">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="20">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="21">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="22">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="23">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="24">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="25">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="26">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="27">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="28">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="29">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="30">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="31">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="32">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="33">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="34">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="35">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="36">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="37">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="38">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="39">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="40">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="41">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="42">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="43">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="44">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="45">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="46">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="47">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="48">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>48</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Sigmoid</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>151</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>WeightedSquaredError</LossMethod>
+         <WeightedSquaredError>
+            <PositivesWeight>-1.000000</PositivesWeight>
+            <NegativesWeight>-1.000000</NegativesWeight>
+         </WeightedSquaredError>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>98</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

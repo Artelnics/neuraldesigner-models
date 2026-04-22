@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="TextClassification">
+   <Description Id="7ai4NC"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/amazonreviewslabelled/amazonreviewslabelled.txt</Path>
+         <Separator>Tab</Separator>
+         <HasHeader>0</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>43</VariablesNumber>
+         <Variable Item="1">
+            <Name>variable_1</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>variable_2</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>variable_3</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>variable_4</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>variable_5</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>variable_6</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>variable_7</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>variable_8</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="9">
+            <Name>variable_9</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>variable_10</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>variable_11</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="12">
+            <Name>variable_12</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="13">
+            <Name>variable_13</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="14">
+            <Name>variable_14</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="15">
+            <Name>variable_15</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="16">
+            <Name>variable_16</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="17">
+            <Name>variable_17</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="18">
+            <Name>variable_18</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="19">
+            <Name>variable_19</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="20">
+            <Name>variable_20</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="21">
+            <Name>variable_21</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="22">
+            <Name>variable_22</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="23">
+            <Name>variable_23</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="24">
+            <Name>variable_24</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="25">
+            <Name>variable_25</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="26">
+            <Name>variable_26</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="27">
+            <Name>variable_27</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="28">
+            <Name>variable_28</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="29">
+            <Name>variable_29</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="30">
+            <Name>variable_30</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="31">
+            <Name>variable_31</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="32">
+            <Name>variable_32</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="33">
+            <Name>variable_33</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="34">
+            <Name>variable_34</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="35">
+            <Name>variable_35</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="36">
+            <Name>variable_36</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="37">
+            <Name>variable_37</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="38">
+            <Name>variable_38</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="39">
+            <Name>variable_39</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="40">
+            <Name>variable_40</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="41">
+            <Name>variable_41</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="42">
+            <Name>variable_42</Name>
+            <Scaler>None</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="43">
+            <Name>variable_43</Name>
+            <Scaler>None</Scaler>
+            <Role>Target</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>1000</SamplesNumber>
+         <SampleRoles>2 2 0 0 0 0 1 0 2 0 0 1 0 0 0 0 2 2 0 0 0 0 0 1 1 0 1 1 0 0 0 2 1 1 0 0 0 1 0 2 0 0 0 0 0 1 1 0 0 0 2 1 0 2 0 0 0 0 1 0 1 0 2 0 0 0 0 0 2 0 0 2 0 2 0 0 0 0 1 2 0 1 0 0 0 0 1 0 0 2 0 1 2 0 0 0 1 2 2 0 1 0 2 0 0 2 1 0 0 1 0 2 1 0 0 2 1 2 2 0 2 0 2 0 0 0 0 2 0 2 0 1 0 0 0 0 2 1 2 1 0 2 1 2 0 0 0 0 0 0 0 2 0 0 2 0 1 0 0 0 0 0 1 1 0 0 1 2 2 2 1 0 0 0 0 0 2 2 1 0 0 1 1 2 0 0 1 0 0 0 0 1 0 0 2 2 2 0 0 2 0 1 0 2 0 1 2 0 1 0 1 0 2 0 2 0 1 0 0 2 0 0 0 0 0 1 2 1 1 0 2 0 0 0 2 2 0 1 2 0 1 0 1 0 2 0 1 0 0 2 2 1 0 1 1 1 2 0 0 0 2 0 0 0 0 1 1 0 0 0 0 2 0 1 0 0 1 2 1 0 0 0 0 1 0 2 2 0 0 0 2 2 2 1 1 0 0 2 0 0 0 1 0 0 0 0 0 0 1 2 0 2 2 0 2 2 1 2 0 0 0 0 0 0 2 0 1 1 0 1 0 0 0 0 0 0 2 0 2 1 1 1 0 0 1 0 2 1 0 2 0 2 0 0 0 0 0 1 1 0 0 0 0 0 2 0 0 2 0 0 1 2 0 0 0 0 0 2 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 2 0 0 1 0 1 0 0 2 1 1 0 0 1 0 2 0 2 0 2 2 0 0 1 0 1 0 0 0 1 2 0 1 1 0 1 0 1 0 1 0 1 1 0 0 0 1 0 2 1 2 2 2 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 0 0 1 0 2 0 2 2 2 0 2 2 0 0 0 0 2 0 1 0 0 0 1 1 2 2 2 1 0 0 0 0 0 0 0 0 0 0 2 2 0 1 0 1 2 1 2 2 1 0 0 0 2 0 0 1 0 2 0 1 2 0 0 1 0 0 2 0 1 0 0 0 1 1 0 0 1 2 0 0 1 2 2 0 1 1 2 0 0 0 2 0 0 2 2 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 2 0 2 0 0 1 0 0 0 0 2 1 1 2 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 1 0 0 0 1 0 0 0 0 0 1 2 0 1 1 2 1 2 0 0 0 0 0 0 0 0 0 2 0 2 1 1 0 0 0 0 1 1 1 0 2 1 1 2 0 1 0 0 0 0 0 1 2 1 2 0 1 0 0 0 2 1 0 0 0 0 2 2 0 0 0 0 0 2 2 0 0 0 2 1 0 1 0 0 0 0 2 2 2 0 2 0 2 0 2 0 0 0 0 1 1 2 1 0 1 0 1 0 0 0 0 0 0 2 0 1 2 0 0 0 0 2 0 0 1 0 0 1 0 0 0 0 0 0 0 2 0 0 0 1 2 0 0 1 1 1 2 0 0 2 0 0 0 0 0 0 1 1 1 0 0 0 0 2 0 0 0 2 0 1 0 0 1 0 0 0 2 0 1 0 0 0 2 0 2 1 0 0 2 2 0 0 0 0 1 2 0 1 0 0 0 1 0 0 0 2 2 0 0 1 2 0 0 2 0 1 0 0 2 2 1 1 0 1 1 0 0 2 0 0 0 2 0 0 0 1 0 1 0 0 2 1 2 0 0 0 0 2 0 1 2 2 0 1 1 2 0 0 2 1 0 0 0 2 1 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 2 0 0 0 0 0 2 0 0 2 0 0 0 1 0 0 1 1 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 2 0 0 1 1 0 2 0 1 2 2 0 0 2 2 0 2 0 0 0 2 0 0 0 0 2 0 0 2 1 0 1 2 0 2 0 2 2 0 0 0 1 0 0 1 0 2</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>0</PreviewSize>
+      </PreviewData>
+      <InputVocabulary>[PAD]	[UNK]	[START]	[END]	.	the	i	and	it	,	is	a	this	to	'	phone	!	my	for	of	not	with	very	great	on	was	in	that	t	good	-	have	you	product	quality	had	headset	works	battery	but	as	s	sound	are	well	so	all	use	one	ear	work	has	would	from	your	like	be	)	if	case	me	than	ve	don	up	excellent	price	time	after	no	does	(	recommend	really	2	at	can	or	out	best	service	only	when	m	also	nice	get	just	too	am	any	these	love	worked	new	ever	do	"	first	better	buy	item	money	charger	an	more	they	easy	about	because	bluetooth	even	car	comfortable	now	what	bought	there	reception	then	doesn	used	did	its	could	happy	poor	been	will	which	bad	waste	charge	still	two	purchase	made	few	cell	while	off	worst	thing	them	device	camera	got	fine	motorola	long	enough	piece	same	calls	far	problem	life	problems	right	much	again	hear	clear	other	volume	fit	using	make	fits	makes	design	working	plug	couldn	terrible	people	call	over	disappointed	into	think	looks	phones	screen	pretty	customer	cool	everything	days	verizon	amazon	;	months	years	cheap	highly	impressed	1	low	how	lot	5	wear	$	however	little	unit	broke	back	voice	small	3	jabra	buttons	horrible	being	tried	by	junk	year	their	look	last	light	/	talk	without	found	never	went	?	quite	take	we	since	way	most	both	loud	several	&amp;	nokia	down	company	useless	gets	dropped	looking	big	some	didn	real	completely	headsets	internet	audio	software	say	samsung	within	go	going	picture	stay	headphones	want	three	hands	minutes	crap	ears	difficult	before	black	priced	anyone	find	around	signal	received	perfectly	d	less	need	came	end	every	simple	cable	put	sturdy	feels	cases	hours	especially	plastic	expect	range	razr	important	definitely	anything	couple	hold	different	line	return	belt	disappointing	charm	shipping	job	turn	keep	started	awesome	another	pictures	wife	feature	quickly	arrived	old	replace	where	clarity	high	sure	cannot	disappointment	value	many	free	easily	kind	color	always	weeks	mobile	pleased	original	data	helpful	none	strong	overall	week	charging	nothing	know	connection	part	hard	having	plantronics	away	awful	unfortunately	instructions	own	keyboard	comes	sucks	comfortably	kept	order	:	others	ringtones	player	said	treo	leather	face	able	easier	place	hate	lightweight	lasts	decent	purchased	absolutely	actually	wanted	seems	times	tool	bars	holds	try	mic	buying	bargain	weak	clip	side	later	deal	seller	set	family	extra	rather	either	satisfied	mistake	fast	unreliable	cingular	earpiece	were	expected	here	sending	10	lg	left	performance	worth	ago	obviously	must	usb	those	support	blue	glad	she	day	store	goes	should	*	features	avoid	market	pairing	wrong	pay	given	holster	ordered	probably	decision	pair	experience	outlet	results	yet	though	beautiful	perhaps	oh	iphone	unless	form	drain	reasonably	match	extremely	pc	between	such	simply	beep	bt	super	under	scratched	replacement	thought	jawbone	fall	microphone	plan	happier	lost	care	conversations	lacking	plugged	above	provided	ease	once	computer	finally	chargers	drops	rocks	510	seconds	uncomfortable	slow	despite	wireless	earbud	instead	home	sprint	protection	description	packaged	fantastic	contacts	almost	star	turned	expensive	setup	choice	ll	speaker	construction	might	wasn	trouble	everyone	thats	getting	palm	worthless	drop	seriously	pocket	poorly	break	sony	size	trying	q	display	included	who	forever	give	sharp	charged	tinny	area	noise	failed	dead	refund	feel	network	comfort	below	needed	coverage	dont	front	earpieces	plus	through	wearing	static	longer	flip	handsfree	may	pda	50	recharge	certainly	whatsoever	quick	mp3	logitech	keypad	cover	play	let	ipod	basically	additional	embarrassing	holding	forget	reviews	please	noticed	mess	recognition	red	tremendous	dying	during	maintain	experienced	ask	docking	normal	flaw	joke	stupid	third	takes	re	forced	advise	large	echo	exactly	shipped	crisp	purchasing	making	wind	moto	quiet	brand	literally	station	send	tech	full	stated	conversation	d807	bother	lock	unacceptable	skype	download	review	user	extended	wouldn	sides	music	push	person	install	careful	tones	cumbersome	excited	seem	something	reason	spring	ringing	bar	along	access	sex	saying	6	understand	warranty	technology	sounds	turns	save	ended	chinese	%	glasses	ring	unhappy	appears	beware	reading	party	video	sizes	regarding	handy	superb	paired	power	coming	flash	sunglasses	buyer	model	returning	numerous	barely	least	eargels	wired	starts	done	purpose	graphics	series	tips	wall	unusable	white	thank	advertised	hand	catching	consumer	pull	7	died	flawlessly	igo	pros	operate	batteries	slim	games	neither	broken	cut	tooth	house	effect	4	lasting	cant	dialing	resolution	driving	next	told	figure	stars	storage	tries	override	notice	20	adorable	took	impressive	essentially	connected	huge	functionality	buzzing	listening	breaking	returned	book	fire	att	tell	breaks	previous	particular	protector	date	bottom	website	things	flimsy	defective	switch	placed	he	accept	described	w810i	wise	dropping	sometimes	alone	ok	complaint	won	thin	loves	whole	friendly	run	wow	#	ability	nearly	worthwhile	stuff	accidentally	sounded	warning	come	gels	receiving	button	us	auto	caused	allows	although	timeframe	current	sleek	issues	together	felt	exchanged	month	feet	incredible	says	cheaper	answer	smell	etc	laptop	im	number	amazed	clearly	lose	wasted	background	secure	hour	cellphone	usually	touch	bit	room	waiting	gotten	inside	costs	owned	fails	hoping	blackberry	good7	ericsson	lightly	sync	penny	christmas	wallet	letting	imac	peachy	type	hair	excrutiatingly	durable	gosh	browser	freezes	comments	unintelligible	cancelling	infatuated	apparently	whine	scary	stereo	toast	8	existing	snug	giving	covered	cute	roam	thru	means	our	offers	glove	rotating	online	survived	capability	favorite	lesson	buds	visor	upbeat	gave	night	contacting	strap	transmit	contstruct	hinge	motor	occupied	mega	satisifed	overnite	happening	handset	cat	ticking	alarm	promptly	situations	fm	option	reach	headbands	increase	cables	detachable	media	designs	update	attacked	seat	protective	point	jerks	hit	8530	promised	strip	stays	grey	5020	removing	razor	bend	mostly	invented	ad	amp	crack	pleasantly	sooner	frustration	truly	message	kindle	backlight	stress	complained	investment	smartphone	13	specs	elsewhere	disconnected	nightmare	bland	voltage	practice	earlier	amazing	transfer	motorolas	ft	earset	wirefly	bluetoooth	funny	antena	compared	bucks	check	jack	recognizes	appealing	defeats	damage	absolutel	performing	offering	likes	e715	living	12	15g	vx	350	v1	os	transmitters	engineered	riingtones	latest	land	8525	weight	options	mins	thorn	file	equipment	earbuds	needless	stopped	embarassing	soft	rip	premium	improve	dollar	print	adhesive	abound	aspect	rocketed	inexpensive	practically	pens	add	minute	shape	keeps	beat	hs850	l7c	gadget	industrial	concrete	copy	compromise	needs	dna	knock	transformed	share	gadgets	monkeys	organizational	sitting	communicate	players	vehicle	accessing	los	trust	lately	disapointing	somewhat	prime	overly	bed	portraits	simpler	frequentyly	control	rests	loudspeaker	joy	replaced	lights	pushed	leaks	possesed	hot	according	apart	boot	pleather	called	applifies	hype	immediately	whoa	specially	periodically	cds	delivery	375	sketchy	transmission	finished	seemed	edge	currently	brilliant	fourth	note	abhor	mode	displeased	course	browsing	holder	multiple	curve	100	near	reverse	hurt	krussel	flops	china	slide	practical	fact	operates	linking	asia	soyo	colors	ordering	loved	items	reccomendation	self	earphones	magical	constructed	help	comparably	span	adapters	today	exclaim	devices	recieve	timely	effects	discarded	cradles	eye	card	creaks	excelent	2160	24	cingulair	deaf	louder	qwerty	read	hoursthe	exceeds	basement	shows	distorted	unknown	wonder	yell	forgot	upstairs	mention	recently	fooled	stuck	iriver	ugly	menus	spinn	usefulness	majority	port	fond	anyway	ride	2000	ones	magnetic	angeles	oem	regret	accompanied	atleast	attractive	luck	window	muddy	realize	disapoinment	casing	discomfort	appearance	relative	sanyo	blacktop	designed	enter	cellular	cent	imagine	drained	defect	patient	risk	due	destroying	carriers	thereplacement	key	pad	iam	conditions	compliments	lit	whether	walked	portable	colleague	theory	wi	toactivate	basic	communications	humans	reboots	overnight	bougth	fraction	winner	shouldn	hat	inches	oozes	wooden	useful	shipment	restart	petroleum	geeky	plays	bt250v	speakerphone	solid	mark	surefire	smoother	buyers	ericson	slid	sos	cancellation	appointments	images	remorse	four	accessoryone	tmobile	megapixels	protected	standard	irda	vx9900	average	env	slider	songs	combination	h500	destination	correctly	aluminum	styles	plans	biggest	garbage	skip	looses	fingers	converter	cost	pitiful	frequently4	available	respect	pads	build	inexcusable	mute	exterior	flush	noises	integrated	palmtop	dieing	bmw	pixel	scratch	world	waaay	roles	haul	11	ant	messages	bose	steep	nyc	pack	reccommend	randomly	open	ends	elegant	microsoft	jabra350	bumpers	numbers	happens	frog	function	guess	handheld	earbugs	tracfonewebsite	wish	ideal	electronics	awsome	kits	outside	believe	orders	distracting	managed	weird	source	posted	max	startac	stand	refuse	commuter	sliding	loops	windows	shield	delay	cradle	avoiding	runs	sold	incrediable	sudden	lots	improvement	activate	gentle	supertooth	steer	flawless	everyday	encourage	receive	kitchen	counter	cracked	keen	laughing	hitch	continues	channel	clever	directly	missed	bubbling	messaging	wrongly	stream	outperform	peeling	definitly	zero	study	exercise	fairly	package	contact	friends	enjoy	ringer	ample	snap	bluetooths	virgin	wire	isn	otherwise	flawed	loads	effective	slipping	hated	instruction	alot	downloading	shouldve	boost	greater	detailed	buyit	functions	signals	smoking	severe	constantly	gx2	suddenly	photo	modest	procedures	excessive	strength	listener	aggravating	threw	unacceptible	clipping	wiping	dissapointing	connecting	navigate	whistles	arguing	fully	cheaply	pause	insert	fun	liked	idea	negatively	booking	4s	calendar	trash	research	division	doing	purchases	normally	nicer	+	infuriating	entertainment	charges	europe	s710a	stops	era	pain	arrival	owner	crappy	earpad	wobbly	decade	compete	hoped	faceplates	droid	accessory	finds	mail	700w	competitors	sins	recommended	top	transceiver	perfect	each	genuine	originally	receipt	drains	surprised	fabulous	complaints	five	messes	submerged	e	reasonable	bitpim	program	tracking	learned	performed	superfast	incoming	short	resistant	disappoint	functional	address	neat	contacted	produce	morning	exchange	allot	refurb	falling	utter	center	unsatisfactory	loop	tiny	sturdiness	latch	jx	rate	tungsten	behing	flipphones	smoothly	authentic	interested	manufacturer	happened	assumed	continue	locks	inform	state	screens	wasting	gonna	killer	built	cellphones	mediocre	locked	misleading	stylish	325	worn	choices	external	mind	sucked	upload	acceptable	680	balance	embedded	ready	factor	describe	forgeries	hardly	explain	ca	15	smallest	ergonomic	bills	entire	bulky	cbr	mp3s	beeping	preferably	ripped	shots	mini	glued	strange	drivng	v325i	purcashed	total	products	ipods	3o	r	relatively	fi	crashed	mechanism	corded	thanks	machine	quit	contract	unbearable	18	sources	freeway	double	hearing	moving	father	pockets	waterproof	allow	via	grip	pants	juice	incredibly	breakage	faster	somehow	psyched	prevents	linked	tv	interface	sensitive	freedom	passed	signs	shouting	fry	pricing	reliability	tight	tone	copier	units	provides	allowing	replacementr	classy	texas	dit	5320	setting	protects	mainly	excels	earphone	soon	whatever	s11	angle	blueant	metro	cheapy	mother	pcs	sch	r450	plugs	plenty	capacity	websites	utterly	confortable	highy	periods	hey	suprised	directions	commercials	ac	dustpan	indoors	disposable	puff	deffinitely	smoke	tape	armband	convenient	shifting	restored	ill	nano	understanding	son	dissapointed	expectations	carries	highest	anti	wont	seperated	reoccure	wake	anywhere	somewhere	o	else	floor	apartment	properly	generally	clicks	inconspicuous	development	slowly	toilet	boy	sorry	impossible	refused	upgrade	sim	discount	possibility	beats	nicely	effort	communication	garbled	colored	management	activesync	optimal	42	synchronization	disgusting	coupon	seamlessly	activated	except	2mp	rare	instance	ps3	talking	telephone	yes	whose	shiny	recessed	grtting	changing	44	until	v3c	sight	checked	everywhere	bells	palms	crawl	awkward	reversible	v265	fulfills	significantly	intermittently	followed	procedure	reaching	row	odd	tick	keys	cassette	mine	planning	lap	rated	shooters	ngage	dirty	mere	shine	haven	securly	seeen	improper	sensor	renders	sent	ir	tracfone	glare	usage	wood	counterfeit	addition	noted	lousy	see	travled	controls	swivel	fliptop	installed	sister	tied	dual	thumbs	e2	heavy	mentioned	8125	bt50	keeping	intended	muffled	drawback	bottowm	walkman	gimmick	girl	opens	causing	maintains	confusing	web	cutouts	outgoing	material	flaws	exceptional	official	metal	couldnt	loudest	tools	starter	show	saved	cuts	infra	clips	connect	totally	word	hundred	leaf	wonderfully	smudged	wild	saggy	v3i	floppy	regretted	[	searched	]	carry	potentially	pics	loose	stop	eventually	child	dozen	supposedly	major	prettier	owning	requirements	manual	against	jiggle	wit	rating	dozens	canal	someone	accessable	unlike	rubber	clock	rest	usable	2005	clearer	memory	keypads	z500a	humming	certain	places	complain	leopard	fixes	trunk	styling	carried	restocking	45	darn	videos	prompt	fee	seen	sweetest	securely	hook	blew	directed	knows	adapter	linksys	provide	lense	hybrid	falls	text	tricky	painful	speed	lasted	touches	comfortible	plantronincs</InputVocabulary>
+      <TargetVocabulary>[PAD]	[UNK]	[START]	[END]	good	bad</TargetVocabulary>
+      <MaximumInputSequenceLength>42</MaximumInputSequenceLength>
+      <MaximumTargetSequenceLength>1</MaximumTargetSequenceLength>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>42</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+         <Input Index="11">input_11</Input>
+         <Input Index="12">input_12</Input>
+         <Input Index="13">input_13</Input>
+         <Input Index="14">input_14</Input>
+         <Input Index="15">input_15</Input>
+         <Input Index="16">input_16</Input>
+         <Input Index="17">input_17</Input>
+         <Input Index="18">input_18</Input>
+         <Input Index="19">input_19</Input>
+         <Input Index="20">input_20</Input>
+         <Input Index="21">input_21</Input>
+         <Input Index="22">input_22</Input>
+         <Input Index="23">input_23</Input>
+         <Input Index="24">input_24</Input>
+         <Input Index="25">input_25</Input>
+         <Input Index="26">input_26</Input>
+         <Input Index="27">input_27</Input>
+         <Input Index="28">input_28</Input>
+         <Input Index="29">input_29</Input>
+         <Input Index="30">input_30</Input>
+         <Input Index="31">input_31</Input>
+         <Input Index="32">input_32</Input>
+         <Input Index="33">input_33</Input>
+         <Input Index="34">input_34</Input>
+         <Input Index="35">input_35</Input>
+         <Input Index="36">input_36</Input>
+         <Input Index="37">input_37</Input>
+         <Input Index="38">input_38</Input>
+         <Input Index="39">input_39</Input>
+         <Input Index="40">input_40</Input>
+         <Input Index="41">input_41</Input>
+         <Input Index="42">input_42</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>5</LayersNumber>
+         <Embedding>
+            <Label>embedding_layer</Label>
+            <VocabularySize>1889</VocabularySize>
+            <SequenceLength>42</SequenceLength>
+            <EmbeddingSize>64</EmbeddingSize>
+         </Embedding>
+         <MultiHeadAttention>
+            <Label>multihead_attention_layer</Label>
+            <InputSize>42</InputSize>
+            <ContextSize>42</ContextSize>
+            <Depth>64</Depth>
+            <HeadDimension>16</HeadDimension>
+            <HeadsNumber>4</HeadsNumber>
+            <CausalMask>0</CausalMask>
+         </MultiHeadAttention>
+         <Pooling3d>
+            <InputDimensions>42 64 </InputDimensions>
+            <PoolingMethod>MaxPooling</PoolingMethod>
+         </Pooling3d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>64</InputsNumber>
+            <NeuronsNumber>16</NeuronsNumber>
+            <Activation>RectifiedLinear</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>16</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Sigmoid</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="3">2</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="4">3</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>138593</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>CrossEntropyError2d</LossMethod>
+         <CrossEntropyError2d/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>AdaptiveMomentEstimation</OptimizationMethod>
+         <AdaptiveMomentEstimation>
+            <BatchSize>1000</BatchSize>
+            <LossGoal>-10.000000</LossGoal>
+            <MaximumEpochsNumber>75</MaximumEpochsNumber>
+            <MaximumTime>360000.000000</MaximumTime>
+            <HardwareUse>Multi-core</HardwareUse>
+         </AdaptiveMomentEstimation>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>86</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by Neural Engine-->
+<NeuralDesignerModel ModelType="Forecasting">
+   <Description Id="BPh71Y"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>macroeconomics.bin</Path>
+         <Separator>Comma</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <LagsNumber>2</LagsNumber>
+         <StepsAhead>1</StepsAhead>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <RawVariables>
+         <RawVariablesNumber>16</RawVariablesNumber>
+         <RawVariable Item="1">
+            <Name>date</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Time</Role>
+            <Type>DateTime</Type>
+         </RawVariable>
+         <RawVariable Item="2">
+            <Name>reference_rate_NBP</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="3">
+            <Name>consumer_price_index</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="4">
+            <Name>account_balance</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="5">
+            <Name>avg_monthly_salary_enterprise</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="6">
+            <Name>avg_employment_enterprise</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="7">
+            <Name>sold_production_industry</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="8">
+            <Name>price_index_industry</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="9">
+            <Name>unemployment_rate</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="10">
+            <Name>EURPLN</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="11">
+            <Name>USDPLN</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="12">
+            <Name>CHFPLN</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="13">
+            <Name>WIG20</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="14">
+            <Name>WIG</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="15">
+            <Name>WIBOR_3M</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="16">
+            <Name>core_inflation</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>InputTarget</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+      </RawVariables>
+      <Samples>
+         <SamplesNumber>227</SamplesNumber>
+         <SampleUses>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3</SampleUses>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>60</MissingValuesNumber>
+         <MissingValuesMethod>Unuse</MissingValuesMethod>
+         <RawVariablesMissingValuesNumber>0 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 </RawVariablesMissingValuesNumber>
+         <RowsMissingValuesNumber>4</RowsMissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">date,reference_rate_NBP,consumer_price_index,account_balance,avg_monthly_salary_enterprise,avg_employment_enterprise,sold_production_industry,price_index_industry,unemployment_rate,EURPLN,USDPLN,CHFPLN,WIG20,WIG,WIBOR_3M,core_inflation</Row>
+         <Row Item="2">01/01/2001,19,7.399,-348,9.929451014,-2.538071066,10.7,4.7,15.7,3.797,4.08,2.4696,1772.1,17602.9,18.87,6.6</Row>
+         <Row Item="3">01/02/2001,19,6.629,-434,7.725974768,-2.389014296,0,4.1,15.9,3.7197,4.0375,2.4113,1490.33,15471.5,18.29,6.1</Row>
+         <Row Item="4">20/11/2019,1.5,2.6,-999,5.3,2.6,1.4,-0.1,5.1,4.31466,3.9162,3.9164,2158.94,57502.14,1.71,2.6</Row>
+      </PreviewData>
+      <Display>0</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Features>
+         <FeaturesNumber>30</FeaturesNumber>
+         <Feature Index="1">reference_rate_NBP_lag0</Feature>
+         <Feature Index="2">reference_rate_NBP_lag1</Feature>
+         <Feature Index="3">consumer_price_index_lag0</Feature>
+         <Feature Index="4">consumer_price_index_lag1</Feature>
+         <Feature Index="5">account_balance_lag0</Feature>
+         <Feature Index="6">account_balance_lag1</Feature>
+         <Feature Index="7">avg_monthly_salary_enterprise_lag0</Feature>
+         <Feature Index="8">avg_monthly_salary_enterprise_lag1</Feature>
+         <Feature Index="9">avg_employment_enterprise_lag0</Feature>
+         <Feature Index="10">avg_employment_enterprise_lag1</Feature>
+         <Feature Index="11">sold_production_industry_lag0</Feature>
+         <Feature Index="12">sold_production_industry_lag1</Feature>
+         <Feature Index="13">price_index_industry_lag0</Feature>
+         <Feature Index="14">price_index_industry_lag1</Feature>
+         <Feature Index="15">unemployment_rate_lag0</Feature>
+         <Feature Index="16">unemployment_rate_lag1</Feature>
+         <Feature Index="17">EURPLN_lag0</Feature>
+         <Feature Index="18">EURPLN_lag1</Feature>
+         <Feature Index="19">USDPLN_lag0</Feature>
+         <Feature Index="20">USDPLN_lag1</Feature>
+         <Feature Index="21">CHFPLN_lag0</Feature>
+         <Feature Index="22">CHFPLN_lag1</Feature>
+         <Feature Index="23">WIG20_lag0</Feature>
+         <Feature Index="24">WIG20_lag1</Feature>
+         <Feature Index="25">WIG_lag0</Feature>
+         <Feature Index="26">WIG_lag1</Feature>
+         <Feature Index="27">WIBOR_3M_lag0</Feature>
+         <Feature Index="28">WIBOR_3M_lag1</Feature>
+         <Feature Index="29">core_inflation_lag0</Feature>
+         <Feature Index="30">core_inflation_lag1</Feature>
+      </Features>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling3d>
+            <InputDimensions>2 15 </InputDimensions>
+            <ScalingFeature Index="0">
+               <Descriptives>1.5 19 4.54954 3.28509 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="1">
+               <Descriptives>-1.6 7.399 2.16682 1.83748 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="2">
+               <Descriptives>-3510 2581 -806.018 853.207 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="3">
+               <Descriptives>-0.0190702 13.2 4.8959 2.53773 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="4">
+               <Descriptives>-4.97206 5.8 0.942521 2.81548 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="5">
+               <Descriptives>-15.3 30.002 5.69176 6.77352 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="6">
+               <Descriptives>-2.8 9.6 1.92811 2.84333 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="7">
+               <Descriptives>5.1 20.7 13.1309 4.0656 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="8">
+               <Descriptives>3.2112 4.8888 4.09823 0.30208 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="9">
+               <Descriptives>2.0603 4.2558 3.39243 0.504856 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="10">
+               <Descriptives>1.9654 4.13489 3.08714 0.582468 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="11">
+               <Descriptives>1022.62 3877.62 2213.67 607.83 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="12">
+               <Descriptives>11890.6 66077.7 40450.8 15258.8 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="13">
+               <Descriptives>1.65 18.87 4.81908 3.30774 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="14">
+               <Descriptives>-0.4 6.6 1.57788 1.37729 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+         </Scaling3d>
+         <Recurrent>
+            <Label>recurrent_layer</Label>
+            <InputDimensions>2 15 </InputDimensions>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <Biases>0.000967056 </Biases>
+            <InputWeights>0.129627 0.336527 -0.0144419 0.0301541 -0.172629 -0.0442373 0.0726676 -0.168312 0.00103094 0.0615049 0.0296448 0.00349542 0.0763992 0.152128 0.715265 </InputWeights>
+            <RecurrentWeights>-0.0265489 </RecurrentWeights>
+         </Recurrent>
+         <Unscaling>
+            <NeuronsNumber>1</NeuronsNumber>
+            <UnscalingNeuron Index="1">
+               <Descriptives>-0.4 6.6 1.57788 1.37729 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </UnscalingNeuron>
+         </Unscaling>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">core_inflation_ahead</Output>
+      </Outputs>
+      <Display>1</Display>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <LossIndex>
+         <LossMethod>NormalizedSquaredError</LossMethod>
+         <NormalizedSquaredError/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </LossIndex>
+      <OptimizationAlgorithm>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.001000</LossGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </OptimizationAlgorithm>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronsSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>10</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronsSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>1.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

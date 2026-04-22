@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Approximation">
+   <Description Id="1P4VLv"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/superconductorcriticaltemperature/superconductor.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>82</VariablesNumber>
+         <Variable Item="1">
+            <Name>number_of_elements</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>mean_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>wtd_mean_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>gmean_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="5">
+            <Name>wtd_gmean_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>entropy_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="7">
+            <Name>wtd_entropy_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>range_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="9">
+            <Name>wtd_range_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>std_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>wtd_std_atomic_mass</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="12">
+            <Name>mean_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="13">
+            <Name>wtd_mean_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="14">
+            <Name>gmean_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="15">
+            <Name>wtd_gmean_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="16">
+            <Name>entropy_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="17">
+            <Name>wtd_entropy_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="18">
+            <Name>range_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="19">
+            <Name>wtd_range_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="20">
+            <Name>std_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="21">
+            <Name>wtd_std_fie</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="22">
+            <Name>mean_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="23">
+            <Name>wtd_mean_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="24">
+            <Name>gmean_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="25">
+            <Name>wtd_gmean_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="26">
+            <Name>entropy_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="27">
+            <Name>wtd_entropy_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="28">
+            <Name>range_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="29">
+            <Name>wtd_range_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="30">
+            <Name>std_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="31">
+            <Name>wtd_std_atomic_radius</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="32">
+            <Name>mean_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="33">
+            <Name>wtd_mean_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="34">
+            <Name>gmean_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="35">
+            <Name>wtd_gmean_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="36">
+            <Name>entropy_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="37">
+            <Name>wtd_entropy_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="38">
+            <Name>range_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="39">
+            <Name>wtd_range_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="40">
+            <Name>std_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="41">
+            <Name>wtd_std_Density</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="42">
+            <Name>mean_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="43">
+            <Name>wtd_mean_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="44">
+            <Name>gmean_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="45">
+            <Name>wtd_gmean_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="46">
+            <Name>entropy_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="47">
+            <Name>wtd_entropy_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="48">
+            <Name>range_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="49">
+            <Name>wtd_range_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="50">
+            <Name>std_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="51">
+            <Name>wtd_std_ElectronAffinity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="52">
+            <Name>mean_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="53">
+            <Name>wtd_mean_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="54">
+            <Name>gmean_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="55">
+            <Name>wtd_gmean_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="56">
+            <Name>entropy_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="57">
+            <Name>wtd_entropy_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="58">
+            <Name>range_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="59">
+            <Name>wtd_range_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="60">
+            <Name>std_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="61">
+            <Name>wtd_std_FusionHeat</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="62">
+            <Name>mean_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="63">
+            <Name>wtd_mean_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="64">
+            <Name>gmean_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="65">
+            <Name>wtd_gmean_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="66">
+            <Name>entropy_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="67">
+            <Name>wtd_entropy_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="68">
+            <Name>range_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="69">
+            <Name>wtd_range_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="70">
+            <Name>std_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="71">
+            <Name>wtd_std_ThermalConductivity</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="72">
+            <Name>mean_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="73">
+            <Name>wtd_mean_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="74">
+            <Name>gmean_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="75">
+            <Name>wtd_gmean_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="76">
+            <Name>entropy_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="77">
+            <Name>wtd_entropy_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="78">
+            <Name>range_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="79">
+            <Name>wtd_range_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="80">
+            <Name>std_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="81">
+            <Name>wtd_std_Valence</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="82">
+            <Name>critical_temp</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Target</Role>
+            <Type>Numeric</Type>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>21263</SamplesNumber>
+         <SampleRoles>2 0 0 0 0 0 2 0 0 2 0 1 0 1 0 1 1 2 2 1 0 2 0 0 2 0 0 0 0 2 0 2 0 2 0 1 0 0 1 1 0 0 0 0 1 2 1 0 0 1 1 2 0 1 0 0 0 2 0 0 0 0 1 1 0 2 0 0 0 2 0 2 1 1 1 0 0 0 0 2 0 1 1 0 2 1 2 0 0 0 0 0 1 0 0 1 1 0 0 0 0 1 1 2 2 0 0 1 0 0 0 0 2 1 1 0 1 2 2 2 0 0 0 1 1 0 0 0 0 1 1 0 0 2 0 0 2 1 0 0 0 2 2 1 0 0 0 2 2 0 1 2 1 2 2 0 0 2 0 2 1 0 0 1 0 0 0 0 0 0 2 1 2 2 0 0 0 0 1 2 0 2 1 0 0 2 0 0 1 1 1 0 0 0 0 0 0 0 1 0 2 2 0 0 0 2 2 2 1 0 1 0 0 0 2 1 0 1 0 0 0 1 0 0 1 0 1 0 1 1 0 1 1 2 0 2 0 0 0 1 1 0 2 2 1 0 1 2 0 2 0 0 0 1 1 2 1 2 1 0 1 0 0 0 0 0 1 2 0 0 1 0 1 1 1 1 0 0 0 0 1 0 0 2 1 0 0 0 1 2 0 1 0 0 0 1 0 1 0 2 2 2 1 0 1 0 0 0 0 1 2 0 1 0 0 1 0 0 0 0 0 0 0 2 0 1 1 0 1 2 0 0 2 0 2 0 0 0 1 0 0 2 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 1 2 0 0 0 2 0 2 1 0 0 2 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 0 2 0 0 2 0 0 2 0 1 0 2 2 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 2 2 0 0 2 2 1 0 2 1 0 0 0 0 2 0 0 2 2 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 2 1 1 0 0 0 2 1 0 0 0 0 1 0 0 1 2 2 0 2 0 0 0 1 2 2 0 2 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 1 1 2 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 1 2 0 1 1 0 1 1 0 2 0 2 0 0 1 0 2 0 2 2 0 0 0 2 2 0 0 1 0 0 0 0 0 0 0 2 1 0 1 0 0 0 0 0 1 2 0 0 1 1 1 0 0 0 0 1 0 2 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 1 0 0 2 0 1 0 2 0 1 0 0 0 0 0 0 1 0 0 1 0 1 1 0 0 0 2 0 1 0 0 0 0 0 1 0 1 2 1 0 0 0 0 1 0 2 0 1 0 0 0 2 0 1 1 0 2 0 2 0 0 0 1 0 0 0 0 1 1 0 0 0 2 0 1 0 0 1 0 2 1 0 2 1 0 0 0 2 0 1 1 0 0 0 0 2 1 2 0 2 0 0 1 0 0 0 0 0 0 0 2 0 0 0 1 1 1 1 0 0 0 0 2 0 1 0 0 1 2 0 0 2 0 0 2 0 0 0 2 0 2 0 1 0 0 0 2 2 0 0 2 0 2 0 0 0 0 0 2 0 1 0 2 2 0 0 0 2 0 0 0 2 0 0 0 0 1 0 1 1 0 0 0 0 2 0 0 1 0 0 2 0 1 0 0 0 1 2 2 1 0 0 0 0 0 1 1 0 2 0 2 0 0 0 2 0 0 1 0 0 0 1 2 2 0 1 1 0 0 1 1 0 2 0 1 2 2 1 0 1 1 2 0 0 0 2 0 1 0 2 2 0 0 1 0 1 0 2 0 0 0 0 0 0 1 0 0 0 1 2 1 0 1 0 0 0 1 1 0 0 0 1 1 2 2 1 0 0 2 1 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 2 2 0 0 2 0 1 0 0 0 0 0 2 0 1 2 0 0 1 1 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 1 0 1 0 0 2 0 0 0 0 1 1 0 0 0 0 0 0 2 0 1 2 0 1 1 1 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 2 0 0 1 0 0 2 2 0 1 2 0 1 0 1 0 2 1 0 0 1 0 0 1 1 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 1 0 2 0 0 2 1 2 2 0 2 0 0 0 0 1 1 0 0 2 2 0 0 1 0 0 0 0 2 2 1 2 0 0 2 1 0 0 0 0 0 2 2 0 0 2 0 0 0 0 1 1 2 0 0 1 0 2 0 0 2 0 0 1 2 0 0 0 0 0 2 0 0 2 1 2 0 0 2 0 0 1 2 0 0 0 0 0 0 0 1 0 0 2 1 0 0 2 0 0 2 0 0 2 0 1 0 1 0 2 0 0 0 0 0 0 2 2 2 0 1 2 0 2 0 0 2 1 0 0 0 0 1 2 0 0 2 0 0 2 1 0 2 2 0 1 0 0 1 0 1 1 2 1 1 0 2 0 0 2 0 1 0 0 0 0 0 0 0 2 0 0 0 2 0 0 2 1 0 0 2 0 0 0 0 1 0 0 0 2 0 2 1 0 0 0 0 1 2 2 2 2 0 0 0 0 0 0 0 0 0 2 0 2 1 0 2 0 0 2 1 2 2 0 1 0 0 0 0 0 1 1 0 1 0 0 0 1 0 0 0 0 0 1 2 0 0 1 2 0 1 0 0 1 0 0 1 0 2 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 2 0 0 0 2 0 1 0 2 0 2 0 1 1 1 0 2 1 0 0 0 0 0 1 0 0 0 2 0 2 0 1 2 0 1 2 0 0 0 1 0 1 0 0 0 0 1 0 2 0 0 0 2 2 0 2 2 0 0 0 0 0 0 0 2 0 1 0 0 1 0 0 0 0 0 2 0 2 0 0 2 1 0 2 1 0 0 1 1 2 0 0 1 0 1 0 1 1 0 2 2 0 0 0 2 0 1 0 0 0 1 2 0 0 2 2 0 0 2 0 1 0 0 0 0 1 2 0 0 1 0 0 2 0 2 1 1 0 0 0 2 2 0 0 1 1 0 1 1 0 1 1 0 1 0 2 0 1 1 1 2 0 1 1 2 0 0 0 0 0 0 1 0 0 0 2 2 0 0 0 0 2 1 2 0 2 0 0 0 0 0 0 0 2 0 1 1 0 0 0 0 0 2 0 0 0 0 0 0 2 0 0 0 2 0 0 0 0 1 1 2 1 1 0 0 0 2 0 2 1 0 0 1 0 0 2 2 0 0 0 0 1 1 1 2 0 1 2 2 0 0 0 1 1 0 0 1 0 2 0 2 0 1 0 0 2 1 0 0 0 2 2 2 1 1 2 0 2 2 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 1 2 1 0 1 1 2 0 1 1 0 0 1 2 1 0 0 0 2 0 0 0 1 0 2 0 0 0 2 1 0 2 0 1 0 0 0 1 1 1 0 2 1 0 0 0 1 0 0 0 0 0 2 1 0 0 0 0 2 0 1 0 2 1 0 0 0 1 2 0 2 2 0 0 2 0 2 0 0 0 1 0 0 2 1 0 0 0 0 1 0 0 1 0 0 0 0 0 2 1 2 0 0 2 2 1 0 0 2 0 0 0 2 0 2 2 1 2 0 2 0 0 0 0 1 0 0 0 0 2 0 0 1 0 0 0 0 0 1 2 0 0 2 2 0 1 0 0 0 2 2 0 2 2 1 1 0 0 0 0 0 2 2 2 2 2 0 0 0 2 2 0 0 0 2 1 1 2 0 1 0 0 0 1 1 0 2 2 0 0 0 1 2 0 1 0 0 1 1 2 0 2 1 0 1 0 1 0 0 0 1 1 0 0 1 1 1 2 1 0 1 2 2 2 2 1 1 1 1 0 2 2 2 0 0 0 0 2 2 1 1 1 2 0 0 0 0 0 0 0 2 0 0 0 0 1 0 0 0 1 0 0 1 0 0 1 2 1 1 2 0 2 1 2 1 0 0 1 0 1 0 1 1 0 0 1 0 0 2 1 0 0 0 0 0 1 0 0 2 0 0 2 1 0 0 0 0 2 0 2 0 2 0 0 1 0 0 0 0 0 1 0 0 1 0 1 0 2 2 0 0 0 1 1 0 2 0 0 0 0 2 1 0 0 1 0 0 0 1 2 0 2 0 0 1 2 0 2 2 0 0 0 0 1 0 0 0 0 0 0 1 1 2 2 0 0 0 0 1 2 0 1 0 0 0 2 1 2 0 2 0 2 2 2 0 0 0 0 0 0 1 0 2 1 0 2 1 0 1 0 1 1 1 2 0 0 0 2 0 0 0 1 0 2 2 0 1 0 0 0 0 1 1 2 0 0 0 1 1 0 0 1 0 0 0 0 0 0 2 1 0 1 0 0 0 0 2 1 2 1 0 1 0 2 1 0 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 0 0 1 1 1 2 2 0 0 0 1 0 2 1 1 0 1 0 0 1 1 2 2 2 1 1 0 2 1 0 2 0 2 0 0 2 0 0 2 0 2 0 0 0 2 1 0 2 2 0 0 0 0 0 0 0 1 0 0 2 1 0 0 0 2 2 0 2 0 1 1 1 2 0 1 2 1 0 2 0 0 0 0 0 0 0 2 2 0 1 1 1 0 0 2 0 0 0 2 2 2 1 0 0 1 2 0 0 0 0 0 1 2 0 0 2 0 0 1 0 0 2 2 1 0 2 0 0 0 2 2 0 2 0 0 2 0 0 0 0 0 0 2 0 2 0 0 2 0 0 0 0 2 0 2 0 1 0 0 2 0 2 2 0 2 1 1 0 1 0 2 1 1 0 1 1 2 1 0 0 0 2 1 1 2 0 0 0 0 0 0 0 0 0 2 0 0 2 0 0 0 0 1 2 0 0 0 0 1 0 2 0 0 0 0 1 2 1 2 0 2 2 2 1 0 2 2 1 1 0 1 0 0 2 0 0 1 0 0 0 1 0 0 0 0 1 0 2 1 0 0 1 0 1 2 0 0 0 0 2 0 0 0 0 0 0 2 0 0 0 0 0 2 0 0 1 1 0 0 0 0 2 0 0 2 0 0 0 0 0 0 2 0 2 1 2 1 0 1 0 0 0 0 0 0 1 2 1 1 0 2 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 2 0 1 0 0 2 0 0 0 0 0 1 1 0 1 1 0 2 0 0 1 1 2 0 0 0 0 2 0 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 1 0 0 2 1 1 0 1 0 0 0 2 2 0 0 1 1 1 2 1 2 0 1 1 0 0 2 0 0 0 0 0 2 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 1 2 0 0 0 1 0 2 1 0 0 0 0 2 0 0 0 2 0 1 0 2 0 0 2 0 0 0 0 0 0 2 2 2 0 2 1 2 2 0 0 0 0 0 0 2 0 0 0 0 0 2 1 0 0 1 1 0 0 0 0 1 0 0 1 1 0 1 0 2 1 0 2 1 1 0 0 0 1 0 0 2 0 0 0 1 1 0 2 0 0 2 0 0 1 0 1 2 2 1 0 0 2 1 2 2 0 0 0 0 0 0 0 0 0 1 2 0 1 0 2 2 0 0 0 0 0 0 0 0 2 0 2 0 0 1 0 2 2 1 0 0 1 1 2 2 1 0 0 1 0 0 0 0 0 1 0 1 0 0 1 0 0 2 0 2 0 2 2 1 0 0 0 0 1 0 0 1 1 1 1 2 0 0 0 0 2 2 0 0 0 0 2 0 2 0 0 2 0 1 0 2 0 0 0 0 0 0 0 0 0 0 1 2 2 1 2 1 0 0 0 1 0 0 1 0 0 1 1 0 1 1 0 0 2 0 0 0 1 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 2 0 0 2 0 1 0 1 1 2 0 0 1 0 2 2 0 0 0 0 0 2 0 0 2 1 0 0 1 0 0 0 2 0 0 1 2 0 0 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 2 0 0 0 0 1 2 0 0 0 2 0 1 1 0 0 2 0 2 2 2 0 2 0 0 0 0 0 2 1 2 0 1 2 0 0 2 1 0 0 1 2 0 0 1 0 2 2 2 2 0 1 2 0 1 0 0 1 0 1 0 0 0 0 0 1 2 0 1 1 1 0 2 1 0 2 2 0 0 2 2 0 0 0 0 1 0 2 0 0 0 1 0 0 2 0 0 0 0 0 2 0 0 2 2 0 0 1 0 2 0 2 1 0 0 0 1 1 0 2 0 2 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 1 0 0 0 1 2 0 0 1 1 0 2 0 0 1 2 0 0 0 1 1 1 2 2 0 0 0 0 0 2 0 0 1 0 0 2 1 2 2 0 2 1 1 2 0 0 0 0 0 1 2 0 0 1 1 1 0 2 0 0 0 2 0 0 0 2 0 1 2 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 0 0 2 2 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 2 0 0 2 0 0 0 2 0 2 0 0 0 0 1 1 0 2 0 1 0 2 0 0 0 0 1 0 1 0 0 2 0 0 2 0 1 1 2 0 2 2 0 0 0 2 0 2 2 0 0 2 0 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 2 0 1 2 1 2 0 1 0 0 2 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 2 0 1 0 0 1 1 0 1 0 0 1 2 0 0 2 1 0 0 0 0 0 1 2 0 0 2 0 0 0 0 0 0 1 0 0 1 2 0 2 0 2 1 2 0 0 2 0 0 2 2 0 0 2 0 0 1 1 0 0 0 2 0 0 0 0 0 0 0 0 0 2 2 1 0 1 1 2 1 1 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 1 2 0 0 2 1 0 0 0 0 0 0 0 0 1 0 0 0 2 0 1 2 0 1 1 1 0 0 0 0 2 2 0 0 1 0 2 2 2 2 0 0 0 0 1 1 0 1 0 2 0 0 0 0 1 0 1 0 0 0 0 1 2 0 0 2 0 0 0 1 0 0 0 1 2 0 2 0 2 1 1 0 0 0 0 2 1 2 1 1 0 0 2 0 0 1 1 0 0 0 0 1 2 0 0 0 0 0 0 0 0 1 1 0 0 2 1 0 0 1 0 0 2 1 1 0 0 0 2 2 1 2 1 0 1 0 0 2 1 2 0 1 0 0 0 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 2 0 2 0 0 1 0 1 0 1 0 0 0 0 1 0 0 0 2 0 0 2 0 0 1 0 0 1 0 0 0 1 1 0 0 2 1 1 0 1 0 1 0 0 2 2 0 2 1 2 1 0 2 0 0 0 0 2 0 1 0 0 0 0 0 0 0 2 2 2 1 1 1 1 0 1 2 0 0 0 0 0 1 2 0 1 2 0 0 0 0 0 0 1 0 0 2 0 0 1 0 2 0 0 1 0 1 1 1 0 0 1 1 0 2 0 1 0 2 2 2 2 0 2 0 2 2 1 0 2 0 0 1 0 0 0 0 2 0 0 0 2 2 0 0 0 2 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0 2 0 0 0 0 0 0 1 2 1 0 2 2 0 2 0 0 2 2 1 0 2 0 2 0 0 0 2 2 0 2 1 2 2 2 1 0 0 1 0 2 1 2 2 1 0 1 0 0 0 1 2 0 0 0 2 2 1 1 0 1 1 2 0 0 2 0 2 2 1 2 0 2 0 0 0 1 1 1 0 0 0 1 2 1 0 0 2 0 1 0 0 0 0 0 1 1 1 2 0 2 1 0 0 0 0 0 0 0 0 2 0 0 1 0 2 0 0 2 1 0 0 0 2 0 1 1 0 2 0 0 0 1 0 0 0 2 0 0 0 0 0 0 1 1 2 0 2 0 1 0 2 2 0 0 0 2 0 2 2 0 1 0 0 0 1 0 1 2 1 2 0 2 2 0 0 0 2 0 2 0 2 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 1 0 0 0 0 0 0 1 2 2 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 1 1 1 0 1 0 0 0 0 2 0 0 2 2 0 0 0 2 1 0 0 0 2 0 0 0 2 2 0 2 0 0 2 0 1 2 0 2 0 0 0 1 2 2 0 2 0 1 0 1 1 1 0 0 0 1 0 0 1 0 0 1 0 2 0 0 0 2 0 0 0 0 0 0 0 0 0 2 1 1 1 0 0 1 0 1 2 2 0 0 0 0 0 0 0 0 2 0 0 2 1 0 2 0 1 0 0 2 0 0 1 1 0 0 0 0 0 2 0 0 1 0 0 0 1 0 0 0 0 2 1 0 0 2 1 1 2 1 1 1 0 2 0 1 0 2 1 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 0 2 2 0 0 0 2 2 1 2 0 0 1 2 0 0 0 0 0 1 1 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 2 2 0 0 0 0 0 0 2 0 2 1 0 0 1 0 1 2 2 0 0 1 0 1 1 0 0 1 0 0 0 0 2 0 0 2 1 0 0 0 0 0 2 2 0 0 1 0 2 0 0 0 2 2 0 0 2 1 0 0 1 2 2 0 0 0 0 1 0 0 2 0 0 0 1 1 0 0 0 0 0 2 2 0 1 1 0 0 0 2 0 2 1 1 0 2 0 0 0 1 0 0 0 1 0 2 0 0 0 1 2 0 1 1 2 1 1 0 2 1 0 1 1 2 1 2 0 0 0 0 1 1 0 2 2 0 0 0 1 1 2 2 1 0 1 0 0 2 0 2 1 0 2 0 0 0 0 2 0 2 2 1 0 0 2 0 0 0 0 0 0 0 1 2 0 0 0 0 0 1 0 0 1 2 1 2 0 0 0 0 2 0 0 2 0 0 1 0 0 1 1 0 2 2 0 0 2 2 2 2 0 0 1 2 1 0 0 1 0 1 0 0 0 0 0 0 0 0 2 0 0 1 0 2 2 0 0 0 2 0 0 1 0 0 1 2 2 2 0 2 0 1 0 1 0 1 1 1 0 0 0 1 2 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 1 1 0 0 0 0 1 2 1 0 0 2 0 0 0 0 1 1 2 0 0 2 1 0 2 2 1 1 0 0 0 0 0 2 0 1 1 2 1 1 2 0 0 2 0 0 0 1 0 0 0 0 0 1 1 1 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 1 2 0 1 1 1 0 1 0 2 0 0 2 0 0 0 0 0 2 2 2 0 0 0 1 1 2 0 0 0 0 0 0 0 2 0 2 1 2 1 2 0 1 2 2 0 0 0 2 1 2 0 0 0 1 2 0 2 0 1 2 0 2 0 1 1 0 0 2 0 0 2 0 0 2 2 1 0 2 0 0 0 0 1 0 1 2 0 0 0 1 0 0 0 1 0 0 0 2 0 0 2 2 1 0 2 1 1 2 0 2 1 0 1 0 2 2 0 1 1 0 0 0 0 1 1 1 0 0 0 0 1 0 0 0 0 0 0 0 2 0 1 2 1 0 0 0 0 0 1 0 0 0 0 0 2 0 0 1 1 1 0 0 1 0 2 2 0 0 0 0 2 0 0 1 0 0 1 1 0 2 0 0 1 1 0 0 1 0 0 2 0 0 0 2 0 2 0 0 0 2 0 1 1 0 1 0 2 2 0 0 0 0 0 0 0 0 0 1 2 2 2 0 0 2 0 0 0 0 0 2 1 2 0 0 2 2 0 0 2 2 0 1 0 0 1 0 1 1 0 2 0 1 0 0 0 0 1 0 1 0 2 1 0 0 2 1 1 0 0 1 0 1 2 2 1 2 2 2 0 0 0 2 0 0 1 0 0 0 1 0 1 0 1 0 0 2 0 0 0 0 0 2 0 0 0 2 2 0 0 0 2 0 0 1 0 0 1 0 0 0 0 0 0 1 2 2 2 0 0 2 0 0 1 2 1 1 2 0 0 2 1 2 1 0 1 1 0 0 1 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 1 1 0 0 2 1 2 1 2 0 0 0 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 2 0 1 2 2 2 0 0 0 1 1 2 2 0 0 0 1 0 2 0 2 1 0 1 0 0 1 0 2 2 0 0 1 1 1 0 0 0 2 2 1 2 0 2 0 1 1 0 2 0 0 0 0 0 0 0 1 0 0 0 2 2 0 2 1 0 0 1 1 0 0 0 0 0 1 1 0 0 2 0 0 1 0 1 2 0 0 2 0 0 1 0 0 1 1 1 0 2 0 0 0 1 1 0 1 0 0 0 2 2 0 0 0 1 0 1 0 1 2 0 2 0 0 0 0 0 1 1 2 0 0 0 2 0 1 1 0 0 1 0 0 0 0 0 2 0 0 0 0 1 2 0 0 2 1 0 2 0 0 0 1 1 2 0 0 0 0 1 0 2 0 0 2 2 1 0 1 0 0 2 1 1 0 0 0 0 2 1 0 0 0 1 0 0 0 0 2 0 0 2 0 0 1 0 2 0 1 2 0 0 0 0 0 1 2 1 1 0 1 0 1 0 1 1 2 0 0 0 0 0 0 0 1 2 0 0 1 0 2 1 0 0 0 1 0 2 0 1 1 2 0 1 0 2 0 0 1 2 0 0 0 0 0 0 0 0 1 2 0 2 0 0 1 2 0 1 1 1 0 0 0 1 2 1 0 1 1 0 0 2 0 0 0 0 0 0 0 2 1 0 2 2 0 0 0 2 1 0 1 2 0 1 1 1 0 2 0 1 1 0 0 1 2 0 1 0 2 0 1 0 1 1 0 0 0 2 0 0 1 2 1 1 2 0 0 0 2 2 2 0 2 1 0 0 2 2 1 0 2 0 1 0 0 2 0 2 2 2 0 0 0 0 2 0 0 1 0 0 1 0 0 0 2 2 1 2 0 0 0 0 1 2 0 2 0 2 0 2 2 0 0 1 0 2 0 2 0 2 0 2 0 0 0 0 0 0 1 0 1 0 0 1 0 0 2 0 0 0 0 0 0 2 1 0 0 1 0 0 0 0 2 0 0 0 2 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 2 1 0 0 1 2 0 0 0 0 1 0 1 0 2 2 0 2 2 1 0 0 1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 1 2 0 0 0 0 0 0 0 0 1 0 0 0 1 1 2 1 0 0 1 1 0 1 0 0 1 1 0 0 0 2 0 0 0 1 0 0 0 2 2 2 0 0 2 2 1 0 0 0 0 2 0 2 0 0 2 2 0 0 2 0 2 0 0 0 0 0 0 0 1 0 2 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 2 0 0 1 0 0 1 2 0 0 1 2 1 2 0 2 1 1 1 0 1 0 0 0 0 2 1 2 0 2 0 0 2 0 1 1 0 0 0 0 0 0 2 1 1 0 2 0 0 0 0 0 1 1 0 0 1 2 1 1 0 2 1 0 0 0 2 0 0 0 1 0 1 0 2 0 0 1 0 2 2 0 0 2 0 0 0 2 1 0 0 1 1 0 0 1 2 0 0 0 1 1 1 0 2 0 2 2 0 0 0 0 0 1 0 0 0 0 2 0 0 2 0 2 2 1 1 0 0 0 1 1 1 0 1 0 1 0 0 0 0 2 0 0 0 0 0 2 0 0 0 2 0 2 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 2 2 0 0 2 0 0 0 0 0 2 0 0 2 0 0 2 0 1 0 2 0 2 0 1 2 0 2 2 0 2 0 2 0 0 0 0 0 0 0 0 2 0 2 0 2 0 2 2 1 0 1 1 0 0 2 1 0 0 1 0 1 0 0 0 0 0 1 2 1 1 2 2 0 1 0 0 0 0 0 0 2 1 1 1 2 2 0 0 1 1 2 2 2 0 0 0 0 0 2 0 2 1 2 0 1 2 0 2 0 0 1 0 0 0 2 0 0 0 0 1 0 2 1 2 0 0 1 0 2 2 0 0 1 0 0 2 1 0 2 1 0 0 1 0 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 2 1 0 0 0 0 0 2 1 0 0 0 0 0 0 1 0 0 0 2 1 1 0 2 2 0 1 0 0 1 0 1 0 2 0 2 0 0 2 2 2 0 0 1 2 1 1 0 0 0 0 0 2 0 0 0 2 0 2 0 0 2 1 0 2 0 0 0 2 1 0 0 0 1 0 2 1 0 0 0 0 0 2 0 1 1 0 0 0 0 1 2 1 0 0 0 0 2 1 0 0 0 1 0 0 1 1 0 2 0 0 0 1 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 2 2 0 0 0 2 0 0 0 0 1 0 2 0 0 0 1 0 0 2 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 1 0 2 1 0 0 0 0 0 0 1 2 0 1 0 0 2 0 0 1 2 0 0 0 0 0 0 2 0 0 0 2 0 0 1 0 0 1 1 1 0 2 1 1 2 0 1 1 0 2 0 0 0 2 1 0 2 0 1 0 0 0 0 1 2 2 0 0 0 0 0 0 0 0 0 0 1 1 2 0 0 2 0 0 0 2 1 1 0 0 0 1 2 0 0 0 0 1 0 0 0 2 1 1 0 2 1 0 0 0 0 2 0 2 2 2 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 2 0 2 0 0 1 2 0 0 2 0 2 1 2 2 2 0 2 0 0 1 2 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 2 0 2 1 1 0 0 0 0 0 0 0 1 0 0 0 0 2 2 0 0 0 2 1 1 0 1 0 2 0 0 1 2 0 0 0 0 1 0 0 2 2 0 0 0 0 0 0 1 0 0 2 0 0 0 0 1 0 2 0 0 0 0 1 0 0 0 2 1 0 0 2 1 0 1 0 0 0 2 0 1 0 2 1 0 2 0 0 0 2 1 0 0 0 0 0 0 0 2 0 0 1 0 1 2 0 0 0 0 0 0 1 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 2 0 0 2 1 0 0 2 2 1 0 1 0 0 0 1 2 0 0 0 0 1 0 2 0 0 2 0 0 0 0 0 2 0 1 0 2 0 0 1 1 2 0 1 0 2 0 2 0 0 0 2 0 0 0 1 0 2 1 0 0 0 0 1 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 1 1 1 0 0 2 1 2 0 1 0 1 2 0 0 0 1 0 0 0 2 0 0 0 2 0 0 1 0 2 0 0 0 0 1 2 0 0 1 0 0 1 0 1 0 1 0 0 0 0 1 2 1 0 0 0 0 1 0 0 0 2 0 0 2 1 2 0 0 2 1 0 0 1 0 0 2 1 2 0 0 2 1 2 0 0 0 1 2 2 0 0 1 0 1 2 0 0 0 0 0 2 2 0 1 0 0 0 0 2 1 0 2 0 0 0 0 0 0 0 0 0 0 1 0 1 0 2 2 0 2 0 1 0 2 0 1 1 0 2 0 2 0 0 2 0 0 0 0 0 0 0 2 2 1 1 0 0 0 2 2 2 0 0 2 1 1 1 0 0 2 0 2 0 1 0 0 2 0 1 0 0 2 0 2 0 0 0 1 0 2 0 0 0 0 1 1 0 2 0 2 2 1 0 0 0 0 2 0 0 1 0 0 2 0 1 2 0 0 1 0 2 0 0 0 0 1 0 0 2 0 0 0 0 0 0 1 2 0 1 0 1 0 0 2 0 1 1 0 0 0 2 1 0 1 1 0 0 0 0 1 0 1 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 1 2 0 2 1 2 0 1 0 0 2 0 0 0 0 0 1 0 1 2 0 0 2 1 0 0 0 0 2 0 2 2 2 2 0 0 0 1 0 2 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 2 0 2 2 1 1 0 0 0 0 0 1 0 0 0 1 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 2 2 1 0 0 2 1 0 0 2 0 0 2 0 0 1 0 0 0 1 2 0 0 1 1 1 0 0 2 0 0 2 2 1 0 0 0 0 1 2 0 0 1 0 1 0 1 1 2 0 0 2 1 0 1 0 0 0 2 0 0 0 0 0 0 0 0 2 2 0 0 0 0 0 0 2 0 2 0 0 2 0 0 0 0 0 0 1 2 0 0 2 1 0 0 0 0 0 0 2 1 1 0 1 0 0 0 2 0 0 0 0 0 1 1 0 0 2 2 1 0 0 1 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 1 0 2 0 0 0 1 0 2 0 1 0 0 1 1 1 0 0 0 0 1 1 0 0 2 2 0 0 0 0 2 1 0 0 0 0 1 0 1 0 2 1 0 1 0 0 0 0 0 0 1 0 2 1 0 0 2 0 1 0 0 0 0 0 2 0 1 0 1 0 0 2 2 1 2 0 1 0 1 2 1 0 1 1 2 2 0 0 1 1 0 2 0 0 0 1 0 1 0 0 0 0 0 0 1 1 0 1 0 1 0 0 2 1 2 2 0 0 0 1 0 1 0 0 1 0 0 2 0 0 2 0 0 2 0 0 1 0 0 0 1 0 0 0 0 0 2 2 0 0 0 2 2 0 0 0 0 1 2 0 1 1 2 2 0 0 0 0 2 0 0 2 0 0 2 1 0 2 1 2 0 1 2 0 0 1 2 0 2 0 1 0 0 1 2 0 0 1 0 0 1 0 0 0 0 2 1 2 0 1 2 0 2 2 0 2 0 0 1 0 0 0 1 1 0 0 0 0 0 1 0 0 0 1 2 0 0 0 2 2 1 1 0 0 1 0 0 0 2 0 1 0 0 2 1 0 0 2 1 1 2 0 1 1 1 0 2 0 1 0 2 2 0 0 0 0 2 2 1 0 0 0 1 0 0 0 1 0 0 2 2 0 1 0 1 1 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 1 0 0 0 1 0 2 0 0 0 0 2 0 0 2 0 0 0 2 0 0 0 0 0 0 0 1 0 2 1 2 0 0 0 0 0 1 1 0 0 0 1 2 2 2 1 1 0 1 0 2 0 1 0 2 0 0 0 1 0 0 0 0 0 0 2 0 2 0 0 0 1 0 0 0 2 0 0 0 2 0 0 0 1 2 0 0 0 0 1 0 1 2 2 1 2 1 1 0 1 1 1 2 2 1 1 1 2 0 0 0 2 1 0 0 0 2 0 0 0 0 0 0 2 0 2 0 0 0 2 1 0 0 0 0 0 2 0 0 0 1 0 2 0 2 0 0 2 0 0 1 0 0 0 1 0 1 0 0 0 2 2 0 2 0 0 1 2 0 0 0 0 0 0 1 1 2 0 2 1 0 2 0 0 0 0 1 0 1 2 1 0 1 0 1 0 0 1 0 0 2 1 2 2 0 0 1 0 0 0 0 0 0 2 2 0 2 0 0 2 0 0 0 2 0 2 2 0 0 1 1 2 2 0 0 2 0 1 2 2 0 0 0 0 1 0 0 2 0 1 2 2 0 0 0 0 0 1 0 2 1 0 0 0 0 2 1 2 2 0 0 0 0 0 0 1 2 1 1 0 1 0 1 0 0 0 0 1 0 1 2 1 0 0 1 2 0 1 1 0 0 0 0 2 1 0 2 0 2 2 2 1 2 0 0 2 0 0 0 0 0 0 0 0 0 0 2 0 2 0 0 1 0 0 0 2 2 0 0 0 0 1 1 0 0 0 2 2 0 1 1 1 0 0 0 0 1 0 0 0 0 1 1 2 0 2 0 2 0 1 2 0 0 1 1 2 0 0 0 2 0 0 2 0 0 2 0 0 0 2 1 0 1 0 0 2 0 0 0 0 1 1 2 1 0 0 0 1 2 1 0 1 1 0 2 2 0 1 0 0 0 0 1 2 2 2 0 0 2 0 0 2 1 1 0 2 2 0 1 0 2 0 0 0 1 0 0 1 1 0 2 0 0 1 0 0 0 0 0 2 0 0 2 0 2 0 0 2 0 1 0 0 0 0 1 0 2 0 0 2 2 0 0 1 0 0 0 1 0 0 1 0 0 0 1 1 0 0 2 0 1 0 2 0 0 0 0 2 2 1 0 0 1 0 2 0 0 0 2 0 0 2 2 2 1 1 0 0 1 1 0 1 0 0 1 2 0 0 0 2 1 2 1 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 2 0 2 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 2 2 0 0 2 0 2 0 0 2 0 0 0 1 2 0 2 1 1 0 0 0 1 0 0 0 1 1 1 0 2 0 0 1 0 0 2 0 0 0 0 0 0 2 1 2 2 2 1 2 0 0 2 0 0 0 0 0 1 0 0 1 1 2 1 0 0 1 0 0 0 0 1 0 1 2 1 2 0 1 1 1 1 0 1 0 0 0 1 1 2 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 2 0 1 0 0 0 0 2 0 0 0 2 0 0 0 1 2 0 0 0 2 0 2 0 1 1 2 2 0 2 2 0 0 1 2 0 0 2 0 0 0 1 2 0 0 1 0 0 1 0 1 1 2 0 0 2 0 2 0 1 2 0 0 2 0 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 2 0 2 0 0 0 0 1 0 0 2 1 0 0 0 1 0 0 0 0 0 1 0 2 0 0 0 2 2 0 1 0 2 0 0 0 0 0 0 2 1 0 0 1 2 0 0 0 0 0 0 0 0 0 2 0 2 2 0 0 0 2 1 0 0 2 1 0 0 2 0 2 1 0 0 1 0 1 2 0 0 2 0 1 0 0 2 0 2 2 0 1 0 1 0 0 0 0 2 1 0 0 0 1 1 1 2 0 0 1 1 0 0 1 0 2 0 0 0 0 1 0 0 0 0 0 0 0 0 2 0 1 0 2 0 0 0 0 1 1 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1 2 2 2 0 0 0 0 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 0 2 2 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 2 1 2 0 0 0 1 0 2 1 0 0 2 1 2 1 0 2 0 1 0 2 0 0 0 0 0 2 0 0 0 0 0 0 2 2 0 1 0 0 0 1 0 2 0 2 0 0 1 2 0 1 2 0 1 1 0 2 0 0 0 2 0 0 2 2 1 2 2 1 2 2 1 2 2 0 0 2 0 0 2 0 0 1 2 1 1 2 0 1 0 1 1 0 2 2 0 0 0 1 2 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 0 2 1 0 0 0 0 0 2 1 0 0 1 0 0 0 0 1 0 0 0 2 0 2 1 0 0 0 0 2 0 0 2 0 1 0 0 2 0 0 0 2 0 1 0 0 2 0 1 1 0 0 1 1 0 0 0 0 0 0 2 1 0 2 1 0 1 1 0 0 0 2 1 2 2 2 0 0 0 1 0 0 0 0 0 0 2 2 0 0 2 0 1 0 2 1 1 0 0 0 1 2 1 2 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 0 1 2 0 0 1 0 1 0 0 1 0 1 0 2 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 1 0 2 0 0 2 2 2 0 0 0 2 2 2 2 0 0 1 0 1 0 0 0 1 0 2 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 0 2 2 0 2 1 0 0 0 2 0 1 0 1 0 0 0 0 2 0 0 0 2 2 1 0 0 0 0 0 0 2 0 0 0 0 0 1 0 1 0 0 1 0 2 0 1 1 0 0 0 2 1 0 0 0 0 0 0 0 0 1 1 1 0 1 0 2 0 0 0 0 1 0 2 1 0 1 0 2 0 0 0 0 2 2 0 1 0 0 0 0 0 2 2 1 1 0 0 1 0 0 0 0 1 0 0 1 1 1 1 2 0 2 2 2 2 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 1 0 1 0 0 0 2 1 0 0 0 0 2 2 0 2 0 2 0 2 0 0 0 2 0 0 0 2 0 0 0 0 0 0 2 2 0 0 0 0 0 0 0 1 0 2 2 0 0 0 0 0 0 2 0 0 0 0 1 0 0 0 0 2 2 1 2 1 0 0 0 0 0 0 0 1 0 2 2 0 0 0 0 1 1 0 1 0 0 1 0 0 2 0 2 2 0 0 0 0 0 1 0 0 0 0 0 2 0 0 1 0 2 2 1 0 0 0 0 0 0 0 1 0 0 0 1 0 1 0 0 2 1 1 1 0 2 0 0 0 0 0 1 0 2 1 1 0 0 2 1 0 0 0 0 0 1 0 2 0 0 0 1 0 0 0 0 0 0 2 2 1 0 0 1 0 0 0 2 0 0 1 1 2 0 0 0 0 0 1 1 0 1 2 1 0 1 0 0 0 2 0 2 0 2 0 1 2 0 0 0 0 1 2 2 0 0 1 1 0 1 1 1 0 0 2 0 0 0 1 0 0 0 0 0 1 1 2 2 0 2 0 2 0 0 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 2 0 2 1 0 0 0 2 0 2 0 2 0 0 0 0 0 2 1 1 0 0 1 0 0 0 1 2 0 1 0 0 1 0 0 2 0 0 1 0 0 0 2 0 0 1 2 2 0 0 2 0 0 0 0 0 0 1 0 1 2 0 0 2 2 0 2 0 0 2 1 2 2 1 0 0 0 1 1 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 1 2 0 1 2 0 2 0 0 0 0 2 1 0 2 0 0 2 0 0 0 0 0 0 2 1 0 1 2 0 0 0 0 0 0 0 2 0 0 1 2 2 0 0 0 1 1 2 1 1 0 1 0 0 1 0 0 2 2 2 1 0 0 0 0 2 0 1 2 0 2 0 0 0 0 2 0 0 0 2 1 2 0 2 1 0 0 0 0 0 0 0 1 0 1 1 0 2 2 0 0 2 0 0 0 0 2 2 0 0 2 0 0 0 1 2 2 2 0 1 0 0 0 0 0 0 0 2 1 0 1 0 0 0 0 0 1 0 0 0 2 1 0 0 0 0 2 2 2 1 0 0 1 0 0 0 0 0 0 0 0 0 1 1 1 0 2 0 0 0 1 2 1 1 0 1 2 2 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 1 0 2 2 0 2 2 2 1 0 2 0 0 1 2 0 0 0 2 2 0 0 2 2 1 1 2 0 0 0 2 0 0 0 0 0 0 1 0 2 1 0 0 0 2 0 0 2 1 0 0 0 2 0 0 2 2 0 2 0 0 2 2 0 0 2 0 0 2 0 0 1 0 2 0 0 2 0 0 0 0 2 0 0 2 2 0 1 1 1 0 1 0 2 1 0 0 0 2 1 0 1 2 2 1 0 0 0 0 2 0 0 0 1 1 1 0 0 2 1 0 0 0 0 0 2 2 0 0 2 2 2 1 2 0 0 2 0 2 0 1 2 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 2 1 0 0 0 0 0 0 2 1 0 0 0 2 0 0 0 2 1 0 0 2 0 2 1 1 2 1 0 0 2 1 2 0 0 0 2 0 0 0 0 0 1 0 1 1 2 0 0 0 2 0 1 1 0 0 1 2 0 1 0 2 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 0 0 0 2 2 2 0 2 0 2 0 0 0 2 0 0 0 0 2 1 0 0 2 0 2 0 1 0 0 0 2 0 2 1 0 2 0 0 0 1 2 2 0 1 2 1 0 0 0 1 0 1 0 0 0 0 2 0 0 0 0 2 0 0 1 0 1 0 0 0 1 0 0 0 0 1 1 1 0 0 1 0 2 1 0 1 2 2 0 1 0 0 0 0 0 1 2 0 0 0 0 2 2 0 0 0 2 0 2 0 2 0 0 2 2 0 0 1 2 1 2 2 0 0 0 0 1 2 0 0 2 0 0 0 1 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 2 1 1 0 0 0 0 0 0 2 0 2 1 0 0 0 0 0 1 2 0 2 1 1 2 0 1 1 0 0 0 0 1 0 0 0 0 0 1 1 1 0 2 0 0 0 0 0 0 0 2 2 2 2 0 1 0 2 0 2 2 1 0 0 1 0 0 2 2 0 0 0 0 0 2 1 1 2 1 0 2 0 2 0 2 0 0 0 2 0 0 1 0 0 2 0 0 0 2 1 0 0 0 0 2 0 1 2 0 0 2 2 0 0 0 0 2 0 0 1 0 0 2 0 0 0 1 0 2 1 2 2 1 0 1 0 0 2 0 0 0 0 0 0 0 2 1 0 0 1 0 2 1 2 1 2 1 2 2 0 0 0 2 0 2 2 0 0 0 0 2 0 2 0 2 2 1 0 1 0 1 0 0 0 2 0 0 0 0 0 0 2 0 2 0 2 2 1 0 0 0 0 0 2 0 1 0 0 0 2 1 0 1 0 0 0 0 1 0 1 2 2 2 1 0 1 2 0 0 0 2 2 2 1 0 0 0 0 0 1 0 0 2 2 0 2 0 0 0 0 0 1 0 0 0 0 0 1 0 2 0 1 0 1 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 2 1 2 0 0 0 2 0 1 0 0 0 1 0 0 0 0 1 0 0 2 0 0 0 2 0 2 2 0 2 1 0 0 1 2 0 1 2 0 0 0 2 2 0 1 2 1 0 0 2 0 0 0 0 2 0 2 0 0 0 0 1 0 0 2 0 0 0 2 2 0 0 0 0 2 0 1 0 2 2 1 0 2 2 0 0 0 0 0 0 1 0 0 0 2 2 0 2 0 2 0 0 0 0 0 0 2 2 2 0 0 2 0 0 0 0 1 1 0 0 0 1 0 2 0 2 0 0 2 0 0 1 1 0 2 2 1 0 2 0 1 0 0 0 1 0 1 0 1 0 0 0 1 0 2 2 0 2 0 1 0 2 0 1 1 0 0 2 0 1 2 0 2 0 0 0 2 0 0 0 0 0 0 0 0 0 2 1 0 0 2 0 2 2 0 0 1 0 2 2 0 0 0 0 0 0 0 2 1 2 0 0 2 2 0 2 1 1 0 0 0 0 1 1 0 1 1 1 0 0 0 1 2 0 1 0 2 0 0 0 1 0 0 0 0 0 2 2 1 2 0 0 0 0 1 1 0 1 0 1 1 2 0 1 1 1 0 0 0 0 0 2 1 0 0 0 2 0 2 0 1 0 2 1 0 1 2 1 0 0 0 2 2 0 0 0 0 0 2 1 1 0 0 0 0 0 1 1 0 0 0 0 0 1 1 2 0 0 1 1 0 1 0 1 0 0 1 2 0 2 0 0 0 2 0 0 0 0 0 2 1 2 1 0 0 0 0 2 1 0 1 1 0 0 1 0 0 0 2 2 0 1 0 0 1 1 2 0 1 1 2 0 0 0 0 0 2 2 0 2 1 0 1 0 0 2 0 0 0 0 1 2 2 2 0 0 0 0 2 2 2 0 0 1 2 0 0 2 0 1 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0 0 0 0 2 2 0 0 2 0 1 1 0 0 0 1 2 0 0 1 2 2 1 0 2 0 0 0 1 0 0 1 0 0 1 1 0 1 0 2 1 1 0 1 0 1 0 0 0 0 1 1 0 0 0 0 0 1 1 0 0 2 0 0 0 1 0 0 0 0 1 0 1 1 2 1 0 0 0 0 2 2 2 2 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 2 0 1 1 0 0 0 0 0 0 0 0 2 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 2 0 0 0 0 2 0 0 0 0 0 0 0 1 0 1 1 1 0 1 0 0 1 0 2 1 1 0 1 0 0 0 1 0 2 1 0 0 0 1 0 0 0 1 0 1 0 0 0 1 0 2 0 2 2 2 0 0 0 2 1 1 0 0 0 0 2 2 0 1 2 0 0 2 0 0 0 0 1 0 1 0 2 0 0 1 0 0 1 0 0 0 0 0 1 2 2 2 1 2 0 0 0 0 0 0 1 1 0 0 1 0 0 0 1 2 0 1 0 1 0 1 2 0 0 0 1 2 2 0 1 2 2 0 0 2 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 1 0 0 0 1 0 2 2 0 0 0 2 2 0 0 0 2 1 0 0 0 0 0 0 1 1 0 1 2 0 2 1 0 0 1 2 0 2 2 0 0 0 1 2 0 1 2 2 0 2 0 0 2 0 0 2 0 0 0 2 0 0 1 0 2 0 2 0 0 0 1 2 0 2 1 2 0 0 2 0 0 2 1 1 1 0 2 1 1 0 1 0 1 1 2 0 2 2 0 2 0 0 2 0 0 0 0 1 0 0 0 0 1 0 0 0 1 2 0 0 0 0 0 0 1 0 2 2 0 1 2 0 1 0 0 0 2 2 2 2 0 2 1 1 1 1 0 2 0 0 0 1 1 0 0 0 2 0 1 0 0 0 0 0 2 1 0 0 0 1 2 2 0 1 2 0 1 2 0 2 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 2 2 0 1 0 0 0 1 1 1 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 0 0 2 0 0 0 1 0 0 2 2 2 0 2 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 2 2 0 0 1 0 0 1 0 2 1 0 0 0 0 1 0 0 1 1 2 2 0 1 1 1 0 2 1 0 0 1 0 1 0 0 0 1 2 2 0 1 1 0 2 0 0 0 0 0 0 0 1 2 0 1 0 2 2 2 0 0 1 2 0 2 0 1 0 2 0 0 1 2 0 0 0 1 0 1 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 1 1 1 1 1 2 0 0 0 0 2 0 0 0 2 0 2 2 0 0 0 0 1 0 1 0 0 1 2 1 1 0 0 2 0 0 0 2 1 1 0 0 0 2 0 0 0 0 1 0 0 1 1 2 2 0 1 0 2 0 2 1 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 1 0 1 0 1 1 0 0 0 1 2 2 0 1 0 0 0 2 0 0 1 0 2 2 2 0 0 1 2 2 0 2 0 0 0 0 0 0 1 1 1 2 0 1 0 0 1 1 0 2 0 0 1 0 0 0 0 1 0 0 2 0 0 1 1 0 0 1 0 1 1 2 2 2 0 0 0 2 0 0 0 1 0 1 1 0 0 2 1 0 1 2 1 0 1 0 1 2 0 0 0 0 0 1 0 0 0 0 1 2 0 1 1 2 0 0 0 1 2 2 0 0 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 2 0 1 0 1 1 0 0 0 0 1 0 0 0 2 1 1 0 1 0 0 0 0 2 0 2 0 0 0 0 0 1 0 0 0 0 2 0 0 2 0 2 1 2 0 0 1 0 2 0 1 0 0 0 2 0 0 1 0 1 0 1 0 0 1 0 0 0 0 2 1 0 2 0 0 2 0 0 0 0 0 2 0 0 1 0 0 2 0 1 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 1 0 0 0 0 0 0 1 1 2 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 2 0 1 2 1 0 2 0 0 2 0 2 0 2 1 0 1 0 0 0 1 0 1 1 2 0 0 2 1 1 2 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 2 2 0 1 0 0 0 2 2 1 1 2 0 2 1 2 0 2 0 0 0 1 2 2 0 0 0 0 2 1 1 0 0 0 0 0 0 0 2 0 0 0 1 2 2 2 1 0 2 0 1 0 2 2 0 2 0 0 0 2 0 0 1 0 2 0 0 2 0 0 0 0 0 1 0 1 0 0 0 0 0 2 0 1 0 0 1 0 1 0 2 2 2 0 0 0 0 0 2 0 0 0 2 0 2 1 1 0 0 1 2 2 0 0 1 1 1 0 1 2 0 0 1 1 0 1 1 2 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 2 0 2 0 0 0 1 2 2 2 1 0 2 1 0 0 1 0 1 0 0 0 2 0 0 0 1 0 0 0 1 2 2 1 0 0 2 0 0 0 2 2 0 0 0 0 0 1 0 0 0 0 0 0 0 1 2 0 0 0 2 0 0 0 0 0 2 0 0 1 0 1 0 0 2 0 1 1 2 0 0 2 1 0 0 0 2 0 1 0 1 1 2 2 0 2 0 0 1 0 1 2 1 0 1 2 0 1 0 0 1 0 0 0 0 0 2 0 0 2 0 0 2 1 0 1 0 0 1 2 0 0 0 2 0 0 1 0 0 1 2 0 0 0 0 1 1 2 0 1 0 0 2 0 2 0 0 0 0 2 2 0 0 2 1 2 1 0 0 2 2 1 0 2 2 0 2 0 0 2 0 0 0 0 1 0 0 0 2 1 0 2 1 0 2 0 0 0 2 2 0 2 0 2 0 0 0 2 1 0 2 1 0 0 0 2 0 0 1 0 0 2 0 1 0 0 1 1 2 2 0 0 0 0 2 2 1 0 0 0 2 0 1 0 0 0 2 0 0 2 0 0 0 0 2 0 2 1 0 0 2 0 0 0 0 1 0 1 0 2 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 2 1 0 1 0 0 2 0 0 0 2 1 2 0 0 0 2 2 2 1 2 0 2 0 0 2 1 0 0 1 2 0 0 0 0 0 0 0 0 0 1 0 2 1 2 0 0 1 0 0 0 0 2 1 0 0 0 2 1 0 0 0 1 0 0 1 0 1 0 2 0 2 0 0 1 1 0 0 0 2 0 0 2 0 0 1 1 2 0 1 0 0 0 0 0 2 0 0 0 0 2 0 0 1 1 0 0 0 0 2 1 0 0 2 1 1 0 0 1 2 0 0 2 2 2 0 0 2 1 0 2 1 0 0 0 0 1 1 0 0 1 0 2 2 0 0 0 0 2 2 0 0 0 0 0 0 0 0 0 2 1 2 2 0 0 1 0 1 2 2 1 1 0 2 2 2 0 1 2 1 0 2 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 1 0 0 0 1 0 2 0 0 1 1 0 0 0 0 0 0 0 0 2 0 2 0 2 2 2 0 0 0 1 0 2 0 2 0 1 1 0 0 1 0 2 0 0 2 1 2 0 0 0 0 2 2 1 2 0 1 0 0 1 1 0 1 0 1 2 0 0 1 0 0 0 0 0 2 1 1 0 0 2 0 0 0 0 0 0 0 0 2 0 0 1 0 1 0 0 0 1 0 2 0 0 0 0 2 1 1 0 2 0 2 0 0 0 1 0 0 2 1 0 1 2 0 2 0 0 2 0 0 0 0 1 2 2 0 0 1 0 1 0 0 1 2 0 0 2 2 0 0 0 1 0 0 0 0 2 0 1 0 0 1 0 0 0 2 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 1 0 2 1 1 0 0 1 2 1 0 0 2 0 2 1 2 2 0 0 2 0 0 0 0 0 0 0 0 2 2 0 0 0 0 1 0 2 2 0 0 0 0 1 0 2 1 0 0 0 1 1 0 1 0 1 1 0 0 0 1 0 1 0 0 2 0 1 1 1 0 1 0 0 0 2 0 0 2 0 0 2 0 0 1 0 1 0 0 0 1 0 0 1 0 0 0 0 2 0 2 0 0 1 1 0 0 0 0 0 2 0 0 0 0 0 0 2 2 2 0 1 0 0 2 0 0 0 2 0 0 1 0 1 2 0 0 0 0 1 1 0 0 2 0 0 0 2 0 0 0 0 0 1 2 0 0 1 0 0 0 0 0 0 2 0 0 0 1 2 1 2 0 0 0 2 1 0 0 0 2 1 1 0 1 0 0 1 0 2 0 1 0 0 2 0 0 1 2 1 0 2 2 0 0 2 0 2 0 1 0 2 0 1 0 0 0 1 0 0 2 2 0 0 1 2 0 1 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 1 1 2 2 1 0 0 0 1 2 0 2 0 1 0 0 0 1 2 0 0 0 0 1 1 0 0 0 1 0 1 0 0 0 2 0 0 0 1 2 1 0 0 2 0 2 0 2 2 1 2 0 0 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 2 0 1 1 1 0 0 0 1 1 0 1 1 0 0 0 2 0 2 0 0 2 0 0 0 1 0 1 1 2 2 0 0 1 0 0 2 0 0 0 0 0 0 2 2 2 0 0 0 0 2 0 0 1 2 0 0 1 1 0 0 0 0 0 0 1 0 2 0 1 0 2 0 0 2 0 2 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 2 0 0 0 2 1 1 2 1 0 0 1 0 0 1 0 1 2 0 0 2 1 1 1 1 0 1 2 2 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 2 0 2 2 1 0 2 0 0 1 0 0 2 1 0 0 2 1 2 1 0 0 0 1 0 1 0 2 2 2 0 2 0 2 0 0 2 1 0 0 2 0 2 0 0 2 0 0 0 2 0 0 0 0 0 1 1 0 0 0 2 0 1 0 0 0 2 1 0 2 1 0 0 1 1 2 0 1 0 0 2 0 0 0 0 1 0 2 0 1 0 1 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 2 2 0 2 0 0 1 0 0 0 1 2 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 2 2 0 0 0 0 0 0 0 2 1 0 0 0 2 1 0 0 0 1 1 2 0 2 0 0 0 2 0 1 1 2 1 0 2 1 1 0 2 0 1 0 0 0 0 2 2 1 1 0 0 0 0 0 0 2 2 0 0 0 0 0 2 2 0 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 2 1 0 0 0 2 0 0 0 0 2 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 1 2 0 0 1 1 0 1 2 2 0 2 2 0 2 2 1 1 0 2 0 2 1 0 2 0 1 0 0 1 0 0 1 1 0 1 1 0 2 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 2 0 0 1 0 0 1 1 0 1 0 2 0 2 2 2 0 0 0 0 1 0 0 0 1 0 0 0 1 2 0 0 0 0 2 0 2 0 0 0 2 0 2 0 1 0 2 0 1 2 1 0 0 0 0 0 2 0 0 2 0 0 0 1 2 1 0 0 1 0 2 0 1 0 0 0 0 0 0 2 2 0 0 1 0 0 0 0 1 0 0 0 0 2 0 0 0 0 2 0 0 0 2 0 0 1 2 1 2 1 0 0 1 1 0 2 0 0 1 2 1 0 0 0 0 0 2 0 0 0 2 0 0 1 0 0 0 2 0 0 0 2 0 0 1 0 0 1 0 1 0 1 0 0 0 0 0 0 0 2 0 1 0 2 2 0 1 2 1 0 0 0 2 0 0 2 0 0 0 0 0 0 2 0 0 2 0 0 1 0 0 2 0 2 0 1 0 0 0 2 0 0 2 2 0 1 1 2 2 0 0 0 1 2 2 1 0 2 0 0 0 0 0 0 0 2 2 0 0 1 0 0 0 0 1 1 0 0 0 2 0 2 0 0 0 0 1 0 2 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 2 2 1 0 1 0 2 0 0 1 0 0 2 2 2 0 0 0 0 1 1 0 2 0 0 2 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 2 0 0 1 0 1 0 0 0 0 0 1 2 0 0 0 1 0 2 0 1 1 2 0 0 0 0 1 0 2 0 2 0 1 2 1 2 0 1 2 0 0 1 0 2 0 2 1 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 2 0 2 0 0 2 0 0 2 2 2 0 2 2 0 0 0 1 2 1 2 2 0 0 0 0 0 0 0 0 2 1 0 0 0 2 0 0 0 2 2 1 0 0 0 1 0 2 0 0 0 0 2 0 1 1 0 2 0 2 2 0 0 0 2 2 1 0 0 1 0 1 0 0 1 0 0 2 0 1 1 1 0 2 0 0 1 1 2 1 1 0 0 1 2 2 1 0 1 0 0 1 1 1 0 1 0 2 0 1 0 0 1 2 0 0 2 0 1 0 0 0 1 0 2 1 0 0 2 0 1 1 1 0 1 2 0 0 1 2 0 0 0 0 2 0 0 0 2 2 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 1 1 2 0 0 0 0 0 0 0 0 0 0 2 0 0 2 2 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 2 2 0 0 0 1 1 1 0 1 0 0 0 0 1 0 0 0 2 2 0 0 0 0 0 0 2 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 1 0 0 0 2 2 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 2 0 1 0 1 2 0 0 0 0 0 0 1 2 2 0 0 0 2 0 1 2 0 0 0 1 0 0 0 1 0 1 2 0 0 1 0 1 0 0 0 1 0 0 1 1 1 0 2 0 2 2 0 0 1 2 2 0 0 0 0 0 1 2 0 0 0 0 0 0 0 2 2 0 0 2 0 1 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 2 1 0 2 2 2 2 2 2 0 1 2 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 2 0 0 0 0 1 2 0 2 0 1 1 1 0 0 1 0 0 2 0 0 2 0 2 0 0 1 2 2 0 1 0 0 2 2 0 0 2 0 0 0 1 2 0 1 0 0 0 2 2 0 0 0 0 0 0 2 0 0 1 0 0 1 0 2 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 1 0 1 2 0 0 0 2 1 1 0 1 0 0 0 2 1 0 0 0 1 0 0 1 0 2 0 0 0 0 0 1 0 2 0 0 2 1 0 0 2 0 1 2 0 0 0 0 0 0 0 1 0 1 1 0 1 0 1 0 1 0 0 2 0 0 2 0 2 2 2 0 0 2 0 0 0 0 0 2 1 2 2 0 0 0 0 1 2 0 2 0 0 2 0 2 2 1 1 2 1 0 0 1 0 0 0 1 0 1 0 0 2 0 0 0 2 0 0 0 1 0 0 0 1 0 0 1 2 0 0 0 2 1 2 0 0 0 0 0 0 1 0 1 1 0 0 0 2 2 2 1 1 1 2 1 0 2 0 1 1 2 0 2 2 2 2 0 0 0 0 2 0 0 0 0 0 1 0 0 0 2 0 0 1 0 1 1 0 0 0 0 0 0 0 1 2 1 2 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 1 0 2 0 0 0 2 0 2 0 0 0 1 0 0 2 0 0 0 1 0 2 0 0 0 1 1 1 1 1 1 1 2 0 1 2 1 0 2 2 2 0 1 0 1 2 2 0 2 0 0 0 0 1 2 0 1 0 1 1 0 0 2 0 0 2 0 0 1 0 2 0 0 0 1 1 1 0 1 0 0 0 0 1 2 1 1 2 1 2 0 0 2 2 2 0 0 2 0 2 2 1 0 0 2 0 0 0 0 0 0 2 0 0 0 0 2 2 2 0 0 0 0 0 0 1 2 1 1 0 0 1 0 0 0 0 2 2 0 0 2 1 0 0 1 0 0 0 0 0 2 2 0 1 0 2 0 2 0 2 0 1 0 2 2 0 0 0 2 0 2 0 2 1 2 0 1 1 1 2 1 0 0 1 0 0 0 0 2 0 0 0 2 0 0 0 1 0 1 0 0 0 1 0 0 2 0 2 2 2 0 0 0 1 0 1 1 2 0 1 0 0 0 1 0 0 0 0 1 1 0 0 1 2 0 0 0 1 1 0 1 0 2 0 1 0 0 1 2 0 0 2 1 1 2 0 2 1 0 0 2 1 0 1 0 0 1 0 1 0 0 2 2 0 0 1 0 0 1 2 1 2 0 0 0 0 0 0 0 2 2 1 2 2 0 0 1 2 1 0 1 1 2 1 2 0 0 0 0 2 0 1 0 2 0 2 0 0 0 0 0 0 0 2 0 0 1 0 0 1 1 1 0 0 1 0 0 0 2 0 1 0 2 0 0 2 0 1 2 0 2 0 2 0 0 1 1 0 0 1 1 2 1 1 1 0 0 1 1 0 0 0 0 0 1 0 1 0 0 0 2 0 1 2 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 1 0 2 0 0 0 0 0 0 2 0 2 0 2 1 2 1 2 0 0 2 1 0 2 0 0 1 0 0 2 2 0 0 2 1 2 0 2 2 1 0 1 2 2 0 1 0 2 1 0 1 0 0 0 0 2 0 1 0 1 0 0 0 0 0 1 0 1 0 0 1 1 1 0 0 0 0 2 0 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 0 1 0 1 1 1 2 1 0 2 0 2 1 2 1 0 0 0 2 0 2 2 2 0 0 2 0 1 1 0 2 0 0 0 1 0 0 0 0 0 2 0 0 2 1 2 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 2 0 0 2 0 1 1 1 1 2 0 1 0 2 0 0 0 0 0 2 2 1 0 2 1 0 0 2 2 0 2 0 0 0 0 1 0 0 0 1 0 2 0 1 0 1 2 1 0 0 2 2 0 1 2 0 0 0 0 2 0 0 2 0 1 0 1 1 2 0 2 0 1 0 0 1 0 2 0 1 0 1 0 1 2 2 0 1 0 0 0 1 2 0 0 1 0 1 0 2 0 1 0 2 2 0 0 2 1 2 0 0 2 0 1 0 0 0 0 1 0 0 2 2 0 0 0 0 0 0 2 1 0 0 0 1 2 2 1 0 0 2 0 0 0 0 0 2 1 0 2 2 2 0 1 1 0 0 2 2 0 0 0 0 0 2 1 1 1 0 0 0 2 0 2 0 1 0 0 1 1 0 1 0 2 0 1 0 0 2 0 2 0 0 0 1 0 0 0 2 1 0 0 0 0 0 1 1 0 1 0 0 0 2 1 0 0 0 0 0 2 1 2 0 0 2 0 0 1 1 1 0 0 0 1 0 2 2 0 0 0 1 0 0 2 1 2 2 2 0 0 2 1 1 2 0 0 0 1 0 1 0 0 0 0 0 0 2 0 2 2 0 2 1 0 0 0 0 1 0 0 0 2 0 0 2 2 0 2 2 0 1 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 2 1 1 1 0 0 0 1 1 0 0 0 0 0 1 0 0 2 0 0 0 2 0 0 0 0 0 0 2 0 2 0 2 0 0 1 0 2 0 0 0 0 1 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 0 0 0 0 2 1 0 0 0 2 0 0 0 1 0 0 0 0 0 2 0 0 0 0 1 2 0 2 2 2 1 1 0 0 2 1 2 1 1 0 0 0 0 1 0 2 0 2 0 0 0 0 0 2 0 0 0 0 0 0 2 2 1 2 0 0 1 0 0 0 1 0 0 0 0 1 1 2 0 2 1 0 0 1 0 0 2 2 0 1 0 0 2 1 1 0 0 0 0 0 0 2 1 1 0 0 0 1 0 1 2 0 0 0 1 2 0 0 1 1 0 2 0 0 0 0 1 0 0 0 0 2 0 1 1 2 2 2 0 1 0 0 0 0 1 0 0 0 0 0 0 0 2 0 1 1 1 1 0 0 2 1 0 1 0 0 0 1 2 0 1 2 0 0 0 0 1 1 0 2 0 0 1 1 0 1 0 2 1 1 0 0 2 2 0 0 0 0 1 0 2 0 2 0 1 2 0 1 0 0 1 0 1 0 0 0 2 2 0 2 0 0 2 0 0 0 0 0 0 1 0 2 2 2 2 0 2 1 1 0 2 1 0 0 2 2 1 2 0 1 0 1 0 1 0 2 1 2 1 1 0 2 0 0 0 0 0 0 2 0 2 0 0 1 0 0 0 0 0 2 1 1 0 2 0 0 1 0 0 1 0 0 1 0 0 0 0 2 2 0 0 2 2 0 0 1 0 0 2 0 0 1 0 0 0 0 1 0 2 0 0 0 0 1 1 0 0 0 0 2 0 0 1 0 0 0 0 0 2 2 2 0 0 2 0 2 1 0 0 2 1 1 0 0 2 1 0 2 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 2 0 1 2 0 0 0 2 2 1 0 1 0 2 1 0 0 0 1 2 0 2 2 2 1 0 0 0 0 2 2 0 0 0 0 2 0 0 2 0 1 0 2 0 0 0 0 2 0 0 0 1 0 0 1 0 2 2 1 1 2 2 0 0 2 0 0 0 0 0 0 0 2 0 1 1 0 0 0 0 0 0 0 0 0 0 0 2 2 2 1 0 0 0 0 0 2 2 0 0 1 2 0 0 0 1 1 0 0 0 2 1 0 0 2 0 2 0 0 0 1 1 0 2 2 0 1 2 0 0 1 0 2 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 2 2 0 2 0 0 0 1 1 1 0 1 2 2 0 0 2 0 0 1 2 0 0 2 1 0 1 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 0 2 1 0 1 2 0 0 1 2 1 0 0 0 0 0 0 1 0 0 0 0 0 0 2 1 0 0 0 0 1 1 2 2 0 2 2 1 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 1 0 0 0 2 0 0 0 1 0 0 2 0 0 0 1 1 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 2 0 0 0 1 0 1 0 1 0 0 0 1 0 2 0 2 0 2 0 1 0 2 1 0 1 0 1 2 2 2 0 0 0 0 1 2 0 0 0 0 2 0 0 0 1 2 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 2 0 1 0 0 0 0 1 1 0 2 0 0 0 0 0 0 1 2 1 0 0 1 0 1 0 0 0 1 2 2 0 1 0 1 0 1 1 0 0 0 0 2 0 0 0 0 2 2 0 0 2 0 1 0 0 0 0 2 1 0 2 2 1 2 0 1 0 1 0 0 0 1 0 2 2 0 2 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 1 1 0 2 0 0 2 0 0 1 2 1 0 0 0 0 1 0 0 0 0 2 0 0 0 1 2 2 0 2 0 0 0 0 0 1 1 2 0 1 0 0 0 1 0 0 2 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 0 1 2 0 0 2 1 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 2 0 0 2 0 0 2 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 1 0 0 2 0 2 0 2 0 0 2 1 2 0 0 0 1 1 1 2 1 0 0 2 0 0 1 0 1 0 1 0 2 0 0 0 0 0 1 2 0 0 0 2 0 2 0 1 0 0 1 0 0 1 0 1 0 0 0 1 2 1 0 0 0 0 0 2 0 2 0 1 0 0 0 0 0 0 0 2 0 2 0 0 2 0 0 0 1 0 0 0 2 0 0 2 1 1 1 0 0 0 0 2 0 0 2 0 0 0 1 0 0 2 1 0 0 0 0 2 1 0 0 0 2 0 0 2 0 2 0 1 0 0 2 0 0 0 0 1 0 1 0 0 2 0 1 0 2 0 0 1 0 0 1 0 0 0 2 0 1 1 1 2 0 2 1 1 0 0 2 0 2 0 0 0 0 0 2 0 0 0 2 0 0 0 0 0 0 0 2 2 0 2 2 1 0 0 2 2 1 1 2 0 0 0 0 1 0 1 1 0 0 2 0 2 0 0 2 0 0 1 0 0 1 0 0 0 2 0 0 0 0 0 0 2 1 1 1 0 1 0 0 0 0 0 1 0 2 0 0 0 2 1 0 0 0 0 1 2 0 0 0 0 0 0 2 0 0 0 1 2 0 1 1 1 2 0 0 2 2 1 1 0 0 2 0 0 1 0 2 0 0 0 1 2 0 1 0 2 2 0 0 0 1 0 0 0 0 0 0 0 2 0 1 2 0 0 2 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 1 0 2 1 0 2 0 1 1 1 0 0 0 0 2 0 0 2 1 1 0 1 1 0 0 0 2 2 0 2 2 0 0 2 0 1 1 2 2 2 0 0 1 0 2 0 1 2 1 1 0 1 0 0 2 2 0 0 2 0 0 2 0 0 0 0 0 0 2 0 0 0 2 1 1 2 0 2 0 0 1 0 2 0 0 2 0 1 1 0 1 2 2 0 1 1 0 0 0 0 0 1 0 0 2 1 2 0 2 0 0 1 1 2 1 0 0 0 0 0 0 0 0 2 2 0 0 2 2 1 0 1 0 0 1 2 0 2 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 2 2 0 2 0 2 0 0 1 0 2 0 0 0 0 0 0 0 1 2 1 0 0 2 0 0 1 0 0 2 2 1 2 0 2 0 0 2 0 1 2 0 0 0 0 1 0 0 0 0 0 0 0 1 2 1 2 0 0 0 0 2 1 0 0 1 0 0 0 1 2 0 0 0 0 0 0 2 0 0 2 2 0 0 1 2 2 2 0 1 2 0 0 0 0 0 1 0 2 2 0 0 2 0 1 1 0 0 1 0 2 1 0 0 0 0 2 2 2 1 0 0 2 2 0 1 0 2 0 2 0 2 0 0 2 0 0 0 0 0 0 2 0 0 1 1 0 0 0 0 0 1 1 2 1 0 0 0 2 0 0 0 0 0 0 0 0 2 0 1 0 2 0 2 2 1 0 1 2 2 1 0 0 2 0 2 0 0 1 0 0 2 1 0 0 0 0 1 0 0 0 2 1 2 0 0 1 0 1 0 0 1 0 0 2 2 0 2 0 1 0 1 0 0 0 1 0 0 0 2 1 0 0 0 1 0 2 0 0 1 1 1 2 1 0 1 0 0 0 1 1 0 0 0 1 1 0 2 0 0 2 2 2 0 2 0 0 0 2 1 0 2 2 0 0 0 1 0 1 2 0 1 0 0 1 0 0 2 1 0 2 0 0 1 0 0 0 0 2 0 2 0 0 2 2 2 2 1 0 2 2 0 0 2 0 0 0 1 0 2 0 0 2 0 0 1 2 0 2 0 2 0 0 0 0 1 1 0 2 0 1 1 0 0 2 0 1 2 0 2 0 1 0 1 0 0 2 0 2 1 0 0 0 0 1 0 2 1 0 0 0 2 1 1 0 0 0 2 0 0 0 1 0 0 0 2 1 0 1 0 0 1 0 2 2 2 2 0 1 0 1 1 1 0 0 0 0 0 1 1 0 0 0 1 2 2 2 2 0 1 0 2 0 0 0 0 2 0 2 0 0 0 1 1 1 0 1 0 1 0 1 0 1 1 1 0 2 0 2 0 0 0 0 0 0 2 0 0 2 2 2 0 0 0 0 0 1 2 0 0 0 1 0 1 0 0 0 2 0 2 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 1 1 1 1 2 2 2 2 2 1 1 2 0 1 0 0 0 0 2 1 1 0 0 0 0 2 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 2 0 0 2 0 1 0 2 0 1 1 2 0 1 0 1 1 0 0 0 1 0 2 0 0 0 2 0 1 0 0 2 0 0 2 0 2 0 0 0 0 0 0 1 0 2 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 2 0 0 2 1 0 0 2 1 1 0 1 2 1 1 2 0 2 2 2 1 1 1 0 0 0 2 2 0 0 0 0 2 0 0 0 1 0 0 0 0 1 2 0 0 1 0 0 2 0 0 2 0 0 0 0 1 0 0 0 1 0 2 0 0 1 0 0 1 2 0 0 0 2 0 0 0 0 0 0 1 2 0 0 0 0 2 2 0 0 0 1 0 0 0 1 0 0 2 0 0 0 0 1 2 0 1 2 0 0 0 0 0 1 0 0 1 0 2 0 1 0 0 0 2 0 2 2 2 0 0 0 0 0 0 0 2 0 1 0 2 0 0 2 0 0 0 0 0 0 0 0 2 0 0 2 0 0 1 2 1 0 2 2 1 2 2 1 1 0 0 0 1 2 2 1 2 1 0 0 0 1 0 2 0 1 1 1 0 0 0 2 2 1 1 0 0 2 0 1 2 0 0 0 2 2 1 0 1 1 1 1 1 0 2 0 0 2 0 0 0 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 2 0 2 1 2 0 2 0 1 1 2 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 2 1 0 2 0 0 0 0 0 1 0 0 2 0 0 0 1 0 0 0 0 1 2 2 1 0 0 0 0 1 2 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 1 0 0 1 0 0 0 0 0 0 2 0 0 1 0 2 2 1 0 2 0 2 0 1 0 0 0 0 0 2 0 2 0 0 0 0 1 0 1 0 2 0 0 1 0 2 1 0 0 1 2 0 2 0 0 1 1 0 0 1 2 0 1 1 2 1 0 0 2 0 0 0 0 0 0 1 1 1 1 0 2 2 2 0 1 0 0 0 0 2 2 0 1 1 1 1 2 0 0 0 2 1 0 0 1 2 0 0 0 0 1 0 1 0 2 1 0 2 0 2 2 2 2 0 1 1 0 1 0 0 0 1 0 0 2 0 0 1 1 1 0 2 2 0 1 2 0 0 0 0 0 1 0 1 1 0 0 0 2 0 0 0 1 0 2 0 2 2 0 0 0 0 0 0 0 2 2 2 1 2 0 0 0 0 0 0 1 1 1 1 2 2 0 0 0 0 0 0 2 0 0 0 0 2 0 1 1 1 0 1 0 0 1 0 0 2 2 1 1 0 0 0 1 0 2 0 1 2 0 0 1 0 2 0 2 2 0 0 1 0 2 0 0 0 2 0 0 2 0 0 2 0 0 0 0 1 0 0 0 2 2 0 0 0 1 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 2 2 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 1 2 0 0 0 1 2 0 0 0 0 0 0 0 2 0 0 2 2 0 0 2 0 2 0 0 0 1 2 2 1 0 0 1 1 2 0 0 0 0 0 0 1 0 2 0 0 2 0 1 2 2 0 1 2 0 0 1 0 0 2 0 0 1 1 0 0 0 1 2 0 1 0 2 0 0 0 0 2 2 2 0 2 2 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 2 0 0 2 0 0 0 0 1 0 2 1 0 0 1 0 2 0 0 0 0 0 0 0 0 2 0 2 0 0 1 1 1 0 1 0 2 0 0 0 1 0 0 0 0 0 1 0 2 0 2 0 0 2 0 0 0 1 2 0 0 2 1 1 0 2 0 0 0 2 0 0 0 2 1 2 0 2 0 1 0 0 0 0 0 2 2 1 0 0 1 0 0 0 1 0 0 0 0 0 2 0 0 0 1 1 0 0 2 1 1 2 0 0 0 0 0 0 0 0 1 2 0 0 2 0 0 0 0 0 1 2 0 2 0 0 0 0 0 0 0 2 0 2 0 0 0 1 0 0 0 0 1 0 0 0 1 0 2 1 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 2 1 0 0 1 2 0 0 0 0 0 0 0 0 2 2 1 1 2 0 2 0 0 2 0 0 0 0 2 0 1 2 0 0 1 0 0 0 0 0 2 0 1 0 0 2 2 0 0 0 0 2 2 0 1 2 0 0 0 0 0 0 0 0 2 2 0 1 2 0 0 0 0 0 1 2 0 0 0 2 2 2 0 2 0 0 1 1 1 0 1 2 0 2 0 0 2 2 2 2 0 1 0 0 2 0 1 1 0 2 0 0 1 0 0 0 0 1 1 1 1 0 0 0 0 0 0 2 0 1 2 0 2 0 0 2 0 0 1 2 0 2 0 2 0 0 0 0 0 2 2 0 0 2 2 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 1 2 0 0 2 1 1 2 0 1 1 0 0 0 0 1 0 2 1 0 0 0 0 0 0 0 0 2 0 1 2 2 0 1 0 2 0 2 0 0 1 0 0 1 0 0 0 0 2 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2 2 1 0 0 1 0 0 1 0 2 1 1 1 1 0 0 0 0 0 2 0 0 2 0 0 2 0 0 1 0 0 2 1 0 0 0 0 2 0 1 0 2 2 2 0 0 0 0 0 0 0 1 0 0 1 0 0 2 0 0 0 2 1 0 2 0 0 0 2 0 1 0 1 0 2 1 2 0 0 2 2 0 0 0 0 0 0 2 2 2 2 0 0 0 0 0 0 2 0 0 2 2 2 2 2 0 0 0 2 0 1 2 0 0 1 0 0 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 2 2 0 0 1 1 0 2 0 0 1 0 0 0 0 1 1 2 0 0 0 0 0 1 0 1 0 1 0 0 1 2 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 2 2 0 0 2 1 2 2 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 2 0 2 0 0 0 0 0 0 0 0 2 2 2 0 0 0 0 2 1 0 2 1 2 0 0 0 0 0 2 2 0 0 1 0 0 0 1 2 1 0 2 2 2 2 0 2 0 0 0 2 2 0 0 0 0 0 0 0 0 2 2 1 0 1 0 0 0 2 0 2 1 0 1 0 2 1 2 0 0 1 1 1 0 0 0 1 0 0 0 1 1 2 0 0 2 0 0 1 0 2 1 2 2 0 0 0 0 2 0 0 0 0 1 0 0 1 2 0 0 0 0 0 0 0 2 0 1 0 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 1 0 0 1 1 1 0 2 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 2 0 0 0 0 1 1 0 0 0 0 0 2 0 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 1 0 0 1 0 1 1 0 0 0 2 0 0 0 0 0 2 2 1 0 0 2 0 0 1 1 1 1 0 0 2 1 1 2 1 0 0 0 1 0 0 0 0 2 0 0 1 1 2 2 2 2 2 0 2 2 0 0 1 0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 0 2 0 0 0 2 0 0 0 0 2 0 0 2 2 0 0 1 0 1 0 2 0 0 2 0 0 1 1 0 2 1 1 0 0 0 0 0 0 2 1 0 0 2 0 1 0 1 0 1 0 0 2 2 0 0 2 2 0 2 0 1 2 1 1 2 0 2 1 0 0 0 1 0 0 0 2 0 0 0 0 1 0 0 0 0 0 0 2 1 0 1 1 2 2 2 0 0 0 2 2 1 1 0 0 0 0 2 0 2 1 1 0 0 2 0 0 0 0 0 0 1 0 0 1 2 1 0 0 0 1 0 0 0 0 1 0 2 0 0 2 1 0 1 0 1 1 2 0 0 0 0 2 1 1 1 0 0 2 0 2 1 0 0 0 1 0 2 0 1 0 0 0 0 2 2 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 0 2 0 2 0 2 0 0 0 0 0 0 0 2 0 0 0 1 2 2 0 0 0 0 0 0 0 0 0 0 1 0 0 0 2 1 0 1 2 2 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 0 1 1 0 1 2 1 0 0 0 0 0 0 1 1 0 1 0 0 2 1 2 1 0 2 1 0 0 0 0 0 2 0 0 0 0 2 0 1 0 0 2 1 1 1 1 0 2 0 0 1 0 2 0 1 0 0 0 2 0 0 0 1 0 2 2 2 0 0 0 2 0 0 0 2 0 0 1 0 0 1 1 0 1 0 0 1 0 1 1 0 0 0 0 0 1 0 0 1 0 1 1 0 0 0 2 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 2 0 0 0 1 0 2 0 0 2 0 0 0 0 1 0 1 0 2 1 0 0 0 0 0 0 1 2 0 0 1 1 0 2 1 0 2 1 2 0 0 2 0 0 2 0 0 1 1 0 0 2 1 0 2 0 0 0 0 2 1 0 0 0 0 1 0 1 2 1 2 1 0 0 2 1 1 0 1 1 0 2 0 0 1 0 1 0 0 0 1 0 2 1 2 0 0 0 0 1 0 2 0 0 0 2 0 1 0 0 1 0 0 0 0 1 0 2 0 0 0 0 0 0 2 0 0 0 0 1 2 0 1 1 0 1 0 0 1 1 0 1 0 2 2 1 1 0 0 0 1 0 0 0 2 0 1 2 1 0 0 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 2 2 0 1 2 0 0 0 1 0 2 1 1 0 0 0 0 0 0 1 0 1 1 1 2 1 2 0 0 1 2 0 1 0 0 0 0 2 0 0 2 0 0 2 2 0 0 2 0 0 0 2 0 1 0 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 0 1 1 2 0 1 0 2 0 0 0 0 0 2 0 1 0 1 1 0 2 1 0 0 0 0 0 2 0 2 1 2 0 1 0 2 0 2 1 2 1 0 0 2 1 1 0 1 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 0 1 2 0 0 2 0 0 1 1 2 2 2 2 0 2 0 0 0 0 2 0 1 0 0 2 2 0 0 0 0 0 1 0 0 0 2 0 0 0 0 2 0 0 2 0 2 1 1 2 1 0 0 0 0 1 0 0 0 2 2 0 1 0 0 2 0 0 2 0 0 1 1 2 0 0 0 0 0 1 1 1 0 0 0 0 0 1 1 0 2 0 2 0 2 2 2 0 2 1 0 0 0 0 2 0 0 1 1 0 2 0 0 0 0 2 0 1 0 1 2 1 0 0 1 0 0 2 2 2 1 0 0 0 1 1 0 0 0 0 0 0 0 1 0 1 0 0 0 2 0 1 1 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 2 2 1 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 1 0 0 2 1 1 2 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 2 0 0 0 0 1 0 1 0 0 2 0 2 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1 0 1 2 1 2 0 0 1 0 1 0 0 0 0 1 0 0 0 0 1 2 2 0 0 0 0 2 2 2 0 0 2 1 0 0 2 0 0 1 2 0 0 0 1 0 0 2 0 0 0 0 0 0 0 0 2 0 0 0 0 0 2 2 0 0 2 0 0 0 1 1 1 0 0 0 0 0 2 0 2 0 2 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 2 2 0 1 2 0 2 2 0 0 2 0 0 0 2 0 0 0 2 2 0 1 2 0 2 1 1 2 0 0 0 2 0 0 1 0 0 0 2 1 1 1 2 1 1 2 0 1 0 1 0 0 0 1 0 2 0 0 0 0 0 2 0 2 0 2 0 1 1 0 0 2 0 0 1 1 1 1 0 0 1 0 0 0 1 1 0 0 0 0 2 2 0 0 2 2 2 0 0 2 2 0 0 1 2 1 1 0 0 0 2 0 0 0 0 1 0 2 0 2 0 2 2 0 1 1 0 0 0 2 1 2 2 0 0 1 0 1 2 0 2 1 0 0 2 0 0 1 2 1 0 0 0 1 0 1 0 0 2 2 1 0 0 0 2 1 0 2 2 1 0 2 2 0 0 0 1 1 0 0 0 0 1 2 0 0 2 2 1 1 0 2 0 0 1 1 2 0 0 0 0 2 0 0 0 0 0 2 0 2 0 0 0 0 2 0 0 0 2 2 0 0 2 2 0 1 0 2 2 0 2 1 2 2 0 0 0 2 1 0 0 2 1 1 2 0 0 1 0 0 1 0 0 0 2 1 0 1 0 0 2 0 1 0 2 0 0 1 0 0 0 1 2 1 2 1 0 0 2 0 0 1 0 2 0 1 0 0 0 0 1 2 1 1 2 0 2 2 1 1 2 2 2 0 0 1 0 1 0 0 2 1 0 0 2 0 1 0 0 1 0 2 0 2 0 0 2 1 0 0 0 2 2 1 0 0 1 0 1 2 2 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 2 2 0 1 0 0 2 0 1 2 1 0 2 0 0 2 0 2 0 0 1 0 1 2 1 0 0 0 0 0 1 0 1 1 2 0 0 0 2 0 2 2 0 1 2 0 1 2 0 2 0 0 2 0 2 0 0 0 2 1 2 0 0 0 0 2 0 0 1 2 0 0 0 0 0 0 0 2 1 2 2 2 0 0 0 2 2 0 0 2 0 0 0 1 0 2 0 1 2 0 0 2 0 0 0 0 0 0 0 0 0 0 1 0 1 2 0 2 1 0 0 0 2 2 2 1 0 0 0 2 1 2 2 1 1 2 0 0 0 0 0 0 2 0 0 0 2 2 0 0 0 1 0 2 0 0 2 0 0 1 1 0 0 0 0 0 0 0 0 1 1 1 0 0 0 2 2 1 2 0 0 1 0 2 2 0 2 1 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 2 0 2 0 0 1 0 2 0 1 0 0 0 0 2 0 0 0 0 1 0 0 0 2 0 2 2 0 0 0 0 0 0 1 0 0 1 0 0 0 0 2 0 0 0 0 2 1 0 0 0 1 1 1 0 0 2 2 1 1 0 0 0 0 2 0 0 2 2 0 0 0 0 0 0 1 2 0 0 0 0 1 0 0 0 2 0 0 1 1 1 0 2 0 0 0 2 0 0 0 0 1 0 0 0 2 0 0 0 0 1 0 1 2 0 0 2 0 1 0 0 2 0 0 0 0 2 0 0 1 0 0 0 0 0 1 2 2 2 0 0 2 0 0 1 0 1 0 2 1 0 1 0 0 0 1 0 0 0 0 0 0 1 2 0 2 0 0 2 1 0 0 1 2 0 2 1 0 1 1 1 0 0 0 0 2 0 0 1 0 2 0 2 1 0 1 2 0 0 0 0 0 2 0 0 0 2 1 0 0 0 2 0 0 0 0 0 0 2 1 1 0 0 1 0 1 0 2 0 1 0 2 0 0 2 1 2 0 2 0 0 0 0 2 0 2 0 1 0 2 0 1 1 0 2 0 2 0 0 0 0 0 0 1 2 2 0 1 0 2 0 0 0 0 2 0 2 0 0 0 2 0 0 2 1 0 0 2 0 2 0 0 2 2 0 1 0 2 0 0 0 1 0 1 2 0 0 2 1 0 0 0 2 0 0 1 0 2 0 0 2 2 1 0 2 0 0 0 1 0 0 0 1 0 0 2 0 0 2 0 0 0 2 0 0 2 2 0 0 2 0 0 0 0 0 0 2 0 0 1 2 0 0 0 1 2 0 0 0 1 2 0 2 0 2 0 0 0 0 1 2 0 0 2 0 0 2 0 0 0 1 2 1 2 0 0 1 0 0 0 1 0 2 0 0 0 2 0 1 2 2 0 0 1 0 2 2 0 0 0 0 0 2 0 2 0 2 0 0 1 0 1 2 0 2 1 2 0 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 1 1 1 1 1 0 0 0 2 0 1 0 0 0 0 1 0 1 2 0 0 0 1 1 2 1 0 2 0 2 1 0 1 1 1 1 0 1 2 1 0 2 1 2 0 0 0 1 0 2 1 1 0 2 0 2 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 2 1 0 0 0 0 2 2 1 0 2 2 2 2 0 2 0 0 0 1 1 0 2 2 2 0 0 2 2 2 0 1 2 0 0 1 1 0 0 0 2 0 2 2 0 2 0 0 0 2 1 0 1 0 0 1 0 1 2 1 0 0 0 1 2 0 0 0 0 2 0 0 0 0 1 0 1 2 0 2 2 0 0 0 0 2 0 2 0 1 2 0 0 0 0 0 0 0 2 0 1 0 2 0 2 0 0 1 2 0 0 2 0 0 0 0 1 0 0 1 2 0 2 0 2 0 1 1 0 2 0 0 0 0 0 0 0 1 2 0 0 0 1 1 0 0 0 0 0 0 0 0 2 2 0 1 1 0 2 2 0 0 1 0 1 2 0 0 0 2 1 0 0 0 0 0 0 2 2 0 1 0 0 0 0 0 1 1 1 0 0 0 1 2 0 2 0 1 0 0 2 0 0 0 0 0 1 0 1 0 2 0 2 0 2 2 0 0 2 1 0 0 0 0 2 0 2 0 1 0 2 0 0 0 1 0 1 2 2 0 0 0 2 2 1 0 0 0 1 0 1 2 2 0 0 0 0 0 0 2 2 0 2 0 2 0 2 0 0 0 1 0 0 0 0 1 2 0 0 2 1 2 0 1 0 1 1 0 0 2 0 0 0 0 1 1 2 0 1 0 0 1 0 0 0 0 0 0 2 1 1 2 1 2 0 0 2 0 1 0 0 0 0 2 0 2 0 0 1 0 2 0 1 2 0 0 0 0 0 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 1 2 0 0 0 2 2 0 1 2 2 0 2 2 1 2 1 2 0 2 0 1 2 0 0 0 0 2 0 0 0 1 0 2 1 0 2 2 2 0 0 0 1 1 1 0 1 2 0 2 0 0 2 0 0 2 0 1 0 2 2 0 0 1 1 1 2 1 2 2 1 0 1 0 0 1 0 1 2 1 0 0 0 0 0 0 2 0 0 0 0 2 2 2 0 0 0 0 0 0 2 1 1 0 2 0 2 2 0 0 0 0 2 0 0 0 0 0 2 1 2 0</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">number_of_elements,mean_atomic_mass,wtd_mean_atomic_mass,gmean_atomic_mass,wtd_gmean_atomic_mass,entropy_atomic_mass,wtd_entropy_atomic_mass,range_atomic_mass,wtd_range_atomic_mass,std_atomic_mass,wtd_std_atomic_mass,mean_fie,wtd_mean_fie,gmean_fie,wtd_gmean_fie,entropy_fie,wtd_entropy_fie,range_fie,wtd_range_fie,std_fie,wtd_std_fie,mean_atomic_radius,wtd_mean_atomic_radius,gmean_atomic_radius,wtd_gmean_atomic_radius,entropy_atomic_radius,wtd_entropy_atomic_radius,range_atomic_radius,wtd_range_atomic_radius,std_atomic_radius,wtd_std_atomic_radius,mean_Density,wtd_mean_Density,gmean_Density,wtd_gmean_Density,entropy_Density,wtd_entropy_Density,range_Density,wtd_range_Density,std_Density,wtd_std_Density,mean_ElectronAffinity,wtd_mean_ElectronAffinity,gmean_ElectronAffinity,wtd_gmean_ElectronAffinity,entropy_ElectronAffinity,wtd_entropy_ElectronAffinity,range_ElectronAffinity,wtd_range_ElectronAffinity,std_ElectronAffinity,wtd_std_ElectronAffinity,mean_FusionHeat,wtd_mean_FusionHeat,gmean_FusionHeat,wtd_gmean_FusionHeat,entropy_FusionHeat,wtd_entropy_FusionHeat,range_FusionHeat,wtd_range_FusionHeat,std_FusionHeat,wtd_std_FusionHeat,mean_ThermalConductivity,wtd_mean_ThermalConductivity,gmean_ThermalConductivity,wtd_gmean_ThermalConductivity,entropy_ThermalConductivity,wtd_entropy_ThermalConductivity,range_ThermalConductivity,wtd_range_ThermalConductivity,std_ThermalConductivity,wtd_std_ThermalConductivity,mean_Valence,wtd_mean_Valence,gmean_Valence,wtd_gmean_Valence,entropy_Valence,wtd_entropy_Valence,range_Valence,wtd_range_Valence,std_Valence,wtd_std_Valence,critical_temp</Row>
+         <Row Item="2">4,88.9444675,57.86269229,66.36159243,36.11661191,1.181795239,1.062395545,122.90607,31.79492086,51.96882779,53.62253453,775.425,1010.268571,718.1529,938.0167801,1.305967036,0.791487788,810.6,735.9857143,323.8118078,355.5629667,160.25,105.5142857,136.1260031,84.52842272,1.259243972,1.207039987,205,42.91428571,75.2375405,69.23556948,4654.35725,2961.502286,724.9532109,53.54381092,1.033128801,0.81459819,8958.571,1579.583429,3306.162897,3572.596624,81.8375,111.7271429,60.12317856,99.41468205,1.159686593,0.787381691,127.05,80.98714286,51.43371189,42.55839575,6.9055,3.846857143,3.479474849,1.040985986,1.088575342,0.994998193,12.878,1.744571429,4.599064117,4.666919554,107.756645,61.01518857,7.06248773,0.621979487,0.30814799,0.262848266,399.97342,57.12766857,168.8542438,138.5171625,2.25,2.257142857,2.213363839,2.21978343,1.368922361,1.066221032,1,1.085714286,0.433012702,0.437058815,29</Row>
+         <Row Item="3">5,92.729214,58.51841614,73.13278722,36.39660203,1.449309193,1.057755123,122.90607,36.161939,47.09463317,53.97986965,766.44,1010.612857,720.6055105,938.7454125,1.544144543,0.807078215,810.6,743.1642857,290.1830291,354.9635112,161.2,104.9714286,141.4652148,84.37016696,1.50832754,1.204114798,205,50.57142857,67.32131906,68.00881696,5821.4858,3021.016571,1237.09508,54.09571826,1.314442185,0.914802177,10488.571,1667.383429,3767.403176,3632.649185,90.89,112.3164286,69.83331461,101.1663977,1.427996553,0.838666466,127.05,81.20785714,49.43816744,41.6676208,7.7844,3.796857143,4.403790498,1.035251116,1.37497728,1.073093846,12.878,1.595714286,4.473362655,4.60300006,172.205316,61.37233143,16.06422788,0.619734632,0.847404163,0.567706108,429.97342,51.41338286,198.5546003,139.6309224,2,2.257142857,1.888175023,2.210679409,1.557113098,1.047221368,2,1.128571429,0.632455532,0.46860627,26</Row>
+         <Row Item="4">3,87.46833333,86.8585,82.55575809,80.45872225,1.04127007,0.895229164,71.755,43.144,29.90528168,33.92794055,856.1666667,821.19,852.8587891,818.6319082,1.094784085,0.96877089,181.3,285.51,74.56962444,65.2916909,127.3333333,137.5,125.493812,136.0843133,1.084024539,0.883461467,53,67.7,21.85304454,19.34554212,6311,6914.9,6186.508901,6830.731801,1.078970436,0.874139171,3055,3455.1,1248.208583,1039.909655,135.1333333,104.93,86.53086361,57.56378257,0.839248416,0.747946656,179.3,68.08,83.41448049,87.74050433,12.23333333,14.44,10.92539041,13.81637584,1.002899471,0.826779954,12.1,6.46,5.062498285,3.481723711,27.50666667,40.752,4.976422327,12.91999608,0.194158291,0.142552921,78.48,39.448,36.42535869,38.25443159,5,4.5,4.762203156,4.242640687,1.054920168,0.970115784,3,1.8,1.414213562,1.5,12.8</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>81</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+         <Input Index="11">input_11</Input>
+         <Input Index="12">input_12</Input>
+         <Input Index="13">input_13</Input>
+         <Input Index="14">input_14</Input>
+         <Input Index="15">input_15</Input>
+         <Input Index="16">input_16</Input>
+         <Input Index="17">input_17</Input>
+         <Input Index="18">input_18</Input>
+         <Input Index="19">input_19</Input>
+         <Input Index="20">input_20</Input>
+         <Input Index="21">input_21</Input>
+         <Input Index="22">input_22</Input>
+         <Input Index="23">input_23</Input>
+         <Input Index="24">input_24</Input>
+         <Input Index="25">input_25</Input>
+         <Input Index="26">input_26</Input>
+         <Input Index="27">input_27</Input>
+         <Input Index="28">input_28</Input>
+         <Input Index="29">input_29</Input>
+         <Input Index="30">input_30</Input>
+         <Input Index="31">input_31</Input>
+         <Input Index="32">input_32</Input>
+         <Input Index="33">input_33</Input>
+         <Input Index="34">input_34</Input>
+         <Input Index="35">input_35</Input>
+         <Input Index="36">input_36</Input>
+         <Input Index="37">input_37</Input>
+         <Input Index="38">input_38</Input>
+         <Input Index="39">input_39</Input>
+         <Input Index="40">input_40</Input>
+         <Input Index="41">input_41</Input>
+         <Input Index="42">input_42</Input>
+         <Input Index="43">input_43</Input>
+         <Input Index="44">input_44</Input>
+         <Input Index="45">input_45</Input>
+         <Input Index="46">input_46</Input>
+         <Input Index="47">input_47</Input>
+         <Input Index="48">input_48</Input>
+         <Input Index="49">input_49</Input>
+         <Input Index="50">input_50</Input>
+         <Input Index="51">input_51</Input>
+         <Input Index="52">input_52</Input>
+         <Input Index="53">input_53</Input>
+         <Input Index="54">input_54</Input>
+         <Input Index="55">input_55</Input>
+         <Input Index="56">input_56</Input>
+         <Input Index="57">input_57</Input>
+         <Input Index="58">input_58</Input>
+         <Input Index="59">input_59</Input>
+         <Input Index="60">input_60</Input>
+         <Input Index="61">input_61</Input>
+         <Input Index="62">input_62</Input>
+         <Input Index="63">input_63</Input>
+         <Input Index="64">input_64</Input>
+         <Input Index="65">input_65</Input>
+         <Input Index="66">input_66</Input>
+         <Input Index="67">input_67</Input>
+         <Input Index="68">input_68</Input>
+         <Input Index="69">input_69</Input>
+         <Input Index="70">input_70</Input>
+         <Input Index="71">input_71</Input>
+         <Input Index="72">input_72</Input>
+         <Input Index="73">input_73</Input>
+         <Input Index="74">input_74</Input>
+         <Input Index="75">input_75</Input>
+         <Input Index="76">input_76</Input>
+         <Input Index="77">input_77</Input>
+         <Input Index="78">input_78</Input>
+         <Input Index="79">input_79</Input>
+         <Input Index="80">input_80</Input>
+         <Input Index="81">input_81</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>5</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>81</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="8">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="9">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="10">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="11">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="12">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="13">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="14">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="15">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="16">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="17">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="18">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="19">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="20">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="21">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="22">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="23">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="24">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="25">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="26">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="27">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="28">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="29">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="30">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="31">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="32">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="33">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="34">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="35">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="36">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="37">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="38">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="39">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="40">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="41">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="42">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="43">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="44">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="45">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="46">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="47">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="48">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="49">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="50">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="51">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="52">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="53">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="54">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="55">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="56">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="57">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="58">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="59">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="60">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="61">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="62">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="63">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="64">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="65">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="66">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="67">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="68">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="69">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="70">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="71">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="72">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="73">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="74">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="75">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="76">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="77">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="78">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="79">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="80">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="81">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>81</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>approximation_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Linear</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Unscaling>
+            <NeuronsNumber>1</NeuronsNumber>
+            <UnscalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MinimumMaximum</Scaler>
+            </UnscalingNeuron>
+         </Unscaling>
+         <Bounding>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Item Index="1">
+               <LowerBound>-340282346638528859811704183484516925440.000000</LowerBound>
+               <UpperBound>340282346638528859811704183484516925440.000000</UpperBound>
+            </Item>
+            <BoundingMethod>Bounding</BoundingMethod>
+         </Bounding>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="3">2</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="4">3</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>250</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>MeanSquaredError</LossMethod>
+         <MeanSquaredError/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>164</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

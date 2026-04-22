@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="3d5puM"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/milkquality/milkquality.csv</Path>
+         <Separator>Comma</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>8</VariablesNumber>
+         <Variable Item="1">
+            <Name>pH</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>temperature</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>taste</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="4">
+            <Name>odor</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="5">
+            <Name>fat</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="6">
+            <Name>turbidity</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>0;1</Categories>
+         </Variable>
+         <Variable Item="7">
+            <Name>colour</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="8">
+            <Name>grade</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Categorical</Type>
+            <Categories>high_quality;low_quality;medium_quality</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>1059</SamplesNumber>
+         <SampleRoles>1 0 0 0 0 0 1 0 1 0 2 0 0 0 2 2 0 2 0 0 2 0 1 1 0 0 0 0 2 1 0 0 0 0 2 0 0 2 0 1 1 0 0 1 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 2 2 0 2 0 2 2 1 0 0 1 1 2 0 1 0 2 1 1 2 1 0 0 2 0 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 2 1 0 0 1 2 2 2 2 0 0 2 0 2 1 1 1 2 2 1 0 1 2 2 1 0 1 2 0 1 1 2 2 0 2 2 0 2 1 1 1 0 0 2 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 0 2 0 0 0 2 2 0 0 0 1 0 1 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 2 0 2 0 0 1 1 1 0 1 1 0 0 0 2 2 0 0 0 0 0 0 0 1 0 1 2 2 2 0 0 0 0 0 1 2 2 2 0 2 1 1 0 1 0 0 0 0 0 0 0 1 0 0 2 1 0 2 0 0 0 2 2 0 0 1 0 0 0 1 2 0 0 0 1 1 1 1 1 0 0 0 2 0 0 0 2 0 1 0 1 0 0 0 0 2 0 2 0 0 2 2 0 0 0 0 2 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 2 0 0 0 2 0 0 0 0 2 1 2 2 2 1 0 0 0 2 1 0 0 1 0 2 1 0 1 0 0 0 0 0 0 1 1 1 0 0 0 0 2 1 0 0 0 1 0 2 0 0 1 2 0 1 2 0 0 2 0 0 2 0 2 2 0 2 1 0 0 0 0 2 0 2 2 0 0 0 0 0 2 0 0 2 1 1 0 0 0 2 0 0 0 0 0 0 0 0 1 2 0 0 2 0 1 1 2 0 0 0 0 0 0 2 0 0 0 2 0 2 0 1 1 0 0 0 1 2 0 1 0 0 0 1 1 0 0 0 0 0 0 0 2 0 1 0 1 0 1 2 0 2 0 0 0 1 0 0 0 2 1 0 1 0 2 0 0 0 0 0 0 2 2 2 0 0 2 0 2 1 1 0 0 2 1 0 1 0 2 0 0 0 0 1 0 0 0 1 0 0 2 2 0 1 0 2 1 1 0 0 1 0 0 0 0 0 2 2 0 2 2 2 1 2 0 2 1 0 0 0 0 1 1 0 0 1 0 0 0 0 0 1 1 0 0 1 2 1 1 0 0 0 1 0 0 0 0 0 0 1 0 2 0 2 0 0 1 0 0 0 2 0 0 1 0 2 0 0 2 0 0 1 1 2 1 2 1 0 0 2 2 0 0 0 2 0 2 2 0 1 0 1 2 2 0 0 0 0 0 0 0 0 0 0 2 0 2 2 0 1 0 0 0 1 1 0 2 0 0 0 2 0 0 0 0 2 0 0 0 0 0 0 0 1 2 1 1 0 0 1 1 0 2 1 0 0 0 1 0 2 0 2 1 0 2 1 0 0 0 0 0 0 0 0 0 2 1 0 0 1 1 0 1 0 0 0 1 0 2 0 1 2 0 2 0 0 2 0 2 1 1 0 1 0 1 0 0 0 0 1 0 2 0 2 0 2 0 2 0 0 2 0 0 0 0 0 2 1 0 0 0 2 0 0 0 0 0 0 2 0 0 0 2 0 2 1 2 0 0 2 0 0 0 0 1 1 2 1 0 0 0 0 1 0 2 1 0 0 0 2 1 1 1 0 2 0 2 0 0 2 0 0 0 0 0 0 1 2 0 0 0 0 0 0 0 2 1 1 2 0 2 0 1 0 2 0 0 0 0 0 0 0 1 2 2 2 1 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 1 2 0 0 0 2 2 0 2 0 0 0 0 2 0 0 0 2 1 0 0 1 0 2 0 1 2 2 0 2 2 0 0 1 0 0 0 0 2 1 0 0 1 1 0 0 1 0 0 0 2 0 0 0 0 0 0 2 0 2 1 0 0 0 0 2 2 0 0 0 0 0 0 0 1 2 0 0 1 0 2 1 1 1 2 0 0 2 0 0 2 0 2 0 0 0 0 1 1 0 1 0 0 0 0 2 0 1 0 0 0 2 2 0 0 2 0 2 0 0 2 0 2 0 0 1 0 1 1 0 1 0 1 2 1 0 2 0 1 1 1 2 0 1 0 1 0 0 0 0 1 0 0 1 0 0 2 0 1 0 0 0 2 0 0 0 0 1 2 0 1</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">pH, temperature, taste, odor, fat, turbidity, colour, grade</Row>
+         <Row Item="2">6.6,35,1,0,1,0,254,high_quality</Row>
+         <Row Item="3">6.6,36,0,1,0,1,253,high_quality</Row>
+         <Row Item="4">8.6,55,0,1,1,1,255,low_quality</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>7</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>7</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>7</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>Softmax</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>3</OutputsNumber>
+         <Output Index="1">output_1</Output>
+         <Output Index="2">output_2</Output>
+         <Output Index="3">output_3</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>36</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>CrossEntropyError2d</LossMethod>
+         <CrossEntropyError2d/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>20</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

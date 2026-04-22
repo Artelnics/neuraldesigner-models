@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by toolsUpdate-->
+<NeuralDesignerModel ModelType="Classification">
+   <Description Id="YNpo7Q"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/creditcardfraud/creditcard_fraud.csv</Path>
+         <Separator>Semicolon</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <Variables>
+         <VariablesNumber>11</VariablesNumber>
+         <Variable Item="1">
+            <Name>merchan_id</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="2">
+            <Name>avg_amount_days</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="3">
+            <Name>transaction_amount</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="4">
+            <Name>is_declined</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>no;yes</Categories>
+         </Variable>
+         <Variable Item="5">
+            <Name>number_declines_days</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="6">
+            <Name>foreign_transaction</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>no;yes</Categories>
+         </Variable>
+         <Variable Item="7">
+            <Name>high_risk_countries</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Input</Role>
+            <Type>Binary</Type>
+            <Categories>no;yes</Categories>
+         </Variable>
+         <Variable Item="8">
+            <Name>daily_chbk_avg_amt</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="9">
+            <Name>6m_avg_chbk_amt</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="10">
+            <Name>6m_chbk_freq</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </Variable>
+         <Variable Item="11">
+            <Name>is_fradulent</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Target</Role>
+            <Type>Binary</Type>
+            <Categories>fraudulent;non-fraudulent</Categories>
+         </Variable>
+      </Variables>
+      <Samples>
+         <SamplesNumber>3075</SamplesNumber>
+         <SampleRoles>0 2 0 1 0 1 0 0 0 1 0 0 1 2 1 0 0 0 1 0 0 0 0 0 2 1 1 1 0 0 0 0 0 2 2 2 0 0 1 1 0 1 0 1 0 2 1 1 1 0 0 0 0 0 2 0 1 2 1 0 0 1 0 1 1 2 0 1 0 0 0 2 2 2 0 0 0 0 0 0 2 0 0 0 0 0 0 1 0 0 1 0 0 0 1 0 1 0 2 1 1 0 0 0 0 1 0 0 1 0 0 0 1 0 2 1 2 0 2 0 1 2 0 1 0 1 2 0 2 0 0 0 0 0 1 0 1 0 1 0 0 0 0 2 0 2 0 0 0 2 1 1 2 0 1 1 2 0 0 0 0 0 0 0 1 1 2 0 1 1 0 0 0 1 1 0 2 2 2 0 0 2 2 1 2 0 1 0 1 0 0 1 2 1 0 0 1 0 0 1 2 1 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 2 0 1 0 1 0 2 0 0 0 1 0 1 1 0 0 1 0 1 2 2 2 1 2 2 0 0 1 0 2 1 0 0 2 1 0 0 0 0 0 1 0 0 2 1 2 1 2 0 1 1 2 1 1 1 2 0 2 0 2 1 2 0 2 0 0 0 0 2 2 0 0 1 0 0 0 2 2 0 2 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 2 0 2 2 1 0 2 0 0 0 0 0 0 0 1 0 2 2 0 0 0 2 0 2 0 1 0 1 0 1 1 0 0 1 1 1 2 1 0 0 2 1 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 2 1 2 0 0 0 1 2 0 2 0 2 0 2 2 0 0 0 2 1 0 2 0 0 1 2 0 1 2 2 0 2 1 0 0 1 2 0 0 0 2 2 2 0 2 0 0 2 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 2 0 0 0 0 1 0 2 2 1 0 0 2 0 0 0 2 2 0 0 0 2 0 2 0 1 2 0 0 0 0 2 0 1 0 2 0 0 1 1 1 1 0 2 1 1 0 2 0 0 1 0 0 2 2 1 0 1 2 2 0 0 0 1 1 0 0 0 0 1 0 0 2 0 0 1 0 2 2 0 0 2 0 2 2 1 1 0 2 1 1 0 1 1 0 2 1 2 0 1 0 2 0 0 0 0 1 0 2 0 1 2 2 0 2 1 0 0 1 2 0 2 2 1 0 0 0 2 1 2 0 2 2 1 0 0 0 0 0 0 2 0 2 2 2 2 2 0 2 2 1 1 0 0 0 1 0 0 2 0 0 2 2 0 0 0 0 0 2 0 1 1 2 0 1 2 0 0 0 0 0 0 2 0 2 1 0 0 1 1 0 2 0 0 0 0 1 0 0 0 0 0 0 0 2 2 2 1 0 1 0 0 1 1 0 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 2 0 0 0 0 0 0 2 0 2 0 0 2 2 0 0 0 0 0 1 2 2 2 0 0 0 0 0 0 0 0 2 2 0 1 0 0 1 0 1 0 1 0 1 0 0 0 0 0 2 1 0 0 1 0 2 0 0 0 2 0 2 0 2 1 0 0 0 0 0 2 0 0 2 0 0 0 2 0 0 0 2 0 2 0 2 1 2 1 0 1 0 0 0 0 0 0 0 2 2 0 0 0 0 1 1 0 0 0 2 1 1 1 1 0 2 1 0 1 2 0 2 1 0 0 1 2 2 0 2 0 2 0 1 1 1 0 2 2 2 1 0 0 2 1 0 0 1 0 1 0 1 0 0 0 0 1 2 0 0 0 1 0 0 0 1 0 2 2 0 0 0 1 0 2 0 0 2 1 0 0 0 0 0 0 0 2 1 0 0 0 2 0 0 0 2 0 0 0 0 0 1 1 0 2 1 1 0 0 0 0 1 0 1 1 0 0 0 0 1 1 2 0 2 0 0 0 1 1 0 0 1 0 0 2 0 1 0 1 0 1 2 0 2 0 2 2 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 1 0 1 0 0 0 1 0 0 2 0 1 2 0 0 1 0 0 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0 0 0 2 1 1 0 0 0 0 0 0 1 0 0 2 0 0 0 1 0 1 2 2 1 0 0 1 1 0 2 0 0 0 0 1 2 0 2 1 0 2 0 0 1 2 0 0 0 1 0 0 1 2 0 1 0 2 0 1 0 2 0 1 0 2 1 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 0 2 0 2 2 1 2 0 2 0 0 1 0 0 2 2 0 1 1 1 2 2 0 0 2 0 2 0 2 0 0 0 0 0 1 0 0 2 0 1 0 1 0 1 0 0 0 1 2 0 0 0 2 2 0 2 2 0 2 2 0 2 1 0 0 1 0 0 2 2 1 1 0 0 0 1 0 1 0 2 0 1 0 0 0 1 1 0 1 0 0 0 0 0 0 0 0 2 0 0 0 1 0 2 0 0 0 1 0 0 0 1 0 0 1 0 0 1 2 0 1 1 0 0 1 0 0 2 0 0 1 2 0 0 1 0 0 2 0 1 2 0 0 0 1 0 0 0 2 1 0 0 0 0 2 0 1 0 2 1 0 0 2 0 2 0 0 0 0 0 2 0 0 0 0 0 1 1 2 2 0 2 0 2 2 0 2 0 0 0 0 1 0 0 0 0 0 0 0 2 1 2 0 2 1 1 0 0 0 1 0 0 0 1 2 0 1 0 2 0 0 0 0 0 1 2 0 0 1 0 2 0 0 1 0 1 0 1 2 1 0 2 0 0 0 2 0 1 1 0 1 0 0 1 0 0 2 1 2 1 1 0 1 0 1 0 1 0 0 0 1 0 1 2 1 2 0 0 0 0 0 0 0 0 0 0 2 2 0 2 1 0 0 0 0 0 0 1 1 0 0 0 0 2 0 0 2 0 0 1 2 2 0 2 1 2 0 0 0 2 1 1 1 0 2 0 0 0 0 0 0 0 1 2 2 0 2 0 2 1 0 1 2 2 0 0 1 1 0 0 0 2 1 1 1 0 2 0 2 2 0 0 0 1 0 0 0 0 1 0 0 2 2 0 2 1 0 1 0 1 0 0 0 2 2 2 0 2 0 0 2 0 0 1 0 0 2 2 2 2 1 0 0 0 0 2 0 1 0 1 1 2 0 0 2 0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 1 1 0 2 1 0 0 0 0 1 0 0 0 0 0 0 0 2 1 1 0 2 0 0 0 1 1 0 0 0 0 0 1 0 0 1 2 0 0 2 1 0 1 1 0 0 2 1 2 0 0 1 1 0 0 0 0 1 0 2 0 0 2 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 2 2 0 1 0 0 0 0 0 1 2 2 1 0 0 0 0 2 2 0 1 0 0 0 0 0 0 2 1 0 0 1 2 0 0 2 0 0 2 2 0 0 0 2 0 0 1 0 0 0 0 2 0 0 1 1 0 2 1 0 0 0 0 0 0 0 1 1 2 0 0 0 1 0 2 0 1 0 2 0 0 0 0 1 2 0 0 0 0 0 2 0 0 0 1 0 0 0 1 2 0 0 2 0 0 1 0 0 2 1 0 2 2 1 2 1 0 2 0 0 1 0 0 2 1 0 0 1 2 0 1 0 2 2 0 0 1 0 0 0 0 1 1 0 2 0 0 0 1 2 2 0 0 1 0 0 1 0 0 2 1 0 2 1 2 2 0 1 0 0 2 0 0 2 1 2 0 0 0 0 0 0 1 0 0 2 1 2 2 1 0 2 2 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 1 2 0 2 0 1 1 0 0 0 0 1 0 1 0 0 2 2 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 0 0 1 1 2 0 0 0 0 1 0 2 2 1 0 0 1 0 0 0 1 0 1 0 2 0 0 0 0 0 1 0 1 0 0 0 2 0 1 0 0 2 0 2 2 0 0 0 2 1 2 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 2 1 1 0 2 0 2 0 1 0 1 0 0 0 0 0 0 0 0 2 2 2 0 1 0 0 2 1 1 1 0 0 2 0 0 0 0 0 1 2 0 2 0 0 0 0 2 0 0 2 0 0 1 0 0 2 0 2 0 0 2 2 1 0 0 2 2 0 2 0 2 2 2 0 2 0 0 0 0 1 0 2 1 0 0 0 0 0 0 0 0 0 2 0 0 0 2 1 0 2 1 0 0 0 1 1 2 2 1 0 1 1 0 0 2 2 0 0 0 1 0 0 1 2 0 0 0 0 0 0 0 2 0 0 0 2 2 0 2 2 0 0 2 0 0 1 0 0 2 0 0 0 2 2 1 0 0 0 0 0 0 0 0 0 1 1 2 0 0 0 0 0 2 0 1 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 1 2 0 0 0 0 0 0 0 1 0 0 1 2 0 1 0 0 2 0 0 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 0 2 1 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 2 0 2 0 0 0 1 0 2 0 0 0 2 0 0 0 1 0 0 0 0 0 0 1 2 1 0 1 0 2 0 1 0 1 1 0 0 0 1 2 0 2 2 0 2 0 0 0 2 0 0 2 0 0 0 0 0 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 2 0 2 2 2 0 1 1 1 0 0 2 1 1 0 0 0 0 0 2 2 0 0 0 0 0 0 2 0 0 0 2 1 0 1 2 0 1 0 0 2 0 1 1 0 0 1 0 0 0 0 1 0 1 0 0 2 1 0 0 0 0 0 0 0 0 1 0 2 0 1 2 0 0 0 0 0 0 2 1 2 0 0 1 0 0 2 2 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 2 0 1 0 1 2 0 0 1 2 0 0 1 0 0 2 2 1 0 0 0 0 0 0 0 0 2 2 0 0 0 0 2 0 1 1 1 1 1 0 0 0 1 0 0 2 2 2 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 1 2 1 0 0 0 0 0 2 1 2 0 0 0 2 0 0 0 2 0 2 0 0 2 0 0 2 0 0 1 2 1 0 0 1 1 0 2 1 1 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 1 0 1 0 2 0 2 0 2 1 1 2 2 0 2 0 0 0 0 0 0 0 0 0 2 2 2 0 0 0 2 0 0 2 0 0 0 0 2 0 0 0 0 2 0 0 2 0 0 0 0 1 2 1 0 0 0 0 1 2 0 2 0 0 0 2 0 2 2 1 1 0 0 0 0 2 2 0 2 0 0 2 2 0 0 0 0 0 0 2 0 2 0 0 2 2 2 2 0 2 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 2 0 1 1 0 2 0 2 1 0 0 0 2 2 0 0 0 0 1 0 0 0 2 0 2 1 0 1 0 0 1 0 1 2 2 0 2 0 1 1 0 0 2 0 2 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 2 2 0 0 0 0 1 0 1 2 2 0 0 0 0 2 0 0 0 0 0 0 1 2 2 0 2 0 1 0 2 1 0 0 2 0 0 1 0 0 0 0 0 1 0 2 0 2 0 0 2 0 2 0 1 1 0 0 0 0 1 1 0 2 2 0 1 1 0 0 0 0 1 0 2 1 0 1 2 0 0 0 0 1 1 0 0 1 1 0 1 0 0 2 0 0 1 0 0 0 1 0 0 0 2 0 0 0 1 2 1 0 0 2 1 1 0 0 0 0 0 1 0 1 0 0 1 0 1 1 1 0 2 2 1 2 0 0 2 1 0 0 0 1 2 1 2 0 0 0 2 1 0 0 2 2 2 2 0 1 1 0 0 0 0 0 1 0 2 0 0 0 0 1 1 0 1 0 2 2 1 0 0 0 2 0 2 0 0 1 0 0 0 0 1 0 0 1 2 0 2 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 1 0 0 0 2 0 2 0 0 1 0 0 0 0 2 1 0 0 2 1 1 0 2 1 2 0 2 2 0 0 0 1 2 0 1 0 2 1 0 0 0 0 0 0 0 2 2 1 2 2 0 0 0 2 1 2 2 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 1 1 0 0 1 0 2 2 1 0 0 1 1 0 1 0 2 0 0 0 2 1 0 0 0 1 0 0 0 0 2 2 0 0 0 2 0 1 0 0 0 0 0 0 1 2 0 0 2 0 1 2 2 2 0 1 1 2 2 2 0 2 1 1 1 0 0 1 2 0 1 2 1 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 1 2 1 0 2</SampleRoles>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>0</MissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">merchan_id,avg_amount_days,transaction_amount,is_declined,number_declines_days,foreign_transaction,high_risk_countries,daily_chbk_avg_amt,6m_avg_chbk_amt,6m_chbk_freq,is_fradulent</Row>
+         <Row Item="2">3160040998,100,3000,no,5,yes,yes,0,0,0,fraudulent</Row>
+         <Row Item="3">3160040998,100,4300,no,5,yes,yes,0,0,0,fraudulent</Row>
+         <Row Item="4">6661273533,1500,36000,yes,0,yes,yes,754,585,7,non-fraudulent</Row>
+      </PreviewData>
+      <Display>1</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Inputs>
+         <InputsNumber>10</InputsNumber>
+         <Input Index="1">input_1</Input>
+         <Input Index="2">input_2</Input>
+         <Input Index="3">input_3</Input>
+         <Input Index="4">input_4</Input>
+         <Input Index="5">input_5</Input>
+         <Input Index="6">input_6</Input>
+         <Input Index="7">input_7</Input>
+         <Input Index="8">input_8</Input>
+         <Input Index="9">input_9</Input>
+         <Input Index="10">input_10</Input>
+      </Inputs>
+      <Layers>
+         <LayersNumber>3</LayersNumber>
+         <Scaling2d>
+            <NeuronsNumber>10</NeuronsNumber>
+            <ScalingNeuron Index="1">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="2">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="3">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="4">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="5">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="6">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="7">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="8">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="9">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+            <ScalingNeuron Index="10">
+               <Descriptives>-1 1 0 1 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingNeuron>
+         </Scaling2d>
+         <Dense2d>
+            <Label>dense2d_layer_1</Label>
+            <InputsNumber>10</InputsNumber>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <Dense2d>
+            <Label>classification_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Sigmoid</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <DropoutRate>0.000000</DropoutRate>
+         </Dense2d>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">output_1</Output>
+      </Outputs>
+      <Display>1</Display>
+      <ParametersNumber>37</ParametersNumber>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <Loss>
+         <LossMethod>WeightedSquaredError</LossMethod>
+         <WeightedSquaredError>
+            <PositivesWeight>-1.000000</PositivesWeight>
+            <NegativesWeight>-1.000000</NegativesWeight>
+         </WeightedSquaredError>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </Loss>
+      <Optimizer>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.000000</LossGoal>
+            <MaximumSelectionFailures>1000</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </Optimizer>
+      <Display>1</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>22</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>1</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>0.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

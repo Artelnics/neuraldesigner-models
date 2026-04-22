@@ -1,0 +1,6 @@
+.DS_Store
+*.zip
+
+# Very large binaries (>100 MB) that GitHub rejects on push.
+# The complete dataset (including these files) is published as a release ZIP.
+mnistdigits/mnist_data_Data.bin
