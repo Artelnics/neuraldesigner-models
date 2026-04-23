@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Document created by Neural Engine-->
+<NeuralDesignerModel ModelType="Forecasting">
+   <Description Id="frAQBc"></Description>
+   <Dataset>
+      <DataSource>
+         <FileType>csv</FileType>
+         <Path>madridNO2forecasting.csv</Path>
+         <Separator>Comma</Separator>
+         <HasHeader>1</HasHeader>
+         <HasSamplesId>0</HasSamplesId>
+         <MissingValuesLabel>NA</MissingValuesLabel>
+         <LagsNumber>2</LagsNumber>
+         <StepsAhead>1</StepsAhead>
+         <Codification>UTF-8</Codification>
+      </DataSource>
+      <RawVariables>
+         <RawVariablesNumber>8</RawVariablesNumber>
+         <RawVariable Item="1">
+            <Name>Date</Name>
+            <Scaler>MinimumMaximum</Scaler>
+            <Role>Time</Role>
+            <Type>DateTime</Type>
+         </RawVariable>
+         <RawVariable Item="2">
+            <Name>Average temperature</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="3">
+            <Name>Precipitation</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="4">
+            <Name>Average wind speed</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="5">
+            <Name>Wind gust</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="6">
+            <Name>Maximum pressure</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="7">
+            <Name>NO2</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>Input</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+         <RawVariable Item="8">
+            <Name>O3</Name>
+            <Scaler>MeanStandardDeviation</Scaler>
+            <Role>InputTarget</Role>
+            <Type>Numeric</Type>
+         </RawVariable>
+      </RawVariables>
+      <Samples>
+         <SamplesNumber>4569</SamplesNumber>
+         <SampleUses>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2</SampleUses>
+      </Samples>
+      <MissingValues>
+         <MissingValuesNumber>330</MissingValuesNumber>
+         <MissingValuesMethod>Unuse</MissingValuesMethod>
+         <RawVariablesMissingValuesNumber>0 3 0 101 163 25 18 20 </RawVariablesMissingValuesNumber>
+         <RowsMissingValuesNumber>219</RowsMissingValuesNumber>
+      </MissingValues>
+      <PreviewData>
+         <PreviewSize>4</PreviewSize>
+         <Row Item="1">Date,Average temperature,Precipitation,Average wind speed,Wind gust,Maximum pressure,NO2,O3</Row>
+         <Row Item="2">19/08/2005,24.6,0,2.2,16.1,945.1,52.65999985,28.70999908</Row>
+         <Row Item="3">20/08/2005,23.2,0,3.6,12.5,945.5,60.45999908,37.40000153</Row>
+         <Row Item="4">27/02/2018,3.6,19.9,1.7,11.1,927.6,84,13</Row>
+      </PreviewData>
+      <Display>0</Display>
+   </Dataset>
+   <NeuralNetwork>
+      <Features>
+         <FeaturesNumber>14</FeaturesNumber>
+         <Feature Index="1">Average temperature_lag0</Feature>
+         <Feature Index="2">Average temperature_lag1</Feature>
+         <Feature Index="3">Precipitation_lag0</Feature>
+         <Feature Index="4">Precipitation_lag1</Feature>
+         <Feature Index="5">Average wind speed_lag0</Feature>
+         <Feature Index="6">Average wind speed_lag1</Feature>
+         <Feature Index="7">Wind gust_lag0</Feature>
+         <Feature Index="8">Wind gust_lag1</Feature>
+         <Feature Index="9">Maximum pressure_lag0</Feature>
+         <Feature Index="10">Maximum pressure_lag1</Feature>
+         <Feature Index="11">NO2_lag0</Feature>
+         <Feature Index="12">NO2_lag1</Feature>
+         <Feature Index="13">O3_lag0</Feature>
+         <Feature Index="14">O3_lag1</Feature>
+      </Features>
+      <Layers>
+         <LayersNumber>4</LayersNumber>
+         <Scaling3d>
+            <InputDimensions>2 7 </InputDimensions>
+            <ScalingFeature Index="0">
+               <Descriptives>-1.8 32.8 15.5149 7.7232 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="1">
+               <Descriptives>0 45.3 1.10657 3.61338 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="2">
+               <Descriptives>0 6.4 1.93232 0.970394 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="3">
+               <Descriptives>1.9 26.1 9.13788 3.20966 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="4">
+               <Descriptives>917.9 967.3 942.616 5.69527 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="5">
+               <Descriptives>0 212.9 49.5787 32.5522 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+            <ScalingFeature Index="6">
+               <Descriptives>0 130 39.5295 24.8305 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </ScalingFeature>
+         </Scaling3d>
+         <Recurrent>
+            <Label>recurrent_layer</Label>
+            <InputDimensions>2 7 </InputDimensions>
+            <NeuronsNumber>3</NeuronsNumber>
+            <Activation>HyperbolicTangent</Activation>
+            <Biases>-0.0978314 0.0188414 -0.0772633 </Biases>
+            <InputWeights>0.0490867 -0.0794965 0.0979709 0.0707345 -0.0263418 0.000852063 0.04605 -0.0468674 0.0866581 -0.0523715 -0.0421358 -0.0405314 0.0741666 -0.0877936 -0.0028836 -0.0760835 0.0953925 -0.0533842 0.013019 -0.0973323 0.0879725 </InputWeights>
+            <RecurrentWeights>-0.0974879 0.087649 -0.0159962 0.0801281 0.0368963 0.0500224 0.0677705 0.0543159 0.0948459 </RecurrentWeights>
+         </Recurrent>
+         <Dense2d>
+            <Label>approximation_layer</Label>
+            <InputsNumber>3</InputsNumber>
+            <NeuronsNumber>1</NeuronsNumber>
+            <Activation>Linear</Activation>
+            <BatchNormalization>false</BatchNormalization>
+            <Biases>-0.0706849 </Biases>
+            <Weights>-0.0388444 0.0469312 0.0978165 </Weights>
+         </Dense2d>
+         <Unscaling>
+            <NeuronsNumber>1</NeuronsNumber>
+            <UnscalingNeuron Index="1">
+               <Descriptives>0 130 39.5295 24.8305 </Descriptives>
+               <Scaler>MeanStandardDeviation</Scaler>
+            </UnscalingNeuron>
+         </Unscaling>
+         <LayerInputIndices>
+            <LayerInputsIndices LayerIndex="0">-1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="1">0</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="2">1</LayerInputsIndices>
+            <LayerInputsIndices LayerIndex="3">2</LayerInputsIndices>
+         </LayerInputIndices>
+      </Layers>
+      <Outputs>
+         <OutputsNumber>1</OutputsNumber>
+         <Output Index="1">O3</Output>
+      </Outputs>
+      <Display>1</Display>
+   </NeuralNetwork>
+   <TrainingStrategy>
+      <LossIndex>
+         <LossMethod>NormalizedSquaredError</LossMethod>
+         <NormalizedSquaredError/>
+         <Regularization Type="L2">
+            <RegularizationWeight>0.010000</RegularizationWeight>
+         </Regularization>
+      </LossIndex>
+      <OptimizationAlgorithm>
+         <OptimizationMethod>QuasiNewtonMethod</OptimizationMethod>
+         <QuasiNewtonMethod>
+            <MinimumLossDecrease>0.000000</MinimumLossDecrease>
+            <LossGoal>0.001000</LossGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </QuasiNewtonMethod>
+      </OptimizationAlgorithm>
+      <Display>0</Display>
+   </TrainingStrategy>
+   <ModelSelection>
+      <NeuronsSelection>
+         <NeuronsSelectionMethod>GrowingNeurons</NeuronsSelectionMethod>
+         <GrowingNeurons>
+            <MinimumNeurons>1</MinimumNeurons>
+            <MaximumNeurons>10</MaximumNeurons>
+            <NeuronsIncrement>1</NeuronsIncrement>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingNeurons>
+      </NeuronsSelection>
+      <InputsSelection>
+         <InputsSelectionMethod>GrowingInputs</InputsSelectionMethod>
+         <GrowingInputs>
+            <TrialsNumber>3</TrialsNumber>
+            <SelectionErrorGoal>0.000000</SelectionErrorGoal>
+            <MaximumSelectionFailures>100</MaximumSelectionFailures>
+            <MinimumInputsNumber>1</MinimumInputsNumber>
+            <MaximumInputsNumber>50</MaximumInputsNumber>
+            <MinimumCorrelation>0.000000</MinimumCorrelation>
+            <MaximumCorrelation>1.000000</MaximumCorrelation>
+            <MaximumEpochsNumber>1000</MaximumEpochsNumber>
+            <MaximumTime>3600.000000</MaximumTime>
+         </GrowingInputs>
+      </InputsSelection>
+   </ModelSelection>
+</NeuralDesignerModel>

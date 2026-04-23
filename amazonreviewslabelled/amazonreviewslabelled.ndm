@@ -5,7 +5,7 @@
    <Dataset>
       <DataSource>
          <FileType>csv</FileType>
-         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/amazonreviewslabelled/amazonreviewslabelled.txt</Path>
+         <Path>amazonreviewslabelled.txt</Path>
          <Separator>Tab</Separator>
          <HasHeader>0</HasHeader>
          <HasSamplesId>0</HasSamplesId>

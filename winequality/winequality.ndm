@@ -5,7 +5,7 @@
    <Dataset>
       <DataSource>
          <FileType>csv</FileType>
-         <Path>/Users/artelnics/Documents/neuraldesigner/neuraldesigner/installers/examples/winequality/winequality.csv</Path>
+         <Path>winequality.csv</Path>
          <Separator>Semicolon</Separator>
          <HasHeader>1</HasHeader>
          <HasSamplesId>0</HasSamplesId>
