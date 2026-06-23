@@ -4,10 +4,8 @@ Collection of example datasets and pre-trained models distributed by [Neural Des
 
 Each folder is a self-contained example with:
 
-- `<id>.ndm` — model definition (Neural Designer XML)
-- `<id>.csv` — source dataset
-- `<id>_Data.bin` — cached dataset
-- `<id>_Params.bin` — trained parameters
+- `<id>.nd` — model file
+- `<id>.csv` — dataset
 
 ## Release contract
 
@@ -20,12 +18,6 @@ https://github.com/Artelnics/neuraldesigner-models/releases/download/<tag>/<id>.
 
 Every release asset must be a ZIP containing a single top-level folder named
 `<id>/`, so that extracting with `tar -xf` produces `<id>/<id>.ndm` etc.
-
-## Adding a new example
-
-See `neuraleditor/ADDING_EXAMPLES.md` in the Neural Designer source repository
-for the full step-by-step workflow (UI button, catalog entry, zip packaging,
-release upload).
 
 ## Current tag
 
