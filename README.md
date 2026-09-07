@@ -5,7 +5,7 @@ Collection of example datasets and pre-trained models distributed by [Neural Des
 Each folder is a self-contained example with:
 
 - `<id>.nd` — model file
-- `<id>.csv` — dataset
+- the source dataset, under its own name
 
 ## Release contract
 
@@ -16,9 +16,12 @@ this repository's GitHub Releases. The URL pattern is:
 https://github.com/Artelnics/neuraldesigner-models/releases/download/<tag>/<id>.zip
 ```
 
-Every release asset must be a ZIP containing a single top-level folder named
-`<id>/`, so that extracting with `tar -xf` produces `<id>/<id>.ndm` etc.
+Every release asset is a ZIP holding `<id>.nd` at its root, plus the source
+dataset beside it when the model does not already carry a copy. The application
+extracts it into `<ExamplesRoot>/<id>/`, and resolves the dataset path recorded
+inside the model against that folder, so the CSV only has to keep the file name
+the model refers to.
 
 ## Current tag
 
-Latest release: `v1.0.0` — 56 examples.
+Latest release: `v3.0.0`.
