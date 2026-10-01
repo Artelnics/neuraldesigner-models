@@ -1,5 +1,5 @@
 param(
-    [string]$Tag = "v3.0.0",
+    [string]$Tag = "v3.1.0",
     [string]$Repository = "Artelnics/neuraldesigner-models"
 )
 

@@ -35,8 +35,9 @@ Changes made for this Neural Designer example:
 - Removed the trailing asterisk from the remaining AMO*, APO*, and ATE* class
   labels, producing the AMO, APO, and ATE target classes.
 - Packaged the resulting derivative dataset for use by the Neural Designer
-  orbittype model. In release v3.0.0 the example ZIP contains the `.nd` model,
-  which carries the example data rather than distributing a separate CSV.
+  orbittype model. In release v3.1.0 the example ZIP contains the `.nd` model,
+  which carries the example data, and orbitclass.csv as the separate
+  machine-readable derivative database.
 
 Derivative database supplied in this repository:
 - File: orbitclass.csv

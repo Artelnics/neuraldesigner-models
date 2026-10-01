@@ -39,4 +39,4 @@ rules and template.
 
 ## Current tag
 
-Latest release: `v3.0.0`.
+Latest release: `v3.1.0`.
