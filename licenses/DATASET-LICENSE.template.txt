@@ -1,0 +1,27 @@
+DATASET LICENSE NOTICE
+
+Example: [Neural Designer example id and title]
+Dataset: [upstream dataset title]
+Publisher/licensor: [name]
+Source: [canonical URL]
+Upstream source, if applicable: [URL]
+
+Database license: [name and version]
+Bundled license text: [file, if included]
+Official online license text: [URL]
+
+Contents license: [name and version, if different]
+Bundled license text: [file, if included]
+Official online license text: [URL]
+
+Attribution:
+[Required attribution statement]
+
+Changes made for this Neural Designer example:
+- [format conversion, filtering, relabelling, renamed fields, etc.]
+
+Distribution notes:
+[Share-alike, source availability, notice retention, or other obligations]
+
+The dataset is provided under the terms above. The Neural Designer software
+license does not replace or restrict the upstream dataset license.

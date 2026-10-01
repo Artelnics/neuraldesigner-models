@@ -1,0 +1,44 @@
+﻿DATASET LICENSE NOTICE
+
+Example: coloncancer
+Dataset: Colon Cancer Chemotherapy Trial
+Creators: North Central Cancer Treatment Group; Terry Therneau and survival package contributors
+Source: https://github.com/therneau/survival/tree/99530e52514804d6138b23f05d23ae8424dc3a63
+DOI: Not assigned
+License verified: 2026-10-01
+
+Dataset license: GNU Lesser General Public License 2.0 or later
+License identifier: LGPL-2.0-or-later
+Official license text: https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html
+
+Attribution:
+This example contains an adapted copy of 'Colon Cancer Chemotherapy Trial' by
+North Central Cancer Treatment Group; Terry Therneau and survival package contributors, obtained from the source above under LGPL 2.0 or later.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- Only etype=1 recurrence records were retained, giving one row per patient; etype=2 death records were not used.
+- The final recurrence_within_5_years column is the binary classification target: yes means recurrence was observed within 1,825 days; no means the patient was recurrence-free through that horizon.
+- The 41 patients censored before 1,825 days were excluded because their five-year outcome is unknown, leaving 888 usable patients.
+- Patient ID, the constant study and etype fields, and follow-up time were omitted after deriving the fixed-horizon target; time would otherwise leak outcome information.
+- Treatment, sex, clinical binary flags, differentiation, and local extent codes were decoded to descriptive categories.
+- The 18 missing lymph-node counts were filled with the recurrence-cohort median; missing differentiation values were assigned the explicit unknown category.
+- The redundant node4 field was omitted because the canonical documentation reports an unresolved inconsistency between nodes and node4.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- coloncancer.csv; 53367 bytes; SHA-256: 8BB77496CEDF94850281A3C7ADC3CA31D63AE9C3AF1FDAB579551FE47D911E2A
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Keep the copyright and warranty notices and include the complete LGPL 2.0 text.
+- Make the editable dataset source available with redistributed modified copies.
+- License modifications to the covered material under LGPL 2.0 or a later version.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

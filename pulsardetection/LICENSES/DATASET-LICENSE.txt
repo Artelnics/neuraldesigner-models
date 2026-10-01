@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: pulsardetection
+Dataset: HTRU2
+Creators: Robert Lyon
+Source: https://archive.ics.uci.edu/dataset/372/htru2
+DOI: 10.24432/C5DK6R
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'HTRU2' by
+Robert Lyon, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- pulsar_candidates.csv; 1730223 bytes; SHA-256: C152ECD21CE423C9AF6FB930780D9F37687C978A2EA806BDFB57A7B577C955D1
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

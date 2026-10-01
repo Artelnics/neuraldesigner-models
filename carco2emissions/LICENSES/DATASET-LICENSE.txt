@@ -1,0 +1,40 @@
+﻿DATASET LICENSE NOTICE
+
+Example: carco2emissions
+Dataset: CO2 Emission by Vehicles
+Creators: Debajyoti Podder
+Source: https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles
+DOI: Not assigned
+License verified: 2026-09-30
+
+Dataset license: Open Database License 1.0 and Database Contents License 1.0
+License identifier: ODbL-1.0 AND DbCL-1.0
+Official license text: https://opendatacommons.org/licenses/odbl/1-0/
+
+Attribution:
+This example contains an adapted database derived from 'CO2 Emission by Vehicles' by
+Debajyoti Podder. Kaggle identifies the database under ODbL 1.0 and its
+individual contents under DbCL 1.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- carco2emissions.csv; 468757 bytes; SHA-256: E9F19A556FB715DA273123C9BFB17386B6CDD817CA76F51FBBF131965BB12549
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Attribute the database and keep the ODbL/DbCL notices and license copies.
+- Offer a derivative database publicly under ODbL 1.0 and without extra restrictions.
+- Include the derivative database in a machine-readable form, or the complete
+  alteration file needed to reconstruct it, as required by ODbL section 4.6.
+- Rights in individual contents are governed by DbCL and any applicable third-party rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

@@ -1,0 +1,41 @@
+﻿DATASET LICENSE NOTICE
+
+Example: NO2forecasting
+Dataset: Beijing Multi-Site Air Quality Data
+Creators: Song Chen
+Source: https://archive.ics.uci.edu/dataset/501/beijing+multi+site+air+quality+data
+DOI: 10.24432/C5RK5G
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Beijing Multi-Site Air Quality Data' by
+Song Chen, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- Only the Aotizhongxin station NO2 series is distributed, in its original hourly chronological order from 2013-03-01 00:00 through 2017-02-28 23:00.
+- All 35,064 hourly positions are preserved; the 1,023 missing source measurements were filled by linear interpolation between adjacent hourly NO2 observations so Neural Designer detects a numeric series.
+- Neural Designer must create the lags and steps-ahead target internally.
+- The legacy Madrid filename was replaced because the licensed data are from Beijing, China.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- beijingNO2forecasting.csv; 187796 bytes; SHA-256: E1E1038A400811F30A906A4EDFB5A896C905B59DC57BCAD2FB6E797EDEC91BAA
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

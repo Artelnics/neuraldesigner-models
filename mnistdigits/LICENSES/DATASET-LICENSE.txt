@@ -1,0 +1,32 @@
+DATASET LICENSE NOTICE
+
+Example: mnistdigits
+Dataset: MNIST test images
+Creators: Yann LeCun and Corinna Cortes
+Source distribution: https://keras.io/api/datasets/mnist/
+Source archive: https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+License verified by OpenNN: 2026-09-08
+
+Dataset license: Creative Commons Attribution-ShareAlike 3.0 Unported
+License identifier: CC-BY-SA-3.0
+License deed: https://creativecommons.org/licenses/by-sa/3.0/
+Official legal text: https://creativecommons.org/licenses/by-sa/3.0/legalcode
+
+Redistribution and adaptation are permitted provided appropriate credit is
+given, the license is linked, changes are indicated, and adaptations are
+distributed under the same or a compatible license. Do not apply additional
+legal or technological restrictions to the licensed dataset material.
+
+Copyright Yann LeCun and Corinna Cortes. MNIST derives from the original NIST
+datasets. The Keras MNIST publisher records the dataset license as CC BY-SA
+3.0.
+
+Artelnics/OpenNN changes: The 10,000 test images were converted to 28 by 28
+grayscale BMP and grouped by digit. Within each digit directory,
+{digit}_{ordinal}.bmp uses the zero-based occurrence of that digit in the
+original test split. The Neural Designer image tree was verified byte for byte
+against OpenNN's images.zip on 2026-10-01: all 10,000 files matched, with no
+missing, differing or extra images.
+
+Preserve this notice and OPENNN-SOURCE.md with the image tree when
+redistributing the example.

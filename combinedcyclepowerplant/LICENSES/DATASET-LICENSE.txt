@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: combinedcyclepowerplant
+Dataset: Combined Cycle Power Plant
+Creators: Pnar Tfekci; Heysem Kaya
+Source: https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant
+DOI: https://doi.org/10.24432/C5002N
+License verified: 2026-09-30
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Combined Cycle Power Plant' by
+Pnar Tfekci; Heysem Kaya, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- combinedcyclepowerplant.csv; 318325 bytes; SHA-256: E0C9A2F33107875C149DD727D1D2ACD03853872DA634B573F86B7480654210E7
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

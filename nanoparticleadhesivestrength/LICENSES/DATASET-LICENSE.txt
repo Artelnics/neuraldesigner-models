@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: nanoparticleadhesivestrength
+Dataset: Kinetics of Nanoparticle-Membrane Adhesion Mediated by Multivalent Interactions
+Creators: Roberta Lanfranco; Pritam Kumar Jana; Lucia Tunesi; Pietro Cicuta; Bortolo Mognetti; Lorenzo Di Michele; Guy Bruylants
+Source: https://www.repository.cam.ac.uk/items/3bb75af6-90a5-4932-adae-c20138949bb3
+DOI: 10.17863/CAM.35682
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Kinetics of Nanoparticle-Membrane Adhesion Mediated by Multivalent Interactions' by
+Roberta Lanfranco; Pritam Kumar Jana; Lucia Tunesi; Pietro Cicuta; Bortolo Mognetti; Lorenzo Di Michele; Guy Bruylants, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- nanoparticleadhesivestrength.csv; 3289116 bytes; SHA-256: FA3C37C8DDF31AA63C7E773CC21C49047088DE68DBA50E70C2DADD436212E55C
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

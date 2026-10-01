@@ -1,0 +1,29 @@
+DATASET LICENSE NOTICE
+
+Example: ecganomalydetection
+Dataset: BIDMC Congestive Heart Failure Database, record chf07
+Publisher: PhysioNet
+Source: https://physionet.org/content/chfdb/1.0.0/
+DOI: 10.13026/C29G60
+License verified: 2026-09-30
+
+Dataset license: Open Data Commons Attribution License 1.0
+License identifier: ODC-By-1.0
+Official license text: https://opendatacommons.org/licenses/by/1-0/
+
+Redistribution is permitted with attribution. Preserve this notice, the source
+and license links, and acknowledge that the data use information from the
+BIDMC Congestive Heart Failure Database under ODC-By 1.0.
+
+Artelnics/OpenNN changes: The first ECG channel of record chf07 was decoded
+from WFDB format 212. Interior heartbeats were segmented at annotation
+midpoints, interpolated to 140 values, standardized per beat, and rounded to
+eight decimal places. The 5,000-row subset contains all selected abnormal
+beats and a deterministic sample of normal beats. Each row contains 140
+values followed by label 1 for normal or 0 for non-normal. In this Neural
+Designer package, OpenNN's chf07_heartbeats.csv is stored under the legacy
+project path ecg_normal.csv. test_indices.csv preserves OpenNN's deterministic
+1,000-row test split.
+
+The complete provenance, source-file hashes, class counts and reproduction
+script copied from OpenNN are in OPENNN-SOURCE.md.

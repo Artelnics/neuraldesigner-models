@@ -1,0 +1,40 @@
+﻿DATASET LICENSE NOTICE
+
+Example: rocketapogee
+Dataset: Rocket Flight Database
+Creators: Aidan Yu
+Source: https://zenodo.org/records/19976139
+DOI: 10.5281/zenodo.19976139
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Rocket Flight Database' by
+Aidan Yu, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The mixed-format diameter_in field was split into numeric maximum_diameter_in and minimum_diameter_in values.
+- Identifiers, source labels, simulated apogees, and error columns were omitted because they are identifiers, constants, or leak information derived from the measured target.
+- The final apogee_real_ft column is the numeric regression target; motor and flight_data_type remain categorical inputs, although motor should normally be set to None because 19 categories occur in only 25 flights.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- rocket_apogee.csv; 1497 bytes; SHA-256: FFF878C4883BE8ED3DACEEF1E179520F88730771B197F1BCB96EA39FDCC7D659
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

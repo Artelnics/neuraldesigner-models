@@ -1,0 +1,39 @@
+﻿DATASET LICENSE NOTICE
+
+Example: windturbine
+Dataset: Penmanshiel Wind Farm Data
+Creators: Charlie Plumley; Roberta Takeuchi
+Source: https://zenodo.org/records/16807304
+DOI: 10.5281/zenodo.16807304
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Penmanshiel Wind Farm Data' by
+Charlie Plumley; Roberta Takeuchi, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- Selected the longest fully observed 10-minute interval from turbine 02; outages were not interpolated or joined.
+- Retained all six SCADA measurements, normalized field names, and placed power_kw last as the forecasting target.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- wind-turbine-clean.csv; 607146 bytes; SHA-256: 1A0D9E7E3C7A7BB237DB29A1E6DB0C86D118013AC38AE9FB110B3831E540EE80
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

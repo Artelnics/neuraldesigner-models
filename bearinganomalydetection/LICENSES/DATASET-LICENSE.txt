@@ -1,0 +1,42 @@
+﻿DATASET LICENSE NOTICE
+
+Example: bearinganomalydetection
+Dataset: Run-to-failure vibration dataset of self-aligning double-row ball bearings - Part 1
+Creators: Alberto Gabrielli; Luca Arpa; Mattia Battarra; Emiliano Mucchi
+Source: https://data.mendeley.com/datasets/htk59pp5wx/1
+DOI: 10.17632/htk59pp5wx.1
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Run-to-failure vibration dataset of self-aligning double-row ball bearings - Part 1' by
+Alberto Gabrielli; Luca Arpa; Mattia Battarra; Emiliano Mucchi, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- Only the complete E2 run-to-failure experiment was used; its source archive SHA-256 is 209A6D7692C893B3FC326765D9052CBDB70CBCCA8244CD40EACEAA32215F4086.
+- Each five-second, 25.6 kHz acquisition was divided into five non-overlapping one-second windows.
+- The distributed columns are time-domain and relative spectral-power features extracted from each window.
+- The anomaly label is an Artelnics-derived teaching label: windows from the final 10 percent of acquisitions are 1 and all earlier windows are 0; it was not supplied by the original authors.
+- The complete reproducible transformation is tools/prepare-bearing-replacement.py in the repository.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- bearing_anomaly_detection.csv; 2271970 bytes; SHA-256: C5E4E0C2570D6385F658CA6E97C62C293853B70D17B6E7EDFA2F3051A7B6D1C6
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

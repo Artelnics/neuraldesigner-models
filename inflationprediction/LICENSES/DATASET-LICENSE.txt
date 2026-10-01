@@ -1,0 +1,43 @@
+﻿DATASET LICENSE NOTICE
+
+Example: inflationprediction
+Dataset: HICP - monthly data (annual rate of change): Poland, all-items
+Creators: European Commission, Eurostat
+Source: https://ec.europa.eu/eurostat/databrowser/view/prc_hicp_manr/default/table
+DOI: 10.2908/prc_hicp_manr
+License verified: 2026-10-01
+
+Dataset license: Eurostat copyright notice and free re-use of data policy
+License identifier: EC-Reuse-2011-833-EU
+Official license text: https://ec.europa.eu/eurostat/help/copyright-notice
+
+Attribution:
+This example contains an adapted extract of 'HICP - monthly data (annual rate of change): Poland, all-items' by
+European Commission, Eurostat, obtained from the official source above under Eurostat's
+copyright notice and free re-use of data policy.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The source was filtered to Poland (PL), monthly frequency (M), all-items HICP (CP00), and annual rate of change (RCH_A).
+- The distributed inflation values run in chronological monthly order from 1997-01 through 2025-12 and contain no missing observations.
+- Inflation is the percentage change from each month to the same month of the previous year, not the month-to-month change.
+- The file contains only the numeric inflation series; Neural Designer must create the lags and steps-ahead target internally.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- monthly_inflation.csv; 1474 bytes; SHA-256: 72FE877E60FF0FA18FB7B3D111CB68E1735D91169EC181BC21A7442CD1AEEBEA
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Acknowledge Eurostat as the source and retain the source link.
+- State clearly that the distributed data have been modified.
+- Do not imply that Eurostat endorses the adaptation or is responsible for it.
+- Check the source record for any dataset-specific exception or third-party right.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

@@ -1,0 +1,62 @@
+DATASET LICENSE NOTICE
+
+Example: orbittype (Classify asteroid orbits)
+Dataset: Orbit Classification For Prediction / NASA
+Publisher/licensor: Baris Dincer (Kaggle account: brsdincer)
+Source: https://www.kaggle.com/datasets/brsdincer/orbitclassification
+Kaggle dataset metadata last updated: 2021-03-28
+Upstream data identified by the publisher as: NASA
+Relevant database: NASA/JPL Small-Body Database
+https://ssd.jpl.nasa.gov/tools/sbdb_query.html
+
+The Kaggle dataset metadata designates the following licenses:
+
+Database license: Open Data Commons Open Database License (ODbL) 1.0
+Bundled license text: ODbL-1.0.txt
+Official online license text:
+https://opendatacommons.org/licenses/odbl/1-0/
+
+Contents license: Open Data Commons Database Contents License (DbCL) 1.0
+Bundled license text: DbCL-1.0.txt
+Official online license text:
+https://opendatacommons.org/licenses/dbcl/1-0/
+
+Attribution:
+Contains information from "Orbit Classification For Prediction / NASA" by
+Baris Dincer, made available under the Open Database License (ODbL) 1.0, with
+the database contents made available under the Database Contents License
+(DbCL) 1.0.
+
+Changes made for this Neural Designer example:
+- Converted the field delimiter from comma to semicolon.
+- Simplified field names by removing unit annotations.
+- Removed 14 unstarred APO records, 7 unstarred ATE records, and 5 IEO*
+  records from the source dataset.
+- Removed the trailing asterisk from the remaining AMO*, APO*, and ATE* class
+  labels, producing the AMO, APO, and ATE target classes.
+- Packaged the resulting derivative dataset for use by the Neural Designer
+  orbittype model. In release v3.0.0 the example ZIP contains the `.nd` model,
+  which carries the example data rather than distributing a separate CSV.
+
+Derivative database supplied in this repository:
+- File: orbitclass.csv
+- Records excluding header: 1722
+- SHA-256: 6DF38A589B1F9E50FAEC2B86F1A4D80077CA526159D1EA4301CB202B2CF9A130
+
+Redistribution conditions:
+- The database and any publicly used derivative database remain subject to
+  ODbL 1.0 and its share-alike requirements.
+- Keep this notice with the model and dataset.
+- A machine-readable copy of the derivative database, or the complete method
+  for producing it, must remain available as required by ODbL 1.0 section 4.6.
+- Future release archives carrying this notice should include `orbitclass.csv`
+  next to the model, even when the `.nd` file embeds the same records.
+- The dataset is provided without warranties under the upstream licenses.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the ODbL/DbCL rights
+granted for this dataset.
+
+NASA and JPL do not endorse Neural Designer or this redistribution. The Kaggle
+page does not identify the exact NASA extraction URL or extraction date; those
+provenance details should be added if they can be recovered.

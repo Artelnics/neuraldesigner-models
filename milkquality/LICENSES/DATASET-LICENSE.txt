@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: milkquality
+Dataset: A Spectral Dataset of both Liquid and Solid Milk with Impurities for some Milk Impurity Detection
+Creators: Pranali Modi; Janvi Bhanushali; Maahi Shah; Dhruvi Dhulia; Madhuri Barochiya
+Source: https://data.mendeley.com/datasets/3gxjgxkg76/1
+DOI: 10.17632/3gxjgxkg76.1
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'A Spectral Dataset of both Liquid and Solid Milk with Impurities for some Milk Impurity Detection' by
+Pranali Modi; Janvi Bhanushali; Maahi Shah; Dhruvi Dhulia; Madhuri Barochiya, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- milkquality.csv; 1764680 bytes; SHA-256: CB7D179C1FB2D6FFEDF7FA457D4B164F148B9BF6645BD800DDF55285EFF59F3E
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

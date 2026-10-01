@@ -1,0 +1,26 @@
+DATASET LICENSE NOTICE
+
+Example: melanoma
+Dataset: ISIC 2016, Part 3 training release
+Publisher: International Skin Imaging Collaboration (ISIC)
+Source: https://challenge.isic-archive.com/data/#2016
+License verified: 2026-09-30
+
+Dataset license: CC0 1.0 Universal
+License identifier: CC0-1.0
+Official legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+CC0 permits copying, modification and redistribution, including commercial
+use, without requesting permission or requiring attribution. This notice is
+retained to preserve provenance.
+
+Artelnics/OpenNN changes: The package contains the first 50 benign images and
+the first 52 melanoma images after sorting the official ISIC 2016 Part 3
+training identifiers within each class. Images were resized to 300 by 300
+pixels with Lanczos resampling and converted to 24-bit BMP. The files are
+stored in melanoma_dataset_bmp/benign and melanoma_dataset_bmp/malignant so
+the existing Neural Designer project path remains valid. manifest.csv records
+the original identifiers, labels and source archive members.
+
+The complete provenance, original archive hashes, selection details, image
+hashes and reproduction script copied from OpenNN are in OPENNN-SOURCE.md.

@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: breastcancer
+Dataset: Breast Cancer Wisconsin (Diagnostic)
+Creators: William Wolberg; Olvi Mangasarian; Nick Street; W. Street
+Source: https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic
+DOI: https://doi.org/10.24432/C5DW2B
+License verified: 2026-09-30
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Breast Cancer Wisconsin (Diagnostic)' by
+William Wolberg; Olvi Mangasarian; Nick Street; W. Street, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- breastcancer.csv; 15016 bytes; SHA-256: 411DC6B5A86DBD489C148E54AAA3450174DCABD1C92CB962508C271ABAC7A917
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

@@ -1,0 +1,36 @@
+﻿DATASET LICENSE NOTICE
+
+Example: electricmotor
+Dataset: Electric Motor Temperature
+Creators: Wilhelm Kirchgässner; Oliver Wallscheid; Joachim Böcker (LEA, Paderborn University)
+Source: https://www.kaggle.com/datasets/wkirgsn/electric-motor-temperature
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution-ShareAlike 4.0 International
+License identifier: CC-BY-SA-4.0
+Official license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Attribution:
+This example contains an adapted copy of 'Electric Motor Temperature' by
+Wilhelm Kirchgässner, Oliver Wallscheid and Joachim Böcker, obtained from the
+source above and licensed under CC-BY-SA-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- A subset of 175 records was selected, and the session and temperature
+  fields were renamed (session_id, yoke, tooth, winding, magnet).
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- motor_temperature.csv; 17681 bytes; SHA-256: 55AEDF71BD5B7A9D79D29ACBF6313D8173164C3F15544D47B8616ED29B57A07C
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Distribute this adapted dataset under CC BY-SA 4.0 or a compatible license.
+- Do not apply legal or technical restrictions that prevent CC BY-SA 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

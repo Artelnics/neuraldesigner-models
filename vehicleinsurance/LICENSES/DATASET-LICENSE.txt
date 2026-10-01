@@ -1,0 +1,38 @@
+﻿DATASET LICENSE NOTICE
+
+Example: vehicleinsurance
+Dataset: Health Insurance Cross Sell Prediction
+Creators: Anmol Kumar
+Source: https://www.kaggle.com/datasets/anmolkumar/health-insurance-cross-sell-prediction
+DOI: Not assigned
+License verified: 2026-09-30
+
+Dataset license: GNU General Public License version 2.0
+License identifier: GPL-2.0-only
+Official license text: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+
+Attribution:
+This example contains an adapted copy of 'Health Insurance Cross Sell Prediction' by
+Anmol Kumar. The Kaggle dataset record identifies its license as GPL 2.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- vehicle_insurance.csv; 18910977 bytes; SHA-256: 6B664FE435894B6339479DFDA18E8915B0AFF282CBA1A2B6637E3C79D295089A
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Keep the copyright and warranty notices and include the complete GPL 2.0 text.
+- License modified dataset copies as a whole under GPL 2.0 only.
+- Accompany redistribution with the preferred editable dataset source, or a valid
+  written source offer where GPL 2.0 permits one, and do not add restrictions.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

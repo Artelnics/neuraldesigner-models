@@ -1,0 +1,40 @@
+﻿DATASET LICENSE NOTICE
+
+Example: pharmasales
+Dataset: Sales Transactions Weekly
+Creators: James Tan
+Source: https://archive.ics.uci.edu/dataset/396/sales+transactions+dataset+weekly
+DOI: 10.24432/C5XS4Q
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Sales Transactions Weekly' by
+James Tan, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The raw weekly sales of all 811 products were summed for each of the 52 chronological weeks.
+- The distributed file contains only the resulting sales time series; Neural Designer must create the lags and steps-ahead target internally.
+- Product_Code, MIN, MAX, and the duplicate normalized weekly columns were omitted.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- pharmasales.csv; 266 bytes; SHA-256: 0949326C12718AB86D6761F78A0EC475E2917D05288C14C869FAFC0458618829
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

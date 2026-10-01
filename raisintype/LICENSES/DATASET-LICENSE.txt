@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: raisintype
+Dataset: Raisin
+Creators: İ̇lkay Çinar; Murat Koklu; Sakir Tasdemir
+Source: https://archive.ics.uci.edu/dataset/850/raisin
+DOI: https://doi.org/10.24432/C5660T
+License verified: 2026-09-30
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'Raisin' by
+İ̇lkay Çinar; Murat Koklu; Sakir Tasdemir, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- raisintype.csv; 98111 bytes; SHA-256: 471E538D4A17DFFB6394566BEBA26CF37447D754D49ED47A0EA0415E90F3CAEA
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

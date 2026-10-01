@@ -1,0 +1,27 @@
+DATASET LICENSE NOTICE
+
+Example: emotion_analysis
+Dataset: GoEmotions
+Creators: Dorottya Demszky, Dana Movshovitz-Attias, Jeongwoo Ko, Alan Cowen,
+Gaurav Nemade and Sujith Ravi
+Publisher: Google Research
+Source: https://github.com/google-research/google-research/tree/d36068b845da4c2b24927fee2cea1e6ef98dadda/goemotions
+DOI: 10.18653/v1/2020.acl-main.372
+License verified: 2026-09-30
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Redistribution and adaptation are permitted with attribution, a license link,
+an indication of changes, and no implication of endorsement.
+
+Artelnics/OpenNN changes: OpenNN selected all 5,272 single-label training
+records for anger, fear, joy, love, sadness and surprise from the original
+43,410-row training split. Multi-label records and other categories were
+omitted, numeric labels were mapped to names, identifiers were removed, and
+TSV quoting was applied. Neural Designer stores the unchanged OpenNN output
+under its legacy project path emotion_analysis.txt.
+
+The complete provenance, pinned source revision, class counts, hashes and
+reproduction script copied from OpenNN are in OPENNN-SOURCE.md.

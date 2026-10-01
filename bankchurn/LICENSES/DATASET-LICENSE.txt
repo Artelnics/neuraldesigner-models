@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: bankchurn
+Dataset: Churn for Bank Customers
+Creators: Mehmet Akturk
+Source: https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers
+DOI: Not assigned
+License verified: 2026-09-30
+
+Dataset license: CC0 1.0 Universal
+License identifier: CC0-1.0
+Official license text: https://creativecommons.org/publicdomain/zero/1.0/
+
+Attribution:
+This example uses an adapted copy of 'Churn for Bank Customers', created by
+Mehmet Akturk and dedicated to the public domain under CC0 1.0.
+Credit is provided for provenance and is not an additional license condition.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- bankchurn.csv; 561600 bytes; SHA-256: 983ACEADF0009F50DDBC665C9033751AB1E75A7F0F3F0CB111ED791AF0EBDD8A
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- CC0 imposes no attribution or share-alike condition.
+- Keep this notice when practical so recipients can trace provenance.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.

@@ -1,0 +1,37 @@
+﻿DATASET LICENSE NOTICE
+
+Example: machinefailureprediction
+Dataset: AI4I 2020 Predictive Maintenance Dataset
+Creators: Stephan Matzka
+Source: https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset
+DOI: 10.24432/C5HS5C
+License verified: 2026-10-01
+
+Dataset license: Creative Commons Attribution 4.0 International
+License identifier: CC-BY-4.0
+Official license text: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+This example contains an adapted copy of 'AI4I 2020 Predictive Maintenance Dataset' by
+Stephan Matzka, obtained from the source above and licensed under
+CC-BY-4.0.
+
+Changes made for this Neural Designer example:
+- The dataset copy has been adapted for use with Neural Designer.
+- Adaptations may include delimiter conversion, selection of fields or records,
+  renamed fields or labels, type conversion, and model-specific preprocessing.
+- The distributed data files and hashes below identify this adapted copy.
+
+Data files currently present in the source folder:
+- machine_failure.csv; 512044 bytes; SHA-256: 53D0E7B71F760829A91EC3A9DF54C0F044836074A227FE5BE5A06BEDD0CB1125
+
+Redistribution conditions:
+- Keep this notice with the example and dataset.
+- Give appropriate credit, provide the license link, and indicate changes.
+- Do not apply legal or technical restrictions that prevent CC BY 4.0 rights.
+- Preserve the source, creator, and license information above.
+- Make clear that the distributed dataset is an adapted copy.
+- Do not imply endorsement by the dataset creators or hosting platform.
+
+The Neural Designer software license applies only to Neural Designer and to
+Artelnics-owned material. It does not replace or restrict the dataset license.
